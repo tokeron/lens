@@ -1,0 +1,12 @@
+name: lens
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - pytorch
+  - pip:
+    - git+https://github.com/tokeron/diffusers.git@toker_diffusers#egg=diffusers
