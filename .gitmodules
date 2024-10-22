@@ -1,0 +1,4 @@
+[submodule "diffusers"]
+	path = diffusers
+	url = https://github.com/tokeron/diffusers.git
+	branch = toker_diffusers
