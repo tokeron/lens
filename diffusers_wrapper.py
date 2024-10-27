@@ -42,10 +42,12 @@ class TextToImage:
                 ranges['pads'] = list(range(0, token_length))
             elif range_to_keep == "tokens":
                 ranges['tokens'] = list(range(token_length, max_length))
-            elif ranges_to_keep == "specific_tokens" and specific_tokens is not None:
+            elif range_to_keep == "specific_tokens" and specific_tokens is not None:
                 for word in specific_tokens:
                     word_tokens = tokenizer(word, return_tensors="pt")['input_ids'][0]
                     word_token_ids = word_tokens.tolist()
+                    # remove first and last tokens which are start and end tokens
+                    word_token_ids = word_token_ids[1:-1]
                     prompt_token_ids = tokens.tolist()
                     matched_indices = []
                     for i in range(len(prompt_token_ids) - len(word_token_ids) + 1):
@@ -53,7 +55,7 @@ class TextToImage:
                             matched_indices.append(list(range(i, i + len(word_token_ids))))
                     if matched_indices:
                         range_name = f"st_{word}"
-                    ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in matched_indices]
+                        ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in matched_indices]
         return ranges
 
     def get_ranges_all_tokenizers(self, prompt, tokenizers, max_lengths, ranges_to_keep=None, specific_tokens=None):
@@ -185,8 +187,10 @@ class FluxTextToImage(TextToImage):
         from diffusers import FluxPipeline
         if self.model_name == "flux-schnell":
             pipe = FluxPipeline.from_pretrained("black-forest-labs/FLUX.1-schnell", torch_dtype=torch.bfloat16)
+            self.num_inference_steps=4
         elif self.model_name == "flux-dev":
             pipe = FluxPipeline.from_pretrained("black-forest-labs/FLUX.1-dev", torch_dtype=torch.bfloat16)
+            self.num_inference_steps=50
         else:
             raise ValueError(f"Model name {self.model_name} not recognized")
         self.pipe = pipe.to(self.device)
@@ -208,10 +212,12 @@ class FluxTextToImage(TextToImage):
                 max_sequence_length=self.max_sequence_length,
                 generator=torch.Generator("cpu").manual_seed(self.seed),
                 skip_tokens=skip_tokens,
+                num_inference_steps=self.num_inference_steps,
                 clip_skip=skip_layers,
                 num_images_per_prompt=num_images,
             ).images
-            grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids=return_grids, skip_layers=skip_layers)
+            grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, 
+                                    return_grids=return_grids, skip_layers=skip_layers)
             if return_grids and grid is not None:
                 grids.append(grid)
         if return_grids:
