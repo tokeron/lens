@@ -3,9 +3,9 @@ import argparse
 from tqdm.auto import tqdm
 from PIL import Image
 import torch
-from diffusers import AutoencoderKL, UNet2DConditionModel, UniPCMultistepScheduler
-from transformers import LlamaForCausalLM, LlamaTokenizer
-from huggingface_hub import hf_hub_download
+# from diffusers import AutoencoderKL, UNet2DConditionModel, UniPCMultistepScheduler
+# from transformers import LlamaForCausalLM, LlamaTokenizer
+# from huggingface_hub import hf_hub_download
 from box import Box
 import pandas as pd
 from torchvision.transforms import functional as TF
