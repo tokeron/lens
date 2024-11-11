@@ -157,7 +157,7 @@ class StableDiffusion3TextToImage(TextToImage):
         self.pipe = pipe.to(self.device)
 
     def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, return_grids=False, skip_layers=0, 
-                ranges_to_keep=None, specific_tokens=None):
+                ranges_to_keep=None, specific_tokens=None, pad_encoders=[]):
         tokenizers = {
             'tokenizer': self.pipe.tokenizer,
             'tokenizer_2': self.pipe.tokenizer_2,
@@ -167,7 +167,10 @@ class StableDiffusion3TextToImage(TextToImage):
         ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 3, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
-            pipe_output = self.pipe(prompt, num_images_per_prompt=num_images, generator=self.generator, skip_tokens=skip_tokens, clip_skip=skip_layers, num_inference_steps=50)
+            pipe_output = self.pipe(prompt, num_images_per_prompt=num_images, 
+                                    generator=self.generator, skip_tokens=skip_tokens, 
+                                    clip_skip=skip_layers, num_inference_steps=50,
+                                    pad_encoders=pad_encoders)
             images = pipe_output.images
             grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
             if return_grids and grid is not None:
@@ -255,9 +258,10 @@ class StableDiffusion2TextToImage(TextToImage):
 
 
 class StableDiffusionXLPipelineTextToImage(TextToImage):
-    def __init__(self, model_name, ckpt_dir, num_images, device="cuda", seed=42, max_sequence_length=77):
+    def __init__(self, model_name, ckpt_dir, num_images, device="cuda", seed=42, max_sequence_length=77, pad_encoders=[]):
         super().__init__(model_name, ckpt_dir, num_images, device, seed)
         self.max_sequence_length = max_sequence_length
+        self.pad_encoders = pad_encoders
 
     def load_model_components(self):
         from diffusers import StableDiffusionXLPipeline
@@ -282,7 +286,7 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
             pipe_output = self.pipe(prompt, num_images_per_prompt=num_images, generator=self.generator, skip_tokens=skip_tokens,
-                                    num_inference_steps=50, clip_skip=skip_layers)
+                                    num_inference_steps=50, clip_skip=skip_layers, pad_encoders=self.pad_encoders)
             images = pipe_output.images
             grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
             if return_grids and grid is not None:
