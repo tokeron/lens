@@ -30,12 +30,16 @@ class TextToImage:
     def get_complementary_range(self, range_to_keep, max_length):
         return list(set(range(max_length)) - set(range_to_keep))
 
-    def get_ranges_single_tokenizer(self, prompt, tokenizer, max_length, ranges_to_keep=None, specific_tokens=None):
+    def get_ranges_single_tokenizer(self, prompt, tokenizer, max_length, 
+                                    ranges_to_keep=None, specific_tokens=None,
+                                    specific_token_idx_to_keep_per_prompt=None):
         ranges = {}
         tokens = tokenizer(prompt, return_tensors="pt")['input_ids'][0]
         token_length = len(tokens)
         pad_length = max_length - token_length
+        print("ranges_to_keep", ranges_to_keep)
         for range_to_keep in ranges_to_keep:
+            print("Getting range for", range_to_keep)
             if range_to_keep == "full":
                 ranges['full'] = []
             elif range_to_keep == "pads":
@@ -56,9 +60,22 @@ class TextToImage:
                     if matched_indices:
                         range_name = f"st_{word}"
                         ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in matched_indices]
+            elif range_to_keep == "specific_token_idx_to_keep_per_prompt":
+                tokens_to_keep = []
+                for token_idx in specific_token_idx_to_keep_per_prompt:
+                    token_to_keep = tokens[token_idx].item()
+                    decoded_token = tokenizer.decode(token_to_keep)
+                    tokens_to_keep.append(decoded_token)
+                range_name = f"st_{'_'.join(tokens_to_keep)}"
+                ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in specific_token_idx_to_keep_per_prompt]
+                print(f'{range_name}: {ranges[range_name]}')
+            else:
+                print(f"Range {range_to_keep} not recognized")
+                
         return ranges
 
-    def get_ranges_all_tokenizers(self, prompt, tokenizers, max_lengths, ranges_to_keep=None, specific_tokens=None):
+    def get_ranges_all_tokenizers(self, prompt, tokenizers, max_lengths, ranges_to_keep=None, 
+                                  specific_tokens=None):
         ranges = None
         for (tokenizer_key, tokenizer), max_len in zip(tokenizers.items(), max_lengths):
             print(f"Getting ranges for {tokenizer_key}")
@@ -162,14 +179,23 @@ class StableDiffusion3TextToImage(TextToImage):
         self.pipe = pipe.to(self.device)
 
     def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, return_grids=False, skip_layers=0, 
-                ranges_to_keep=None, specific_tokens=None, pad_encoders=[]):
+                ranges_to_keep=None, specific_tokens=None, pad_encoders=[], specific_token_idx_to_keep_per_prompt=None):
         tokenizers = {
             'tokenizer': self.pipe.tokenizer,
             'tokenizer_2': self.pipe.tokenizer_2,
             'tokenizer_3': self.pipe.tokenizer_3
         }
         skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
-        ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 3, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
+        if specific_token_idx_to_keep_per_prompt:
+            ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=self.pipe.tokenizer_3, max_length=self.max_sequence_length, 
+                                                             ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+                                                             specific_token_idx_to_keep_per_prompt=specific_token_idx_to_keep_per_prompt)
+            for key, value in ranges_to_try.items():
+                ranges_to_try[key] = [value, value]
+        else:
+            ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 3, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
+        
+
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
             pipe_output = self.pipe(prompt, num_images_per_prompt=num_images, 
@@ -210,13 +236,22 @@ class FluxTextToImage(TextToImage):
             raise ValueError(f"Model name {self.model_name} not recognized")
         self.pipe = pipe.to(self.device)
 
-    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, specific_tokens=None, return_grids=False):
+    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
+                specific_tokens=None, return_grids=False, specific_token_idx_to_keep_per_prompt=None):
         tokenizers = {
             'tokenizer': self.pipe.tokenizer,
             'tokenizer_2': self.pipe.tokenizer_2,
         }
         skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
-        ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 2, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
+        
+        if specific_token_idx_to_keep_per_prompt:
+            ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=self.pipe.tokenizer_2, max_length=self.max_sequence_length, 
+                                                             ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+                                                             specific_token_idx_to_keep_per_prompt=specific_token_idx_to_keep_per_prompt)
+            for key, value in ranges_to_try.items():
+                ranges_to_try[key] = [value, value]
+        else:
+            ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 2, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
             images = self.pipe(
