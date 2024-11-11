@@ -143,6 +143,11 @@ class TextToImage:
         print(f"Validated skip_layers: {skip_layers}")
         return skip_layers
 
+    def get_tokenizers(self):
+        return {
+            'tokenizer': self.pipe.tokenizer,
+        }
+
 
 class StableDiffusion3TextToImage(TextToImage):
     def __init__(self, model_name, ckpt_dir, num_images, device="cuda", seed=42, max_sequence_length=256):
@@ -177,6 +182,13 @@ class StableDiffusion3TextToImage(TextToImage):
                 grids.append(grid)
         if return_grids:
             return grids
+
+    def get_tokenizers(self):
+        return {
+            'tokenizer': self.pipe.tokenizer,
+            'tokenizer_2': self.pipe.tokenizer_2,
+            'tokenizer_3': self.pipe.tokenizer_3
+        }
 
 
 class FluxTextToImage(TextToImage):
@@ -225,6 +237,12 @@ class FluxTextToImage(TextToImage):
                 grids.append(grid)
         if return_grids:
             return grids
+    
+    def get_tokenizers(self):
+        return {
+            'tokenizer': self.pipe.tokenizer,
+            'tokenizer_2': self.pipe.tokenizer_2,
+        }
 
 
 class StableDiffusion2TextToImage(TextToImage):
