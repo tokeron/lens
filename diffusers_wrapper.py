@@ -12,6 +12,7 @@ from torchvision.transforms import functional as TF
 from scipy.spatial.distance import cosine
 
 
+
 class TextToImage:
     def __init__(self, model_name, ckpt_dir, num_images=1, device="cuda", seed=None):
         self.model_name = model_name
@@ -32,7 +33,7 @@ class TextToImage:
 
     def get_ranges_single_tokenizer(self, prompt, tokenizer, max_length, 
                                     ranges_to_keep=None, specific_tokens=None,
-                                    specific_token_idx_to_keep_per_prompt=None):
+                                    specific_token_idx_to_keep_per_prompt_lists=None):
         ranges = {}
         tokens = tokenizer(prompt, return_tensors="pt")['input_ids'][0]
         token_length = len(tokens)
@@ -47,7 +48,7 @@ class TextToImage:
             elif range_to_keep == "tokens":
                 ranges['tokens'] = list(range(token_length, max_length))
             elif range_to_keep == "specific_tokens" and specific_tokens is not None:
-                for word in specific_tokens:
+                for word_idx, word in enumerate(specific_tokens):
                     word_tokens = tokenizer(word, return_tensors="pt")['input_ids'][0]
                     word_token_ids = word_tokens.tolist()
                     # remove first and last tokens which are start and end tokens
@@ -58,16 +59,19 @@ class TextToImage:
                         if prompt_token_ids[i:i + len(word_token_ids)] == word_token_ids:
                             matched_indices.append(list(range(i, i + len(word_token_ids))))
                     if matched_indices:
-                        range_name = f"st_{word}"
+                        range_name = f"st_{word_idx}_{word}"
                         ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in matched_indices]
+                    else:
+                        print(f"Word {word} not found in prompt")
             elif range_to_keep == "specific_token_idx_to_keep_per_prompt":
-                tokens_to_keep = []
-                for token_idx in specific_token_idx_to_keep_per_prompt:
-                    token_to_keep = tokens[token_idx].item()
-                    decoded_token = tokenizer.decode(token_to_keep)
-                    tokens_to_keep.append(decoded_token)
-                range_name = f"st_{'_'.join(tokens_to_keep)}"
-                ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in specific_token_idx_to_keep_per_prompt]
+                for specific_token_idx_to_keep_per_prompt in specific_token_idx_to_keep_per_prompt_lists:
+                    tokens_to_keep = []
+                    for token_idx in specific_token_idx_to_keep_per_prompt:
+                        token_to_keep = tokens[token_idx].item()
+                        decoded_token = tokenizer.decode(token_to_keep)
+                        tokens_to_keep.append(decoded_token)
+                    range_name = f"st_{token_idx}_{'_'.join(tokens_to_keep)}"
+                    ranges[range_name] = [token_index for token_index in range(max_length) if token_index not in specific_token_idx_to_keep_per_prompt]
                 print(f'{range_name}: {ranges[range_name]}')
             else:
                 print(f"Range {range_to_keep} not recognized")
@@ -157,7 +161,7 @@ class TextToImage:
             skip_layers = skip_layers * num_tokenizers
         elif not (isinstance(skip_layers, list) and len(skip_layers) == num_tokenizers):
             raise ValueError(f"skip_layers must be an int or a list of length {num_tokenizers}, got {skip_layers}")
-        print(f"Validated skip_layers: {skip_layers}")
+        # print(f"Validated skip_layers: {skip_layers}")
         return skip_layers
 
     def get_tokenizers(self):
@@ -198,10 +202,15 @@ class StableDiffusion3TextToImage(TextToImage):
 
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
+            lens_kwargs = {
+                'clip_skip': skip_layers,
+                'skip_tokens': skip_tokens,
+                'pad_encoders': pad_encoders,
+            }
+
             pipe_output = self.pipe(prompt, num_images_per_prompt=num_images, 
-                                    generator=self.generator, skip_tokens=skip_tokens, 
-                                    clip_skip=skip_layers, num_inference_steps=50,
-                                    pad_encoders=pad_encoders)
+                                    generator=self.generator, num_inference_steps=50,
+                                    lens_kwargs=lens_kwargs)
             images = pipe_output.images
             grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
             if return_grids and grid is not None:
@@ -237,35 +246,44 @@ class FluxTextToImage(TextToImage):
         self.pipe = pipe.to(self.device)
 
     def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
-                specific_tokens=None, return_grids=False, specific_token_idx_to_keep_per_prompt=None):
+                specific_tokens=None, return_grids=False, 
+                merge_ranges=None,
+                specific_token_idx_to_keep_per_prompt_lists=None):
         tokenizers = {
             'tokenizer': self.pipe.tokenizer,
             'tokenizer_2': self.pipe.tokenizer_2,
         }
         skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
         
-        if specific_token_idx_to_keep_per_prompt:
+        if specific_token_idx_to_keep_per_prompt_lists:
             ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=self.pipe.tokenizer_2, max_length=self.max_sequence_length, 
                                                              ranges_to_keep=ranges_to_keep, specific_tokens=None, 
-                                                             specific_token_idx_to_keep_per_prompt=specific_token_idx_to_keep_per_prompt)
+                                                             specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists)
             for key, value in ranges_to_try.items():
                 ranges_to_try[key] = [value, value]
         else:
             ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 2, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
-            images = self.pipe(
-                prompt=prompt,
-                guidance_scale=0.,
-                height=512,
-                width=512,
-                max_sequence_length=self.max_sequence_length,
-                generator=torch.Generator("cpu").manual_seed(self.seed),
-                skip_tokens=skip_tokens,
-                num_inference_steps=self.num_inference_steps,
-                clip_skip=skip_layers,
-                num_images_per_prompt=num_images,
-            ).images
+            lens_kwargs = {
+                'clip_skip': skip_layers,
+                'skip_tokens': skip_tokens,
+                'merge_ranges': merge_ranges
+            }
+            with torch.no_grad():
+                images = self.pipe(
+                    prompt=prompt, # 
+                    guidance_scale=0.,
+                    height=512,
+                    width=512,
+                    max_sequence_length=self.max_sequence_length,
+                    generator=torch.Generator("cpu").manual_seed(self.seed),
+                    # skip_tokens=skip_tokens,
+                    lens_kwargs=lens_kwargs,
+                    num_inference_steps=self.num_inference_steps,
+                    # clip_skip=skip_layers,
+                    num_images_per_prompt=num_images,
+                ).images
             grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, 
                                     return_grids=return_grids, skip_layers=skip_layers)
             if return_grids and grid is not None:
@@ -317,9 +335,9 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
         self.pad_encoders = pad_encoders
 
     def load_model_components(self):
-        from diffusers import StableDiffusionXLPipeline
+        from diffusers import AutoPipelineForText2Image
         generator = torch.manual_seed(self.seed)
-        pipe = StableDiffusionXLPipeline.from_pretrained(
+        pipe = AutoPipelineForText2Image.from_pretrained(
             "stabilityai/stable-diffusion-xl-base-1.0",
             variant="fp16",
             torch_dtype=torch.float16,
@@ -329,24 +347,195 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
         self.pipe = pipe
         self.generator = generator
 
-    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, specific_tokens=None, return_grids=False):
-        tokenizers = {
+
+    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
+                specific_tokens=None, return_grids=False, specific_token_idx_to_keep_per_prompt_lists=None,
+                merge_ranges=None):
+        tokenizers = self.get_tokenizers()
+        skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
+        
+        if specific_token_idx_to_keep_per_prompt_lists:
+            ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=self.pipe.tokenizer_2, max_length=self.max_sequence_length, 
+                                                             ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+                                                             specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists)
+            for key, value in ranges_to_try.items():
+                ranges_to_try[key] = [value, value]
+        else:
+            ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 2, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
+        grids = []
+        for skip_tokens_name, skip_tokens in ranges_to_try.items():
+            lens_kwargs = {
+                'clip_skip': skip_layers,
+                'skip_tokens': skip_tokens,
+                'merge_ranges': merge_ranges,
+            }
+
+            images = self.pipe(
+                prompt=prompt,
+                # guidance_scale=0.,
+                # height=512,
+                # width=512,
+                # max_sequence_length=self.max_sequence_length,
+                generator=torch.Generator("cpu").manual_seed(self.seed),
+                # skip_tokens=skip_tokens,
+                lens_kwargs=lens_kwargs,
+                # timesteps=self.num_inference_steps,
+                # clip_skip=skip_layers,
+                num_images_per_prompt=num_images,
+            ).images
+            grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, 
+                                    return_grids=return_grids, skip_layers=skip_layers)
+            if return_grids and grid is not None:
+                grids.append(grid)
+        if return_grids:
+            return grids
+    
+    def get_tokenizers(self):
+        return {
             'tokenizer': self.pipe.tokenizer,
             'tokenizer_2': self.pipe.tokenizer_2,
         }
-        skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
-        ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 2, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
+
+
+class StableDiffusionTextToImage(TextToImage):
+    def __init__(self, model_name, ckpt_dir, num_images, device="cuda", seed=42, max_sequence_length=256):
+        super().__init__(model_name, ckpt_dir, num_images, device, seed)
+        self.max_sequence_length = max_sequence_length
+
+    def load_model_components(self):
+        from diffusers import StableDiffusionPipeline
+        generator = torch.manual_seed(self.seed)
+        self.generator = generator
+        pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4", torch_dtype=torch.float16)
+        self.pipe = pipe.to(self.device)
+
+    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
+                specific_tokens=None, return_grids=False, specific_token_idx_to_keep_per_prompt_lists=None):
+        # token_indices_aae = []
+        tokenizers = self.get_tokenizers()
+        # skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
+        if specific_token_idx_to_keep_per_prompt_lists:
+            ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=tokenizers['tokenizer'], max_length=self.max_sequence_length, 
+                                                             ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+                                                             specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists)
+            for key, value in ranges_to_try.items():
+                ranges_to_try[key] = [value, value]
         grids = []
         for skip_tokens_name, skip_tokens in ranges_to_try.items():
-            pipe_output = self.pipe(prompt, num_images_per_prompt=num_images, generator=self.generator, skip_tokens=skip_tokens,
-                                    num_inference_steps=50, clip_skip=skip_layers, pad_encoders=self.pad_encoders)
+            lens_kwargs = {
+                'clip_skip': skip_layers,
+                'skip_tokens': skip_tokens,
+            } # 
+            # print(self.pipe.get_indices(prompt))
+            pipe_output = self.pipe(prompt, 
+                                    num_images_per_prompt=num_images, 
+                                    generator=self.generator, 
+                                    guidance_scale=7.5,
+                                    # max_iter_to_alter=25,
+                                    num_inference_steps=50,
+                                    # token_indices=[3, 8], # [2,3,6,7,8],
+                                    lens_kwargs=lens_kwargs
+                                    )
             images = pipe_output.images
             grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
             if return_grids and grid is not None:
                 grids.append(grid)
         if return_grids:
             return grids
+        
+    def get_tokenizers(self):
+        return {
+            'tokenizer': self.pipe.tokenizer,
+        }
 
+class StableDiffusionAttendAndExciteTextToImage(TextToImage):
+    def __init__(self, model_name, ckpt_dir, num_images, device="cuda", seed=42, max_sequence_length=256):
+        super().__init__(model_name, ckpt_dir, num_images, device, seed)
+        self.max_sequence_length = max_sequence_length
+
+    def load_model_components(self):
+        from diffusers import StableDiffusionAttendAndExcitePipeline
+        generator = torch.manual_seed(self.seed)
+        self.generator = generator
+        pipe = StableDiffusionAttendAndExcitePipeline.from_pretrained("CompVis/stable-diffusion-v1-4", torch_dtype=torch.float16)
+        self.pipe = pipe.to(self.device)
+
+    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
+                specific_tokens=None, return_grids=False, specific_token_idx_to_keep_per_prompt_lists=None):
+        token_indices_aae = []
+        tokenizers = self.get_tokenizers()
+        # skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
+        if specific_token_idx_to_keep_per_prompt_lists:
+            ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=tokenizers['tokenizer'], max_length=self.max_sequence_length, 
+                                                             ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+                                                             specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists)
+            for key, value in ranges_to_try.items():
+                ranges_to_try[key] = [value, value]
+        grids = []
+        for skip_tokens_name, skip_tokens in ranges_to_try.items():
+            lens_kwargs = {
+                'clip_skip': skip_layers,
+                'skip_tokens': skip_tokens,
+            } # 
+            print(self.pipe.get_indices(prompt))
+            pipe_output = self.pipe(prompt, 
+                                    num_images_per_prompt=num_images, 
+                                    generator=self.generator, 
+                                    guidance_scale=7.5,
+                                    max_iter_to_alter=25,
+                                    num_inference_steps=50,
+                                    token_indices=[3, 8], # [2,3,6,7,8],
+                                    lens_kwargs=lens_kwargs)
+            images = pipe_output.images
+            grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
+            if return_grids and grid is not None:
+                grids.append(grid)
+        if return_grids:
+            return grids
+        
+    def get_tokenizers(self):
+        return {
+            'tokenizer': self.pipe.tokenizer,
+        }
+
+        
+
+    # def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, specific_tokens=None, return_grids=False):
+    #     tokenizers = {
+    #         'tokenizer': self.pipe.tokenizer,
+    #         'tokenizer_2': self.pipe.tokenizer_2,
+    #     }
+    #     skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
+        
+    #     if specific_token_idx_to_keep_per_prompt_lists:
+    #         ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=self.pipe.tokenizer_2, max_length=self.max_sequence_length, 
+    #                                                          ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+    #                                                          specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists)
+    #         for key, value in ranges_to_try.items():
+    #             ranges_to_try[key] = [value, value]
+    #     else:
+    #         ranges_to_try = self.get_ranges_all_tokenizers(prompt=prompt, tokenizers=tokenizers, max_lengths=[self.max_sequence_length] * 2, ranges_to_keep=ranges_to_keep, specific_tokens=specific_tokens)
+    #     grids = []
+    #     for skip_tokens_name, skip_tokens in ranges_to_try.items():
+    #         lens_kwargs = {
+    #             'clip_skip': skip_layers,
+    #             'skip_tokens': skip_tokens,
+    #         }
+
+    #         pipe_output = self.pipe(prompt, lens_kwargs=lens_kwargs, num_images_per_prompt=num_images, generator=self.generator, skip_tokens=skip_tokens,
+    #                                 num_inference_steps=4, clip_skip=skip_layers)
+    #         images = pipe_output.images
+    #         grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
+    #         if return_grids and grid is not None:
+    #             grids.append(grid)
+    #     if return_grids:
+    #         return grids
+        
+    # def get_tokenizers(self):
+    #     return {
+    #         'tokenizer': self.pipe.tokenizer,
+    #         'tokenizer_2': self.pipe.tokenizer_2,
+    #     }
 
 
 
