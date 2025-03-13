@@ -1,23 +1,19 @@
-name: lens
+name: l_env
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.9
   - pip
-  - numpy
-  - pandas
-  - pytorch
-  - scikit-learn
-  - matplotlib
-  - tqdm
   - pip:
-      - git+https://github.com/tokeron/diffusers.git@lens#egg=diffusers
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - tqdm
       - accelerate
       - datasets
       - huggingface-hub
-      - torch
-      - torchvision
       - transformers
       - wandb
       - python-box
