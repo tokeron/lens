@@ -18,3 +18,8 @@ dependencies:
       - wandb
       - python-box
       - sentencepiece
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - tqdm
