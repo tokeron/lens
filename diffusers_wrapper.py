@@ -338,6 +338,7 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
         from diffusers import AutoPipelineForText2Image
         generator = torch.manual_seed(self.seed)
         pipe = AutoPipelineForText2Image.from_pretrained(
+            # both models work with this code
             "stabilityai/sdxl-turbo", #"stabilityai/stable-diffusion-xl-base-1.0",
             variant="fp16",
             torch_dtype=torch.float16,
