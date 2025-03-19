@@ -26,14 +26,15 @@ def main():
                 extended_df = pd.concat([extended_df, pd.DataFrame({'Category': category, 'Subcategory': subcategory, 'Examples': example, 'Correct Words': ''}, index=[0])], ignore_index=True)
     # print(extended_df)
 
-    model_name = 'sdxl' # flux-schnell' # 'sd2' or 'sd3' or 'sdxl' or 'flux-dev' or 'flux-schnell'
-    num_images = 1
+    model_name = 'sdxl-turbo' # flux-schnell' # 'sd2' or 'sd3' or 'sdxl' or 'flux-dev' or 'flux-schnell'
+    num_images = 5
     max_sequence_lengths ={
         'sd_aae': 77,
         'sd': 77,
         'sd2': 77,
         'sd3': 77,
         'sdxl': 77,
+        'sdxl-turbo': 77,
         'flux-dev': 512,
         'flux-schnell': 256
     }
@@ -51,7 +52,7 @@ def main():
         ckpt_dir = ''
         model_class = StableDiffusion3TextToImage(model_name=model_name, ckpt_dir=ckpt_dir, num_images=num_images,
                                                   max_sequence_length=max_sequence_length)
-    elif model_name == 'sdxl':
+    elif model_name == 'sdxl' or model_name == 'sdxl-turbo':
         model_name = model_name
         ckpt_dir = ''
         model_class = StableDiffusionXLPipelineTextToImage(model_name=model_name, ckpt_dir=ckpt_dir, num_images=num_images,

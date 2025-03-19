@@ -333,20 +333,45 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
         super().__init__(model_name, ckpt_dir, num_images, device, seed)
         self.max_sequence_length = max_sequence_length
         self.pad_encoders = pad_encoders
+        self.pipe = None
+        self.refiner = None
+        self.load_model_components()
+
 
     def load_model_components(self):
         from diffusers import AutoPipelineForText2Image
-        generator = torch.manual_seed(self.seed)
-        pipe = AutoPipelineForText2Image.from_pretrained(
-            # both models work with this code
-            "stabilityai/sdxl-turbo", #"stabilityai/stable-diffusion-xl-base-1.0",
-            variant="fp16",
-            torch_dtype=torch.float16,
-            generator=generator,
-        )
-        pipe.to(self.device)
-        self.pipe = pipe
-        self.generator = generator
+        from diffusers import DiffusionPipeline
+
+        self.generator = torch.manual_seed(self.seed)
+
+        if self.model_name == 'sdxl-turbo':
+            pipe = AutoPipelineForText2Image.from_pretrained(
+                # both models work with this code
+                "stabilityai/sdxl-turbo", # "stabilityai/sdxl-turbo", #"stabilityai/stable-diffusion-xl-base-1.0",
+                variant="fp16",
+                torch_dtype=torch.float16,
+                # generator=self.generator,
+            )
+            self.pipe = pipe.to(self.device)
+        elif self.model_name == 'sdxl':
+            pipe = DiffusionPipeline.from_pretrained(
+                "stabilityai/stable-diffusion-xl-base-1.0", 
+                torch_dtype=torch.float16, variant="fp16", 
+                use_safetensors=True
+            )
+
+            refiner = DiffusionPipeline.from_pretrained(
+                "stabilityai/stable-diffusion-xl-refiner-1.0",
+                text_encoder_2=pipe.text_encoder_2,
+                vae=pipe.vae,
+                torch_dtype=torch.float16,
+                use_safetensors=True,
+                variant="fp16",
+            )
+
+            self.pipe = pipe.to(self.device)
+            self.refiner = refiner.to(self.device)
+
 
 
     def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
@@ -371,19 +396,42 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
                 'merge_ranges': merge_ranges,
             }
 
-            images = self.pipe(
-                prompt=prompt,
-                # guidance_scale=0.,
-                # height=512,
-                # width=512,
-                # max_sequence_length=self.max_sequence_length,
-                generator=torch.Generator("cpu").manual_seed(self.seed),
-                # skip_tokens=skip_tokens,
-                lens_kwargs=lens_kwargs,
-                # timesteps=self.num_inference_steps,
-                # clip_skip=skip_layers,
-                num_images_per_prompt=num_images,
-            ).images
+            if self.model_name == 'sdxl-turbo':
+                num_inference_steps = 1
+                images = self.pipe(
+                    prompt=prompt,
+                    # guidance_scale=0.,
+                    # height=512,
+                    # width=512,
+                    # max_sequence_length=self.max_sequence_length,
+                    num_inference_steps=num_inference_steps,
+                    # generator=torch.Generator("cpu").manual_seed(self.seed),
+                    # skip_tokens=skip_tokens,
+                    lens_kwargs=lens_kwargs,
+                    guidance_scale=0.0,
+                    # timesteps=self.num_inference_steps,
+                    # clip_skip=skip_layers,
+                    num_images_per_prompt=num_images,
+                ).images
+            elif self.model_name == 'sdxl':
+                # high_noise_frac = 0.8
+                num_inference_steps = 20
+                images = self.pipe(
+                    prompt=prompt,
+                    # generator=self.generator,
+                    # lens_kwargs=lens_kwargs,
+                    num_images_per_prompt=num_images,
+                    num_inference_steps=num_inference_steps,
+                    lens_kwargs=lens_kwargs,
+                    # denoising_end=high_noise_frac,
+                    # output_type="latent",
+                ).images
+                # images = self.refiner(
+                #     prompt=prompt,
+                #     num_inference_steps=num_inference_steps,
+                #     denoising_start=high_noise_frac,
+                #     image=images,
+                # ).images
             grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, 
                                     return_grids=return_grids, skip_layers=skip_layers)
             if return_grids and grid is not None:
