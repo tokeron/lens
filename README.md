@@ -94,7 +94,15 @@ If you find this repository useful in your research, please cite the associated 
 ```
 
 ```latex
-place_holder - need to be updated after ArXiv release
+@misc{kaplan2025followflowinformationflow,
+      title={Follow the Flow: On Information Flow Across Textual Tokens in Text-to-Image Models}, 
+      author={Guy Kaplan and Michael Toker and Yuval Reif and Yonatan Belinkov and Roy Schwartz},
+      year={2025},
+      eprint={2504.01137},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.01137}, 
+}
 ```
 
 Feel free to reach out if you encounter any issues or need further help!
