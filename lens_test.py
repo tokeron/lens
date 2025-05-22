@@ -1,5 +1,5 @@
 from diffusers_wrapper import StableDiffusion3TextToImage, FluxTextToImage, StableDiffusion2TextToImage, StableDiffusionXLPipelineTextToImage
-from diffusers_wrapper import StableDiffusionAttendAndExciteTextToImage, StableDiffusionTextToImage
+from diffusers_wrapper import StableDiffusionAttendAndExciteTextToImage, StableDiffusionTextToImage, SanaPipelineTextToImage
 import os
 import pandas as pd
 
@@ -26,7 +26,7 @@ def main():
                 extended_df = pd.concat([extended_df, pd.DataFrame({'Category': category, 'Subcategory': subcategory, 'Examples': example, 'Correct Words': ''}, index=[0])], ignore_index=True)
     # print(extended_df)
 
-    model_name = 'sdxl-turbo' # flux-schnell' # 'sd2' or 'sd3' or 'sdxl' or 'flux-dev' or 'flux-schnell'
+    model_name = 'sana' # flux-schnell' # 'sd2' or 'sd3' or 'sdxl' or 'flux-dev' or 'flux-schnell'
     num_images = 5
     max_sequence_lengths ={
         'sd_aae': 77,
@@ -36,7 +36,8 @@ def main():
         'sdxl': 77,
         'sdxl-turbo': 77,
         'flux-dev': 512,
-        'flux-schnell': 256
+        'flux-schnell': 256,
+        'sana': 256,
     }
     max_sequence_length = max_sequence_lengths[model_name]
     if 'flux' in model_name:
@@ -66,6 +67,11 @@ def main():
         model_class = StableDiffusionTextToImage(model_name=model_name, ckpt_dir=ckpt_dir, num_images=num_images,
                                                  max_sequence_length=max_sequence_length
                                                  )
+    elif model_name == 'sana':
+        ckpt_dir = ''
+        model_class = SanaPipelineTextToImage(model_name=model_name, ckpt_dir=ckpt_dir, num_images=num_images,
+                                                 max_sequence_length=max_sequence_length
+                                                )
         
     else:
         raise ValueError("Model name not found")
@@ -109,9 +115,9 @@ def main():
                                 return_grids=return_grids,
                                 # skip_layers=skip_layers,
                                 ranges_to_keep=ranges_to_keep,
-                                specific_tokens=specific_tokens,
+                                # specific_tokens=specific_tokens,
                                 specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists,
-                                merge_ranges=merge_ranges
+                                # merge_ranges=merge_ranges
                                 # zero_paddings=False,
                                 # replace_with_pads=True,
                                 # turn_attention_off=False,
