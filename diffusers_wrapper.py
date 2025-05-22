@@ -397,7 +397,7 @@ class StableDiffusionXLPipelineTextToImage(TextToImage):
             }
 
             if self.model_name == 'sdxl-turbo':
-                num_inference_steps = 1
+                num_inference_steps = 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
                 images = self.pipe(
                     prompt=prompt,
                     # guidance_scale=0.,
@@ -546,6 +546,64 @@ class StableDiffusionAttendAndExciteTextToImage(TextToImage):
         return {
             'tokenizer': self.pipe.tokenizer,
         }
+
+class SanaPipelineTextToImage(TextToImage):
+    def __init__(self, model_name, ckpt_dir, num_images, device="cuda", seed=42, max_sequence_length=256):
+        super().__init__(model_name, ckpt_dir, num_images, device, seed)
+        self.max_sequence_length = max_sequence_length
+
+    def load_model_components(self):
+        from diffusers import SanaPipeline
+
+        pipe = SanaPipeline.from_pretrained(
+            "Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers",
+            torch_dtype=torch.bfloat16,
+        )
+        pipe.to("cuda")
+        self.pipe = pipe
+        self.generator = torch.manual_seed(self.seed)
+
+    def forward(self, prompt, num_images, output_path, save_grid=False, save_per_image=True, skip_layers=0, ranges_to_keep=None, 
+                specific_tokens=None, return_grids=False, specific_token_idx_to_keep_per_prompt_lists=None):
+        token_indices_aae = []
+        tokenizers = self.get_tokenizers()
+        # skip_layers = self.validate_skip_layers(skip_layers, len(tokenizers))
+        if specific_token_idx_to_keep_per_prompt_lists:
+            ranges_to_try = self.get_ranges_single_tokenizer(prompt=prompt, tokenizer=tokenizers['tokenizer'], max_length=self.max_sequence_length, 
+                                                             ranges_to_keep=ranges_to_keep, specific_tokens=None, 
+                                                             specific_token_idx_to_keep_per_prompt_lists=specific_token_idx_to_keep_per_prompt_lists)
+            for key, value in ranges_to_try.items():
+                ranges_to_try[key] = [value, value]
+        grids = []
+        for skip_tokens_name, skip_tokens in ranges_to_try.items():
+            lens_kwargs = {
+                'clip_skip': skip_layers,
+                'skip_tokens': skip_tokens,
+            } # 
+            # print(self.pipe.get_indices(prompt))
+            pipe_output = self.pipe(prompt, 
+                                    num_images_per_prompt=num_images, 
+                                    generator=self.generator, 
+                                    guidance_scale=4.5,
+                                    # max_iter_to_alter=25,
+                                    num_inference_steps=20,
+                                    # token_indices=[3, 8], # [2,3,6,7,8],
+                                    lens_kwargs=lens_kwargs
+                                    )
+            images = pipe_output.images
+            grid = self.save_images(images, output_path, skip_tokens_name, save_grid, save_per_image, return_grids, skip_layers)
+            if return_grids and grid is not None:
+                grids.append(grid)
+        if return_grids:
+            return grids
+        
+    def get_tokenizers(self):
+        return {
+            'tokenizer': self.pipe.tokenizer,
+        }
+                                    
+
+
 
         
 
