@@ -1,0 +1,1756 @@
+,Prompt,Source,Reference,POS,"VLM(entity, Reference)","VLM(uncontextualized_entity, Reference)",perceptually_combined
+0,a massive modern windmill,windmill,massive,ADJ,True,True,Yes
+1,a yellow wall with a large framed oil painting of a car,large,wall,NOUN,True,True,No
+2,a yellow wall with a large framed oil painting of a car,painting,wall,NOUN,True,True,Yes
+3,a yellow wall with a large framed oil painting of a car,oil,large,ADJ,True,True,No
+4,a yellow wall with a large framed oil painting of a car,framed,wall,NOUN,True,True,No
+5,a yellow wall with a large framed oil painting of a car,framed,large,ADJ,True,True,Yes
+6,a yellow wall with a large framed oil painting of a car,framed,painting,NOUN,True,True,Yes
+7,view of the Great Wall from its base,the Great Wall,view,NOUN,True,True,Yes
+8,a pair of headphones dangling from a tree branch,tree,branch,NOUN,True,True,Yes
+9,a pair of headphones dangling from a tree branch,branch,tree,NOUN,True,True,Yes
+10,a pair of headphones dangling from a tree branch,dangling,pair,NOUN,True,True,Yes
+11,a subway train in an empty station,station,subway train,NOUN,True,True,Yes
+12,view of a giraffe and a zebra in the middle of a field,middle,view,NOUN,True,True,No
+13,view of a giraffe and a zebra in the middle of a field,zebra,view,NOUN,True,True,No
+14,view of a giraffe and a zebra in the middle of a field,field,view,NOUN,True,True,Yes
+15,a team playing baseball at the beach,playing,team,NOUN,True,True,Yes
+16,A giant cobra snake made from corn,cobra,snake,NOUN,True,True,Yes
+17,a painting of black and white vertical stripes,vertical,stripes,NOUN,True,True,Yes
+18,a kids' book cover with an illustration of white dog driving a red pickup truck,red,illustration,NOUN,True,True,No
+19,a kids' book cover with an illustration of white dog driving a red pickup truck,',illustration,NOUN,True,True,Yes
+20,a kids' book cover with an illustration of white dog driving a red pickup truck,',book,NOUN,True,True,Yes
+21,a kids' book cover with an illustration of white dog driving a red pickup truck,cover,red,ADJ,True,True,Yes
+22,a kids' book cover with an illustration of white dog driving a red pickup truck,cover,illustration,NOUN,True,True,Yes
+23,a kids' book cover with an illustration of white dog driving a red pickup truck,cover,book,NOUN,True,True,Yes
+24,two people facing the viewer,facing,people,NOUN,True,True,Yes
+25,two people facing the viewer,viewer,people,NOUN,True,True,Yes
+26,a kitchen without a refrigerator,kitchen,refrigerator,NOUN,True,True,Yes
+27,a kitchen without a refrigerator,refrigerator,kitchen,NOUN,True,True,No
+28,A living area with a television and a table,television,living area,NOUN,True,True,Yes
+29,A living area with a television and a table,table,living area,NOUN,True,True,Yes
+30,a ceiling fan with four white blades,fan,ceiling,NOUN,True,True,Yes
+31,a ceiling fan with four white blades,white,ceiling,NOUN,True,True,No
+32,a team playing baseball,baseball,team,NOUN,True,True,Yes
+33,a team playing baseball,playing,team,NOUN,True,True,Yes
+34,a concert without any fans,concert,fans,NOUN,True,True,Yes
+35,a concert without any fans,fans,concert,NOUN,True,True,Yes
+36,an ornate jewel-encrusted key,jewel,ornate,ADJ,True,True,No
+37,a bamboo ladder propped up against an oak tree,oak,tree,NOUN,True,True,Yes
+38,a bamboo ladder propped up against an oak tree,bamboo,tree,NOUN,True,True,No
+39,a white bird in front of a dinosaur standing by some trees,dinosaur,trees,NOUN,True,True,No
+40,a white bird in front of a dinosaur standing by some trees,standing,white,ADJ,True,True,No
+41,a half moon in the day sky,sky,day,NOUN,True,True,No
+42,a half moon in the day sky,day,sky,NOUN,True,True,No
+43,a windmill farm next to a country road,country,farm,NOUN,True,True,No
+44,a windmill farm next to a country road,country,road,NOUN,True,True,No
+45,a bat landing on a baseball bat,baseball bat,bat,NOUN,True,True,Yes
+46,a man standing under a tree,standing,man,NOUN,True,True,Yes
+47,One cat and three dogs sitting on the grass.,dogs,grass,NOUN,True,True,Yes
+48,a photo of san francisco's golden gate bridge,san francisco's,photo,NOUN,True,True,Yes
+49,a painting of black and white with a red flower in the right corner,right,corner,NOUN,True,True,Yes
+50,a painting of black and white with a red flower in the right corner,right,red,ADJ,True,True,Yes
+51,a photograph of a house on a mountain,house,photograph,NOUN,True,True,Yes
+52,an airplane flying into a cloud that looks like monster,flying,cloud,NOUN,True,True,Yes
+53,an airplane flying into a cloud that looks like monster,airplane,cloud,NOUN,True,True,No
+54,Hyper-realistic photo of an abandoned industrial site during a storm.,abandoned,site,NOUN,True,True,Yes
+55,Hyper-realistic photo of an abandoned industrial site during a storm.,industrial,site,NOUN,True,True,Yes
+56,Hyper-realistic photo of an abandoned industrial site during a storm.,industrial,photo,NOUN,True,True,Yes
+57,Hyper-realistic photo of an abandoned industrial site during a storm.,site,photo,NOUN,True,True,Yes
+58,Hyper-realistic photo of an abandoned industrial site during a storm.,Hyper,photo,NOUN,True,True,Yes
+59,Hyper-realistic photo of an abandoned industrial site during a storm.,storm,photo,NOUN,True,True,Yes
+60,A machine resembling a human being and able to replicate certain human movements and functions automatically.,movements,human,ADJ,True,True,No
+61,A machine resembling a human being and able to replicate certain human movements and functions automatically.,automatically,movements,NOUN,True,True,No
+62,A machine resembling a human being and able to replicate certain human movements and functions automatically.,automatically,machine,NOUN,True,True,No
+63,A machine resembling a human being and able to replicate certain human movements and functions automatically.,automatically,human,ADJ,True,True,No
+64,A machine resembling a human being and able to replicate certain human movements and functions automatically.,machine,movements,NOUN,True,True,Yes
+65,A machine resembling a human being and able to replicate certain human movements and functions automatically.,machine,certain,ADJ,True,True,No
+66,A machine resembling a human being and able to replicate certain human movements and functions automatically.,machine,functions,NOUN,True,True,No
+67,a witch riding a broom,broom,witch,NOUN,True,True,Yes
+68,an orange wearing a cowboy hat,wearing,orange,NOUN,True,True,Yes
+69,cash on a wooden table,cash,wooden,ADJ,True,True,No
+70,cash on a wooden table,cash,table,NOUN,True,True,Yes
+71,a snowy owl standing in a grassy field,field,grassy,ADJ,True,True,Yes
+72,a tuba made of flower petals,flower,petals,NOUN,True,True,Yes
+73,a tuba made of flower petals,petals,flower,NOUN,True,True,Yes
+74,a pickup truck missing its wheels,pickup truck,wheels,NOUN,True,True,Yes
+75,a pair of matching socks with cute cats on them,matching,pair,NOUN,True,True,Yes
+76,a pair of matching socks with cute cats on them,cats,cute,ADJ,True,True,No
+77,a pair of matching socks with cute cats on them,socks,cute,ADJ,True,True,No
+78,a pair of matching socks with cute cats on them,socks,pair,NOUN,True,True,Yes
+79,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",large,massive,ADJ,True,True,Yes
+80,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",African,mammal,NOUN,True,True,No
+81,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",massive,large,ADJ,True,True,No
+82,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",tusks,large,ADJ,True,True,Yes
+83,a yellow swirl next to a blue dashed line.,swirl,line,NOUN,True,True,No
+84,a yellow swirl next to a blue dashed line.,dashed,line,NOUN,True,True,Yes
+85,a black baseball hat with a flame decal on it,baseball,hat,NOUN,True,True,Yes
+86,A picture of some food in the plate,plate,food,NOUN,True,True,Yes
+87,A picture of some food in the plate,food,plate,NOUN,True,True,Yes
+88,a large stone pedestal without a statue of a horse on it,stone,large,ADJ,True,True,Yes
+89,a large stone pedestal without a statue of a horse on it,horse,large,ADJ,True,True,No
+90,a large stone pedestal without a statue of a horse on it,statue,large,ADJ,True,True,No
+91,a large stone pedestal without a statue of a horse on it,statue,pedestal,NOUN,True,True,No
+92,a large stone pedestal without a statue of a horse on it,statue,stone,NOUN,True,True,No
+93,Saturn rises on the horizon.,rises,horizon,NOUN,True,True,Yes
+94,Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.,poker table,cards,NOUN,True,True,Yes
+95,Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.,holding,hands,NOUN,True,True,Yes
+96,a stop sign with a large tree behind it,tree,large,ADJ,True,True,No
+97,a stop sign with a large tree behind it,stop,sign,NOUN,True,True,Yes
+98,a plant at the bottom of a shallow stream,plant,shallow,ADJ,True,True,Yes
+99,a horse running in a field,horse,field,NOUN,True,True,Yes
+100,the eyes of an owl,owl,eyes,NOUN,True,True,Yes
+101,a white background with a large blue square,background,large,ADJ,True,True,No
+102,a white background with a large blue square,large,white,ADJ,True,True,No
+103,a white background with a large blue square,white,background,NOUN,True,True,Yes
+104,a yellow tiger with blue stripes,tiger,stripes,NOUN,True,True,Yes
+105,a classroom without any students,classroom,students,NOUN,True,True,Yes
+106,a classroom without any students,students,classroom,NOUN,True,True,Yes
+107,a plate that has no bananas on it. there is a glass without orange juice next to it.,glass,juice,NOUN,True,True,Yes
+108,a plate that has no bananas on it. there is a glass without orange juice next to it.,juice,glass,NOUN,True,True,Yes
+109,a plate that has no bananas on it. there is a glass without orange juice next to it.,juice,orange,ADJ,True,True,Yes
+110,a large white yacht,yacht,large,ADJ,True,True,Yes
+111,a blue sports car on the road,car,road,NOUN,True,True,Yes
+112,a sunken ship at the bottom of the ocean,sunken,ocean,NOUN,True,True,Yes
+113,a sunken ship at the bottom of the ocean,ship,ocean,NOUN,True,True,No
+114,an old-fashioned phone next to a sleek laptop,phone,sleek,ADJ,True,True,No
+115,an old-fashioned phone next to a sleek laptop,laptop,sleek,ADJ,True,True,Yes
+116,an elderly woman with straight hair and metal-rimmed glasses,elderly,hair,NOUN,True,True,No
+117,an elderly woman with straight hair and metal-rimmed glasses,elderly,woman,NOUN,True,True,No
+118,an elderly woman with straight hair and metal-rimmed glasses,straight,hair,NOUN,True,True,Yes
+119,an elderly woman with straight hair and metal-rimmed glasses,straight,woman,NOUN,True,True,No
+120,an elderly woman with straight hair and metal-rimmed glasses,glasses,straight,ADJ,True,True,No
+121,an elderly woman with straight hair and metal-rimmed glasses,hair,woman,NOUN,True,True,Yes
+122,an elderly woman with straight hair and metal-rimmed glasses,woman,hair,NOUN,True,True,Yes
+123,An appliance or compartment which is artificially kept cool and used to store food and drink.,drink,cool,ADJ,True,True,No
+124,A brown colored giraffe.,giraffe,brown,ADJ,True,True,Yes
+125,an extreme close-up view of a capybara sitting in a field,extreme,view,NOUN,True,True,No
+126,an extreme close-up view of a capybara sitting in a field,field,view,NOUN,True,True,No
+127,a wooden deck overlooking a mountain valley,deck,wooden,ADJ,True,True,Yes
+128,a white cat with black ears and markings,cat,ears,NOUN,True,True,Yes
+129,a white cat with black ears and markings,cat,markings,NOUN,True,True,Yes
+130,a white cat with black ears and markings,ears,black,ADJ,True,True,Yes
+131,a white cat with black ears and markings,markings,black,ADJ,True,True,Yes
+132,three violins lying on the floor,lying,floor,NOUN,True,True,Yes
+133,A giraffe walking through a green grass covered field,grass,green,ADJ,True,True,Yes
+134,A giraffe walking through a green grass covered field,grass,field,NOUN,True,True,Yes
+135,a politician giving a speech at a podium,podium,speech,NOUN,True,True,Yes
+136,a politician giving a speech at a podium,politician,speech,NOUN,True,True,Yes
+137,a politician giving a speech at a podium,speech,podium,NOUN,True,True,Yes
+138,a palm tree forest in front of the Kremlin,forest,tree,NOUN,True,True,Yes
+139,a palm tree forest in front of the Kremlin,palm,tree,NOUN,True,True,Yes
+140,a politician speaking to a large crowd,crowd,large,ADJ,True,True,Yes
+141,a politician speaking to a large crowd,speaking,politician,NOUN,True,True,Yes
+142,A car on the left of a bus.,car,left,NOUN,True,True,Yes
+143,A hair drier underneath a sheep.,sheep,hair,NOUN,True,True,Yes
+144,A hair drier underneath a sheep.,underneath,drier,ADJ,True,True,No
+145,panda mad scientist mixing sparkling chemicals,mad scientist,sparkling,ADJ,True,True,Yes
+146,panda mad scientist mixing sparkling chemicals,mad scientist,chemicals,NOUN,True,True,Yes
+147,An illustration of a small green elephant standing behind a large red mouse.,green,small,ADJ,True,True,Yes
+148,An illustration of a small green elephant standing behind a large red mouse.,mouse,small,ADJ,True,True,No
+149,An illustration of a small green elephant standing behind a large red mouse.,red,large,ADJ,True,True,Yes
+150,An illustration of a small green elephant standing behind a large red mouse.,illustration,green,ADJ,True,True,No
+151,An illustration of a small green elephant standing behind a large red mouse.,illustration,red,PROPN,True,True,No
+152,An illustration of a small green elephant standing behind a large red mouse.,elephant,large,ADJ,True,True,No
+153,slices of mango on a piece of toast,slices,piece,NOUN,True,True,No
+154,slices of mango on a piece of toast,toast,slices,NOUN,True,True,Yes
+155,slices of mango on a piece of toast,toast,piece,NOUN,True,True,Yes
+156,slices of mango on a piece of toast,mango,piece,NOUN,True,True,No
+157,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",jacket,photograph,NOUN,True,True,No
+158,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",pharaoh,portrait,NOUN,True,True,No
+159,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",pharaoh,statue,NOUN,True,True,Yes
+160,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",wearing,photograph,NOUN,True,True,No
+161,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",wearing,portrait,NOUN,True,True,No
+162,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",portrait,photograph,NOUN,True,True,No
+163,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",t,photograph,NOUN,True,True,No
+164,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",glasses,photograph,NOUN,True,True,No
+165,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",white,photograph,NOUN,True,True,No
+166,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.",statue,white,ADJ,True,True,No
+167,a light shining on a giraffe in a street,shining,light,NOUN,True,True,Yes
+168,a giraffe with an owl on its head,giraffe,head,NOUN,True,True,Yes
+169,a giraffe with an owl on its head,owl,head,NOUN,True,True,Yes
+170,a red train is coming down the beach,train,red,ADJ,True,True,Yes
+171,a person with arms like a tree branch,tree,branch,NOUN,True,True,Yes
+172,a person with arms like a tree branch,like,person,NOUN,True,True,Yes
+173,a person with arms like a tree branch,branch,tree,NOUN,True,True,Yes
+174,a person with arms like a tree branch,arms,person,NOUN,True,True,Yes
+175,a family of four walking at the beach with waves covering their feet,beach,waves,NOUN,True,True,Yes
+176,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,sunglasses,photo,NOUN,True,True,Yes
+177,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,wearing,background,NOUN,True,True,No
+178,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,wearing,photo,NOUN,True,True,No
+179,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,spaceship,Earth,PROPN,True,True,Yes
+180,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,standing,background,NOUN,True,True,No
+181,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,photo,background,NOUN,True,True,Yes
+182,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,deck,background,NOUN,True,True,No
+183,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,llama,background,NOUN,True,True,Yes
+184,a glass of orange juice,juice,orange,PROPN,True,True,Yes
+185,a summer tree without any leaves,tree,leaves,NOUN,True,True,Yes
+186,a summer tree without any leaves,tree,summer,NOUN,True,True,Yes
+187,a summer tree without any leaves,leaves,tree,NOUN,True,True,Yes
+188,a summer tree without any leaves,leaves,summer,NOUN,True,True,Yes
+189,a summer tree without any leaves,summer,tree,NOUN,True,True,No
+190,A cat on the right of a tennis racket.,racket,tennis,NOUN,True,True,Yes
+191,A cat on the right of a tennis racket.,tennis,right,NOUN,True,True,No
+192,A cat on the right of a tennis racket.,tennis,racket,NOUN,True,True,Yes
+193,the finale of a fireworks display,fireworks,display,NOUN,True,True,Yes
+194,a fall landscape with a small cottage next to a lake,cottage,small,ADJ,True,True,Yes
+195,a fall landscape with a small cottage next to a lake,cottage,landscape,NOUN,True,True,Yes
+196,a fall landscape with a small cottage next to a lake,small,cottage,NOUN,True,True,Yes
+197,a fall landscape with a small cottage next to a lake,lake,landscape,NOUN,True,True,Yes
+198,a fall landscape with a small cottage next to a lake,fall,cottage,NOUN,True,True,Yes
+199,a fall landscape with a small cottage next to a lake,fall,landscape,NOUN,True,True,No
+200,a steam locomotive speeding through a desert,steam,locomotive,NOUN,True,True,Yes
+201,a taxi driving in the countryside,taxi,driving,NOUN,True,True,Yes
+202,a cricketer standing next to a wicket,cricketer,wicket,NOUN,True,True,Yes
+203,a cricketer standing next to a wicket,wicket,cricketer,NOUN,True,True,Yes
+204,a horse corral with tigers standing in each stall,horse,corral,NOUN,True,True,Yes
+205,a horse corral with tigers standing in each stall,corral,stall,NOUN,True,True,Yes
+206,A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,dragon,red,ADJ,True,True,Yes
+207,A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,chess,pieces,NOUN,True,True,Yes
+208,A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,robots,red,ADJ,True,True,No
+209,A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,dressed,red,ADJ,True,True,No
+210,a crescent moon viewed between tree branches at night,tree,branches,NOUN,True,True,Yes
+211,a crescent moon viewed between tree branches at night,moon,night,NOUN,True,True,Yes
+212,a crescent moon viewed between tree branches at night,crescent,moon,NOUN,True,True,Yes
+213,a crescent moon viewed between tree branches at night,crescent,night,NOUN,True,True,Yes
+214,a crescent moon viewed between tree branches at night,branches,tree,NOUN,True,True,Yes
+215,a brown trash bin to the left of a blue recycling bin,recycling,left,NOUN,True,True,No
+216,"The Rosetta Stone lying on the ground, covered in snow.",Rosetta Stone,ground,NOUN,True,True,Yes
+217,"The Rosetta Stone lying on the ground, covered in snow.",lying,ground,NOUN,True,True,Yes
+218,a stack of three red cubes with a blue sphere on the right and two green cones on the left,right,red,ADJ,True,True,No
+219,a stack of three red cubes with a blue sphere on the right and two green cones on the left,green,right,NOUN,True,True,No
+220,a stack of three red cubes with a blue sphere on the right and two green cones on the left,blue,right,NOUN,True,True,Yes
+221,a stack of three red cubes with a blue sphere on the right and two green cones on the left,cubes,stack,NOUN,True,True,Yes
+222,a stack of three red cubes with a blue sphere on the right and two green cones on the left,cones,left,NOUN,True,True,No
+223,a yellow diamond-shaped sign with a wooly mammoth silhouette,mammoth,wooly,ADJ,True,True,Yes
+224,A church with stained glass windows depicting a hamburger and french fries.,stained,windows,NOUN,True,True,Yes
+225,A church with stained glass windows depicting a hamburger and french fries.,church,windows,NOUN,True,True,Yes
+226,A church with stained glass windows depicting a hamburger and french fries.,fries,french,ADJ,True,True,Yes
+227,A church with stained glass windows depicting a hamburger and french fries.,windows,glass,NOUN,True,True,Yes
+228,a ceiling fan with an ornate light fixture,fixture,light,ADJ,True,True,Yes
+229,a ceiling fan with an ornate light fixture,ceiling,ornate,ADJ,True,True,No
+230,a ceiling fan with an ornate light fixture,light,ceiling,NOUN,True,True,No
+231,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,cat,head,NOUN,True,True,No
+232,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,man,head,NOUN,True,True,No
+233,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,big,head,NOUN,True,True,Yes
+234,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,Greek,big,ADJ,True,True,No
+235,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,angry,man,NOUN,True,True,Yes
+236,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,angry,head,NOUN,True,True,No
+237,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,looks,head,NOUN,True,True,No
+238,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,comforting,head,NOUN,True,True,No
+239,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,statue,man,NOUN,True,True,No
+240,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,statue,head,NOUN,True,True,Yes
+241,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,statue,Greek,ADJ,True,True,Yes
+242,A magnifying glass over a page of a 1950s batman comic.,batman,comic,NOUN,True,True,Yes
+243,A magnifying glass over a page of a 1950s batman comic.,comic,page,NOUN,True,True,Yes
+244,a red sports car on the road,car,road,NOUN,True,True,Yes
+245,Two cats and three dogs sitting on the grass.,dogs,grass,NOUN,True,True,No
+246,a dump truck filled with soccer balls scuba diving in a coral reef.,coral,reef,NOUN,True,True,Yes
+247,a dump truck filled with soccer balls scuba diving in a coral reef.,dump,truck,NOUN,True,True,Yes
+248,a dump truck filled with soccer balls scuba diving in a coral reef.,soccer,balls,NOUN,True,True,Yes
+249,a dump truck filled with soccer balls scuba diving in a coral reef.,reef,coral,ADJ,True,True,Yes
+250,The trophy doesn't fit into the brown suitcase because it's too large,large,brown,ADJ,True,True,No
+251,The trophy doesn't fit into the brown suitcase because it's too large,trophy,large,ADJ,True,True,Yes
+252,a cat drinking a pint of beer,pint,beer,NOUN,True,True,Yes
+253,a cat drinking a pint of beer,beer,pint,NOUN,True,True,Yes
+254,A pizza on the right of a suitcase.,pizza,right,NOUN,True,True,Yes
+255,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,shape,picture,NOUN,True,True,Yes
+256,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,triangular,shape,NOUN,True,True,Yes
+257,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,triangular,orange,ADJ,True,True,Yes
+258,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,triangle,shape,NOUN,True,True,Yes
+259,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,triangle,triangular,ADJ,True,True,Yes
+260,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,triangle,picture,NOUN,True,True,Yes
+261,A triangular orange picture frame. An orange picture frame in the shape of a triangle.,triangle,orange,ADJ,True,True,Yes
+262,a white background with a large blue circle and a small green square,background,large,ADJ,True,True,No
+263,a white background with a large blue circle and a small green square,large,background,NOUN,True,True,No
+264,a white background with a large blue circle and a small green square,square,large,ADJ,True,True,No
+265,a white background with a large blue circle and a small green square,circle,large,ADJ,True,True,Yes
+266,a white background with a large blue circle and a small green square,white,background,NOUN,True,True,Yes
+267,a white background with a large blue circle and a small green square,white,green,ADJ,True,True,No
+268,A boy holds and a girl paints a piece of wood.,paints,piece,NOUN,True,True,No
+269,two baseballs to the left of three tennis balls,balls,baseballs,NOUN,True,True,Yes
+270,two baseballs to the left of three tennis balls,baseballs,balls,NOUN,True,True,No
+271,a crowd of people watching fireworks by a park,watching,people,NOUN,True,True,Yes
+272,a crowd of people watching fireworks by a park,park,people,NOUN,True,True,Yes
+273,a crowd of people watching fireworks by a park,crowd,people,NOUN,True,True,Yes
+274,a crowd of people watching fireworks by a park,people,crowd,NOUN,True,True,Yes
+275,a red swirl above a black dashed line.,swirl,line,NOUN,True,True,No
+276,a red swirl above a black dashed line.,dashed,line,NOUN,True,True,Yes
+277,a smiling man with wavy brown hair and trimmed beard,man,beard,NOUN,True,True,Yes
+278,a smiling man with wavy brown hair and trimmed beard,man,hair,NOUN,True,True,Yes
+279,a smiling man with wavy brown hair and trimmed beard,brown,hair,NOUN,True,True,Yes
+280,a smiling man with wavy brown hair and trimmed beard,beard,man,NOUN,True,True,Yes
+281,a smiling man with wavy brown hair and trimmed beard,beard,brown,ADJ,True,True,No
+282,a smiling man with wavy brown hair and trimmed beard,beard,hair,NOUN,True,True,Yes
+283,a smiling man with wavy brown hair and trimmed beard,smiling,man,NOUN,True,True,Yes
+284,a smiling man with wavy brown hair and trimmed beard,smiling,beard,NOUN,True,True,No
+285,a smiling man with wavy brown hair and trimmed beard,smiling,hair,NOUN,True,True,No
+286,a smiling man with wavy brown hair and trimmed beard,hair,wavy,ADJ,True,True,Yes
+287,A pyramid made of falafel with a partial solar eclipse in the background.,partial,background,NOUN,True,True,Yes
+288,A pyramid made of falafel with a partial solar eclipse in the background.,falafel,background,NOUN,True,True,No
+289,A pyramid made of falafel with a partial solar eclipse in the background.,pyramid,background,NOUN,True,True,Yes
+290,A pyramid made of falafel with a partial solar eclipse in the background.,solar eclipse,background,NOUN,True,True,Yes
+291,a canal in Amsterdam,Amsterdam,canal,NOUN,True,True,Yes
+292,a man reading a book with a prism on its cover,reading,man,NOUN,True,True,Yes
+293,a man reading a book with a prism on its cover,reading,book,NOUN,True,True,Yes
+294,a horse chewing a large blue flower,blue,flower,NOUN,True,True,Yes
+295,a horse chewing a large blue flower,horse,large,ADJ,True,True,No
+296,the hands of a single person holding a basketball,person,single,ADJ,True,True,Yes
+297,the hands of a single person holding a basketball,single,person,NOUN,True,True,Yes
+298,the hands of a single person holding a basketball,holding,person,NOUN,True,True,Yes
+299,the hands of a single person holding a basketball,holding,hands,NOUN,True,True,Yes
+300,a tabby cat coming through a door,cat,tabby,ADJ,True,True,Yes
+301,a tabby cat coming through a door,tabby,cat,NOUN,True,True,Yes
+302,four people riding in a convertible car,convertible,car,NOUN,True,True,Yes
+303,four people riding in a convertible car,riding,people,NOUN,True,True,Yes
+304,a view of the Big Dipper in the night sky,sky,view,NOUN,True,True,Yes
+305,a view of the Big Dipper in the night sky,Big Dipper,sky,NOUN,True,True,Yes
+306,a view of the Big Dipper in the night sky,Big Dipper,night,NOUN,True,True,No
+307,a view of the Big Dipper in the night sky,view,sky,NOUN,True,True,Yes
+308,a view of the Big Dipper in the night sky,night,sky,NOUN,True,True,Yes
+309,a view of the Big Dipper in the night sky,night,view,NOUN,True,True,Yes
+310,a photograph of a knight in shining armor holding a basketball,knight,armor,NOUN,True,True,Yes
+311,a photograph of a knight in shining armor holding a basketball,armor,knight,NOUN,True,True,Yes
+312,a photograph of a knight in shining armor holding a basketball,holding,photograph,NOUN,True,True,No
+313,two parallel chemtrails in blue sky,chemtrails,parallel,ADJ,True,True,Yes
+314,two parallel chemtrails in blue sky,chemtrails,blue,ADJ,True,True,No
+315,two parallel chemtrails in blue sky,sky,blue,ADJ,True,True,Yes
+316,a giraffe with a funny face,giraffe,face,NOUN,True,True,Yes
+317,a giraffe with a funny face,funny,face,NOUN,True,True,No
+318,A brown bird and a blue bear.,bear,brown,ADJ,True,True,No
+319,a cat jumping in the air to get onto a table,jumping,air,NOUN,True,True,Yes
+320,"A small vessel propelled on water by oars, sails, or an engine.",propelled,vessel,NOUN,True,True,Yes
+321,"A small vessel propelled on water by oars, sails, or an engine.",oars,water,NOUN,True,True,No
+322,"A small vessel propelled on water by oars, sails, or an engine.",vessel,water,NOUN,True,True,Yes
+323,"A small vessel propelled on water by oars, sails, or an engine.",sails,water,NOUN,True,True,No
+324,"A small vessel propelled on water by oars, sails, or an engine.",sails,vessel,NOUN,True,True,No
+325,A high resolution photo of a chicken working out in a gym.,chicken,photo,NOUN,True,True,Yes
+326,a brown mouse laughing at a gray cat because a 16 ton weight is about to fall on its head,mouse,brown,ADJ,True,True,Yes
+327,a brown mouse laughing at a gray cat because a 16 ton weight is about to fall on its head,laughing,head,NOUN,True,True,No
+328,a brown mouse laughing at a gray cat because a 16 ton weight is about to fall on its head,fall,brown,ADJ,True,True,No
+329,a brown mouse laughing at a gray cat because a 16 ton weight is about to fall on its head,16 ton,brown,ADJ,True,True,No
+330,a blue wooden pyramid on top of a red plastic box,box,wooden,ADJ,True,True,No
+331,the city of London on Mars,London,city,NOUN,True,True,No
+332,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",lab,science,NOUN,True,True,Yes
+333,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",science,lab,NOUN,True,True,Yes
+334,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",machine,science,NOUN,True,True,No
+335,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",Miami,vibe,NOUN,True,True,Yes
+336,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",vibe,content,NOUN,True,True,No
+337,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",oiled,digital art,NOUN,True,True,No
+338,The sunset on the beach is wonderful,sunset,wonderful,ADJ,True,True,Yes
+339,The sunset on the beach is wonderful,beach,wonderful,ADJ,True,True,No
+340,three black cats standing next to two orange cats,orange,cats,NOUN,True,True,Yes
+341,long shards of a broken mirror reflecting the eyes of a great horned owl,reflecting,great,ADJ,True,True,No
+342,long shards of a broken mirror reflecting the eyes of a great horned owl,broken,shards,NOUN,True,True,Yes
+343,long shards of a broken mirror reflecting the eyes of a great horned owl,long,great,ADJ,True,True,No
+344,long shards of a broken mirror reflecting the eyes of a great horned owl,horned owl,great,ADJ,True,True,Yes
+345,a man banging on a door,banging,man,NOUN,True,True,No
+346,An oil painting portrait of the regal Burger King posing with a Whopper.,Burger King,Whopper,NOUN,True,True,Yes
+347,An oil painting portrait of the regal Burger King posing with a Whopper.,regal,portrait,NOUN,True,True,Yes
+348,An oil painting portrait of the regal Burger King posing with a Whopper.,posing,oil,NOUN,True,True,No
+349,a silver fire hydrant next to a sidewalk,hydrant,sidewalk,NOUN,True,True,Yes
+350,a stop sign knocked over on a sidewalk,stop,sidewalk,NOUN,True,True,Yes
+351,a stop sign knocked over on a sidewalk,stop,sign,NOUN,True,True,Yes
+352,a kachina doll with feathers on its head and wearing a white dress and brown boots.,kachina,brown,ADJ,True,True,No
+353,a kachina doll with feathers on its head and wearing a white dress and brown boots.,kachina,doll,NOUN,True,True,Yes
+354,a kachina doll with feathers on its head and wearing a white dress and brown boots.,kachina,head,NOUN,True,True,Yes
+355,a kachina doll with feathers on its head and wearing a white dress and brown boots.,boots,brown,ADJ,True,True,Yes
+356,a kachina doll with feathers on its head and wearing a white dress and brown boots.,wearing,brown,ADJ,True,True,No
+357,a kachina doll with feathers on its head and wearing a white dress and brown boots.,wearing,head,NOUN,True,True,No
+358,a kachina doll with feathers on its head and wearing a white dress and brown boots.,feathers,white,ADJ,True,True,No
+359,a kachina doll with feathers on its head and wearing a white dress and brown boots.,doll,dress,NOUN,True,True,Yes
+360,a kachina doll with feathers on its head and wearing a white dress and brown boots.,doll,head,NOUN,True,True,Yes
+361,a kachina doll with feathers on its head and wearing a white dress and brown boots.,head,doll,NOUN,True,True,Yes
+362,several lily pads without frogs,frogs,lily pads,NOUN,True,True,No
+363,the mona lisa wearing a cowboy hat and screaming a punk song into a microphone,microphone,song,NOUN,True,True,Yes
+364,the mona lisa wearing a cowboy hat and screaming a punk song into a microphone,song,microphone,NOUN,True,True,Yes
+365,A green train is coming down the tracks,tracks,train,NOUN,True,True,Yes
+366,A green train is coming down the tracks,train,tracks,NOUN,True,True,Yes
+367,milk pouring into a large glass,pouring,glass,NOUN,True,True,Yes
+368,milk pouring into a large glass,milk,glass,NOUN,True,True,Yes
+369,We painted the wall with cracks.,wall,cracks,NOUN,True,True,Yes
+370,We painted the wall with cracks.,painted,wall,NOUN,True,True,Yes
+371,a cream-colored labradoodle wearing glasses and black beret teaching calculus at a blackboard,calculus,teaching,NOUN,True,True,Yes
+372,a cream-colored labradoodle wearing glasses and black beret teaching calculus at a blackboard,blackboard,teaching,NOUN,True,True,Yes
+373,a cream-colored labradoodle wearing glasses and black beret teaching calculus at a blackboard,blackboard,black,ADJ,True,True,No
+374,a view of the Kremlin on a sunny day,a sunny day,view,NOUN,True,True,No
+375,a view of the Kremlin on a sunny day,view,a sunny day,NOUN,True,True,Yes
+376,a view of the Kremlin on a sunny day,Kremlin,view,NOUN,True,True,Yes
+377,Abraham Lincoln touches his toes while George Washington does chin-ups. Lincoln is barefoot. Washington is wearing boots.,Lincoln,Abraham Lincoln,PROPN,True,True,Yes
+378,Abraham Lincoln touches his toes while George Washington does chin-ups. Lincoln is barefoot. Washington is wearing boots.,Abraham Lincoln,Lincoln,PROPN,True,True,Yes
+379,a ballet dancer next to a waterfall,ballet,dancer,NOUN,True,True,Yes
+380,A triangular pink stop sign. A pink stop sign in the shape of a triangle.,triangular,shape,NOUN,True,True,Yes
+381,A triangular pink stop sign. A pink stop sign in the shape of a triangle.,triangle,shape,NOUN,True,True,Yes
+382,A triangular pink stop sign. A pink stop sign in the shape of a triangle.,triangle,triangular,ADJ,True,True,Yes
+383,A triangular pink stop sign. A pink stop sign in the shape of a triangle.,pink,shape,NOUN,True,True,Yes
+384,a painting of the mona lisa on a white wall,wall,white,ADJ,True,True,Yes
+385,a painting of the mona lisa on a white wall,mona lisa,painting,NOUN,True,True,Yes
+386,a painting of the mona lisa on a white wall,painting,wall,NOUN,True,True,Yes
+387,a painting of the mona lisa on a white wall,white,wall,NOUN,True,True,Yes
+388,two baseballs next to three tennis balls,balls,baseballs,NOUN,True,True,Yes
+389,two baseballs next to three tennis balls,baseballs,balls,NOUN,True,True,Yes
+390,two baseballs next to three tennis balls,tennis,balls,NOUN,True,True,Yes
+391,"a man with long blonde hair, brown eyes and blue jeans",man,eyes,NOUN,True,True,Yes
+392,"a man with long blonde hair, brown eyes and blue jeans",man,hair,NOUN,True,True,Yes
+393,"a man with long blonde hair, brown eyes and blue jeans",brown,eyes,NOUN,True,True,Yes
+394,"a man with long blonde hair, brown eyes and blue jeans",brown,hair,NOUN,True,True,No
+395,"a man with long blonde hair, brown eyes and blue jeans",blue,long,ADJ,True,True,No
+396,"a man with long blonde hair, brown eyes and blue jeans",blonde,long,ADJ,True,True,Yes
+397,"a man with long blonde hair, brown eyes and blue jeans",blonde,eyes,NOUN,True,True,No
+398,"a man with long blonde hair, brown eyes and blue jeans",blonde,hair,NOUN,True,True,Yes
+399,"a man with long blonde hair, brown eyes and blue jeans",jeans,man,NOUN,True,True,No
+400,"a man with long blonde hair, brown eyes and blue jeans",jeans,long,ADJ,True,True,No
+401,"a man with long blonde hair, brown eyes and blue jeans",hair,blonde,ADJ,True,True,Yes
+402,"a man with long blonde hair, brown eyes and blue jeans",hair,eyes,NOUN,True,True,Yes
+403,a selfie of an old man with a white beard,man,old,ADJ,True,True,Yes
+404,a selfie of an old man with a white beard,man,beard,NOUN,True,True,Yes
+405,a selfie of an old man with a white beard,selfie,man,NOUN,True,True,Yes
+406,a selfie of an old man with a white beard,selfie,beard,NOUN,True,True,No
+407,a selfie of an old man with a white beard,beard,man,NOUN,True,True,Yes
+408,a shoe with a sock draped over it,shoe,sock,NOUN,True,True,Yes
+409,a sword slicing through a loaf of bread,loaf,bread,NOUN,True,True,Yes
+410,a sword slicing through a loaf of bread,bread,loaf,NOUN,True,True,Yes
+411,a man riding a cat,riding,man,NOUN,True,True,Yes
+412,the city of London on the moon,London,city,NOUN,True,True,No
+413,Times Square at night,Times Square,night,NOUN,True,True,Yes
+414,a cat with four eyes,cat,eyes,NOUN,True,True,Yes
+415,a triangle with a smiling face,smiling,face,NOUN,True,True,Yes
+416,The collision of two black holes in the center of a galaxy.,galaxy,center,NOUN,True,True,Yes
+417,The collision of two black holes in the center of a galaxy.,holes,center,NOUN,True,True,No
+418,three quarters view of a rusty old red pickup truck with white doors and a smashed windshield,rusty,old,ADJ,True,True,No
+419,three quarters view of a rusty old red pickup truck with white doors and a smashed windshield,pickup truck,windshield,NOUN,True,True,Yes
+420,three quarters view of a rusty old red pickup truck with white doors and a smashed windshield,pickup truck,three quarters view,NOUN,True,True,Yes
+421,three quarters view of a rusty old red pickup truck with white doors and a smashed windshield,white,three quarters view,NOUN,True,True,No
+422,a sidewalk next to a wooden post with a blue '5' painted on top,painted,sidewalk,NOUN,True,True,No
+423,a white towel with a cat on it,towel,white,ADJ,True,True,Yes
+424,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,gentlemanly,moustache,NOUN,True,True,Yes
+425,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,gentlemanly,good,ADJ,True,True,No
+426,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,walk,good,ADJ,True,True,No
+427,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,walk,day,NOUN,True,True,No
+428,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,moustache,good,ADJ,True,True,No
+429,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,equally,day,NOUN,True,True,No
+430,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,grasshopper,day,NOUN,True,True,No
+431,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,work,day,NOUN,True,True,Yes
+432,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,bidding,gentlemanly,ADJ,True,True,Yes
+433,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,bidding,moustache,NOUN,True,True,Yes
+434,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,bidding,good,ADJ,True,True,Yes
+435,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,bidding,day,NOUN,True,True,Yes
+436,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,day,good,ADJ,True,True,Yes
+437,an aerial view of the Great Pyramid,the Great Pyramid,view,NOUN,True,True,Yes
+438,an aerial view of the Great Pyramid,aerial,view,NOUN,True,True,Yes
+439,a marina without any boats in it,boats,marina,NOUN,True,True,Yes
+440,a marina without any boats in it,marina,boats,NOUN,True,True,No
+441,a friendly car in the city,city,car,NOUN,True,True,No
+442,a young girl wearing a tiara and frilly dress,tiara,girl,NOUN,True,True,Yes
+443,a young girl wearing a tiara and frilly dress,tiara,young,ADJ,True,True,No
+444,a young girl wearing a tiara and frilly dress,girl,young,ADJ,True,True,Yes
+445,the city of London,London,city,NOUN,True,True,Yes
+446,a shoe rack without any pairs of shoes on it,shoe rack,pairs,NOUN,True,True,No
+447,a shoe rack without any pairs of shoes on it,shoe rack,shoes,NOUN,True,True,Yes
+448,a shoe rack without any pairs of shoes on it,shoes,pairs,NOUN,True,True,No
+449,a massive robot with a coffee cup head. it is standing in the street with one foot smashing a car.,car,street,NOUN,True,True,Yes
+450,a massive robot with a coffee cup head. it is standing in the street with one foot smashing a car.,cup,coffee,NOUN,True,True,Yes
+451,a massive robot with a coffee cup head. it is standing in the street with one foot smashing a car.,coffee,cup,NOUN,True,True,Yes
+452,a bottle of red wine,wine,bottle,NOUN,True,True,Yes
+453,a woman with long black hair and dark skin in a long white dress,skin,woman,NOUN,True,True,Yes
+454,a woman with long black hair and dark skin in a long white dress,dark,black,ADJ,True,True,No
+455,a woman with long black hair and dark skin in a long white dress,black,dark,ADJ,True,True,Yes
+456,a woman with long black hair and dark skin in a long white dress,hair,skin,NOUN,True,True,Yes
+457,a woman with long black hair and dark skin in a long white dress,hair,woman,NOUN,True,True,Yes
+458,a woman with long black hair and dark skin in a long white dress,woman,skin,NOUN,True,True,Yes
+459,a woman with long black hair and dark skin in a long white dress,woman,hair,NOUN,True,True,Yes
+460,a coffee table with a magazine on it,coffee,table,NOUN,True,True,Yes
+461,a wine bottle with a lit candle stuck in its spout,wine,bottle,NOUN,True,True,No
+462,A sphere made of kitchen tile. A sphere with the texture of kitchen tile.,sphere,texture,NOUN,True,True,Yes
+463,a banana without its peel,banana,peel,NOUN,True,True,Yes
+464,a crowd of people watching fireworks by a city,watching,crowd,NOUN,True,True,Yes
+465,a crowd of people watching fireworks by a city,watching,people,NOUN,True,True,Yes
+466,a crowd of people watching fireworks by a city,fireworks,city,NOUN,True,True,Yes
+467,a crowd of people watching fireworks by a city,crowd,people,NOUN,True,True,Yes
+468,a crowd of people watching fireworks by a city,people,crowd,NOUN,True,True,Yes
+469,tall buildings seen through a window with rain on it,buildings,window,NOUN,True,True,No
+470,tall buildings seen through a window with rain on it,buildings,tall,ADJ,True,True,Yes
+471,view of a clock tower on a cloudy day,cloudy,view,NOUN,True,True,No
+472,view of a clock tower on a cloudy day,cloudy,day,NOUN,True,True,Yes
+473,view of a clock tower on a cloudy day,tower,view,NOUN,True,True,Yes
+474,view of a clock tower on a cloudy day,view,day,NOUN,True,True,Yes
+475,view of a clock tower on a cloudy day,day,view,NOUN,True,True,Yes
+476,a cat licking a large felt ball with a drawing of the Eiffel Tower on it,Eiffel Tower,large,ADJ,True,True,No
+477,a kitchen with a large refrigerator,kitchen,large,ADJ,True,True,No
+478,a kitchen with a large refrigerator,refrigerator,large,ADJ,True,True,Yes
+479,a kitchen with a large refrigerator,refrigerator,kitchen,NOUN,True,True,Yes
+480,a large open book,large,open,ADJ,True,True,No
+481,a large open book,book,open,ADJ,True,True,Yes
+482,a small kitchen with a white goat in it,goat,small,ADJ,True,True,No
+483,a young girl playing piano,girl,young,ADJ,True,True,Yes
+484,a top down view of a horse running in a field,field,view,NOUN,True,True,Yes
+485,a bunch of laptops piled on a sofa,piled,bunch,NOUN,True,True,Yes
+486,a bunch of laptops piled on a sofa,laptops,bunch,NOUN,True,True,Yes
+487,a long wooden bench in front of a brick wall,bench,wooden,ADJ,True,True,Yes
+488,a long wooden bench in front of a brick wall,bench,long,ADJ,True,True,Yes
+489,a long wooden bench in front of a brick wall,wooden,wall,NOUN,True,True,No
+490,the United States flag next to the flag of Texas,Texas,United States,PROPN,True,True,Yes
+491,a black background with a large yellow circle,large,background,NOUN,True,True,No
+492,a black background with a large yellow circle,circle,background,NOUN,True,True,No
+493,a black background with a large yellow circle,circle,large,ADJ,True,True,Yes
+494,a black background with a large yellow circle,circle,black,ADJ,True,True,No
+495,a black background with a large yellow circle,yellow,background,NOUN,True,True,No
+496,a black background with a large yellow circle,black,background,NOUN,True,True,No
+497,an Egyptian statue in the desert,Egyptian,statue,NOUN,True,True,Yes
+498,a crown with a ruby in its center,crown,center,NOUN,True,True,Yes
+499,a crown with a ruby in its center,ruby,center,NOUN,True,True,Yes
+500,a wooden toy horse with a mane made of rope,toy,wooden,ADJ,True,True,Yes
+501,a wooden toy horse with a mane made of rope,horse,mane,NOUN,True,True,Yes
+502,a mouse sitting next to a computer mouse,computer mouse,mouse,NOUN,True,True,Yes
+503,A bowl of soup that looks like a monster made out of plasticine,soup,bowl,NOUN,True,True,Yes
+504,A wine glass on top of a dog.,wine,glass,NOUN,True,True,Yes
+505,a chimpanzee sitting on a wooden bench,bench,wooden,ADJ,True,True,Yes
+506,a zebra with blue stripes,zebra,stripes,NOUN,True,True,Yes
+507,A small blue book sitting on a large red book.,blue,small,ADJ,True,True,Yes
+508,A small blue book sitting on a large red book.,red,large,ADJ,True,True,Yes
+509,A small blue book sitting on a large red book.,book,large,ADJ,True,True,Yes
+510,a cream colored labradoodle next to a white cat with black-tipped ears,cat,ears,NOUN,True,True,Yes
+511,a cream colored labradoodle next to a white cat with black-tipped ears,cream,white,ADJ,True,True,Yes
+512,"A teddybear on a skateboard in Times Square, doing tricks on a cardboard box ramp.",box,cardboard,NOUN,True,True,Yes
+513,"A teddybear on a skateboard in Times Square, doing tricks on a cardboard box ramp.",cardboard,box,NOUN,True,True,Yes
+514,a white flag with a red circle next to a solid blue flag,flag,red,ADJ,True,True,Yes
+515,a white flag with a red circle next to a solid blue flag,flag,circle,NOUN,True,True,No
+516,a white flag with a red circle next to a solid blue flag,white,solid,ADJ,True,True,No
+517,"The 1970s logo for a london-area football club called ""The Rumbury Wanderers""",football,club,NOUN,True,True,Yes
+518,a volcano with lava pouring down its slopes,volcano,slopes,NOUN,True,True,Yes
+519,a volcano with lava pouring down its slopes,volcano,lava,NOUN,True,True,Yes
+520,a cricket team walking on to the pitch,cricket,team,NOUN,True,True,Yes
+521,a photograph of a blue porsche 356 coming around a bend in the road,porsche,photograph,NOUN,True,True,Yes
+522,a photograph of a blue porsche 356 coming around a bend in the road,porsche,road,NOUN,True,True,Yes
+523,a photograph of a blue porsche 356 coming around a bend in the road,blue,photograph,NOUN,True,True,No
+524,a photograph of a blue porsche 356 coming around a bend in the road,road,photograph,NOUN,True,True,Yes
+525,a photograph of a blue porsche 356 coming around a bend in the road,coming,photograph,NOUN,True,True,Yes
+526,a photograph of a blue porsche 356 coming around a bend in the road,coming,road,NOUN,True,True,Yes
+527,Four dragons surrounding a dinosaur,dragons,dinosaur,NOUN,True,True,No
+528,a comic book supervillian,supervillian,comic book,NOUN,True,True,Yes
+529,a lavender backpack with a triceratops stuffed animal head on top,triceratops,head,NOUN,True,True,Yes
+530,An ancient Egyptian painting depicting an argument over whose turn it is to take out the trash.,depicting,ancient,ADJ,True,True,No
+531,An ancient Egyptian painting depicting an argument over whose turn it is to take out the trash.,depicting,painting,NOUN,True,True,Yes
+532,An ancient Egyptian painting depicting an argument over whose turn it is to take out the trash.,painting,ancient,ADJ,True,True,Yes
+533,An ancient Egyptian painting depicting an argument over whose turn it is to take out the trash.,Egyptian,ancient,ADJ,True,True,Yes
+534,A red colored dog.,dog,colored,ADJ,True,True,Yes
+535,A red colored dog.,red,colored,ADJ,True,True,Yes
+536,four owls standing on a telephone wire,telephone,wire,NOUN,True,True,Yes
+537,a blue pickup truck with a rhinoceros in its flatbed,pickup truck,flatbed,NOUN,True,True,Yes
+538,A photo of a Ming Dynasty vase on a leather topped table.,table,photo,NOUN,True,True,Yes
+539,A photo of a Ming Dynasty vase on a leather topped table.,leather,table,NOUN,True,True,Yes
+540,a grandmother reading a book to her grandson and granddaughter,reading,book,NOUN,True,True,Yes
+541,a professional photo of a sunset behind the grand canyon,professional,photo,NOUN,True,True,Yes
+542,a professional photo of a sunset behind the grand canyon,sunset,photo,NOUN,True,True,Yes
+543,"beautiful fireworks in the sky with red, white and blue",sky,blue,ADJ,True,True,Yes
+544,"beautiful fireworks in the sky with red, white and blue",sky,beautiful,ADJ,True,True,No
+545,"beautiful fireworks in the sky with red, white and blue",blue,beautiful,ADJ,True,True,No
+546,"beautiful fireworks in the sky with red, white and blue",fireworks,red,ADJ,True,True,Yes
+547,"beautiful fireworks in the sky with red, white and blue",fireworks,beautiful,ADJ,True,True,Yes
+548,a white plastic bench with a high arched back,plastic,white,ADJ,True,True,No
+549,a white plastic bench with a high arched back,white,plastic,NOUN,True,True,No
+550,a pile of cash on a wooden table,wooden,table,NOUN,True,True,Yes
+551,a pile of cash on a wooden table,cash,wooden,ADJ,True,True,No
+552,a pile of cash on a wooden table,cash,pile,NOUN,True,True,Yes
+553,a pile of cash on a wooden table,cash,table,NOUN,True,True,Yes
+554,a city intersection without cars,city,cars,NOUN,True,True,No
+555,a city intersection without cars,intersection,city,NOUN,True,True,Yes
+556,a city intersection without cars,intersection,cars,NOUN,True,True,Yes
+557,a city intersection without cars,cars,city,NOUN,True,True,No
+558,A photo of a Persian Metal Engraving vase sitting to the left of a bunch of orange flowers.,flowers,bunch,NOUN,True,True,Yes
+559,A photo of a Persian Metal Engraving vase sitting to the left of a bunch of orange flowers.,flowers,photo,NOUN,True,True,Yes
+560,A photo of a Persian Metal Engraving vase sitting to the left of a bunch of orange flowers.,bunch,flowers,NOUN,True,True,Yes
+561,A photo of a Persian Metal Engraving vase sitting to the left of a bunch of orange flowers.,sitting,photo,NOUN,True,True,Yes
+562,A photo of a Persian Metal Engraving vase sitting to the left of a bunch of orange flowers.,orange,photo,NOUN,True,True,No
+563,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,coral,reef,NOUN,True,True,Yes
+564,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,looms,background,NOUN,True,True,No
+565,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,looms,yellow,ADJ,True,True,No
+566,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,dump,truck,NOUN,True,True,Yes
+567,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,blue,background,NOUN,True,True,Yes
+568,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,whale,background,NOUN,True,True,Yes
+569,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,whale,blue,ADJ,True,True,Yes
+570,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,soccer,background,NOUN,True,True,No
+571,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,soccer,balls,NOUN,True,True,Yes
+572,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,soccer,yellow,ADJ,True,True,No
+573,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,filled,dump,NOUN,True,True,Yes
+574,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,filled,yellow,ADJ,True,True,No
+575,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,truck,background,NOUN,True,True,No
+576,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,reef,coral,ADJ,True,True,Yes
+577,a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,driving,background,NOUN,True,True,No
+578,an octopus fleeing and squirting black ink,ink,black,ADJ,True,True,Yes
+579,a wood treehouse in an oak tree,wood,oak,NOUN,True,True,Yes
+580,a wood treehouse in an oak tree,tree,wood,NOUN,True,True,No
+581,a wood treehouse in an oak tree,oak,wood,NOUN,True,True,No
+582,a wood treehouse in an oak tree,oak,tree,NOUN,True,True,Yes
+583,a wood treehouse in an oak tree,treehouse,tree,NOUN,True,True,Yes
+584,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,triangular,shape,NOUN,True,True,Yes
+585,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,triangular,triangle,NOUN,True,True,Yes
+586,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,triangle,shape,NOUN,True,True,Yes
+587,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,triangle,triangular,ADJ,True,True,Yes
+588,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,pot,shape,NOUN,True,True,No
+589,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,purple,shape,NOUN,True,True,Yes
+590,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,purple,flower,NOUN,True,True,No
+591,a view of the Kremlin with snow falling,Kremlin,view,NOUN,True,True,Yes
+592,A red car and a white sheep.,sheep,white,ADJ,True,True,Yes
+593,a roast turkey on the table,roast,turkey,NOUN,True,True,Yes
+594,three pickup trucks piled on top of each other,pickup,trucks,NOUN,True,True,Yes
+595,a white robot with a red mohawk painted as graffiti on a red brick wall,wall,brick,NOUN,True,True,Yes
+596,a white robot with a red mohawk painted as graffiti on a red brick wall,graffiti,wall,NOUN,True,True,Yes
+597,a white robot with a red mohawk painted as graffiti on a red brick wall,robot,white,ADJ,True,True,Yes
+598,a white robot with a red mohawk painted as graffiti on a red brick wall,red,wall,NOUN,True,True,Yes
+599,a white robot with a red mohawk painted as graffiti on a red brick wall,painted,wall,NOUN,True,True,Yes
+600,a white robot with a red mohawk painted as graffiti on a red brick wall,painted,graffiti,NOUN,True,True,Yes
+601,a white robot with a red mohawk painted as graffiti on a red brick wall,brick,wall,NOUN,True,True,Yes
+602,a white robot with a red mohawk painted as graffiti on a red brick wall,brick,red,ADJ,True,True,Yes
+603,a full moon peeking through clouds at night,moon,night,NOUN,True,True,Yes
+604,a tennis court with a basketball hoop in one corner,basketball,court,NOUN,True,True,Yes
+605,a tennis court with a basketball hoop in one corner,basketball,hoop,NOUN,True,True,Yes
+606,a tennis court with a basketball hoop in one corner,tennis,court,NOUN,True,True,Yes
+607,a tennis court with a basketball hoop in one corner,hoop,basketball,NOUN,True,True,Yes
+608,an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone,wearing,necklase,NOUN,True,True,No
+609,an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone,pearl,necklase,NOUN,True,True,Yes
+610,an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone,pearl,bead,NOUN,True,True,Yes
+611,an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone,invisible,man,NOUN,True,True,Yes
+612,a pickup truck going up a mountain switchback,going,mountain,NOUN,True,True,No
+613,a pickup truck going up a mountain switchback,pickup truck,mountain,NOUN,True,True,Yes
+614,The old man the boat.,man,old,ADJ,True,True,Yes
+615,a corgi’s head depicted as an explosion of a nebula,corgi,head,NOUN,True,True,Yes
+616,a corgi’s head depicted as an explosion of a nebula,nebula,explosion,NOUN,True,True,Yes
+617,a pen-and-ink crosshatched drawing of a sphere with dark square on it,drawing,crosshatched,ADJ,True,True,Yes
+618,a pen-and-ink crosshatched drawing of a sphere with dark square on it,pen,drawing,NOUN,True,True,Yes
+619,a pen-and-ink crosshatched drawing of a sphere with dark square on it,crosshatched,drawing,NOUN,True,True,Yes
+620,a tennis court with tennis balls scattered all over it,tennis,balls,NOUN,True,True,Yes
+621,a tennis court with tennis balls scattered all over it,tennis,court,NOUN,True,True,Yes
+622,The Statue of Liberty with the face of an owl,Statue of Liberty,face,NOUN,True,True,Yes
+623,The Statue of Liberty with the face of an owl,owl,face,NOUN,True,True,Yes
+624,a pair of shoes on a tennis racquet,tennis,shoes,NOUN,True,True,Yes
+625,a pair of shoes on a tennis racquet,tennis,racquet,NOUN,True,True,Yes
+626,a pair of shoes on a tennis racquet,shoes,pair,NOUN,True,True,Yes
+627,a pair of shoes on a tennis racquet,racquet,tennis,NOUN,True,True,Yes
+628,a pair of shoes on a tennis racquet,pair,shoes,NOUN,True,True,Yes
+629,a racoon holding a shiny red apple over its head,apple,shiny,ADJ,True,True,Yes
+630,a racoon holding a shiny red apple over its head,apple,red,ADJ,True,True,Yes
+631,a racoon holding a shiny red apple over its head,racoon,head,NOUN,True,True,Yes
+632,Times Square with thousands of dogs running around,Times Square,thousands,NOUN,True,True,No
+633,a piano with Christmas lights all over it,Christmas,lights,NOUN,True,True,Yes
+634,a view of the Orion constellation in the night sky,view,sky,NOUN,True,True,Yes
+635,a view of the Orion constellation in the night sky,night,view,NOUN,True,True,No
+636,a view of the Orion constellation in the night sky,Orion constellation,sky,NOUN,True,True,Yes
+637,a view of the Orion constellation in the night sky,Orion constellation,view,NOUN,True,True,Yes
+638,a view of the Orion constellation in the night sky,Orion constellation,night,NOUN,True,True,Yes
+639,a power drill on a table,drill,power,NOUN,True,True,Yes
+640,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,bulb,light,ADJ,True,True,Yes
+641,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,boat,outer,ADJ,True,True,No
+642,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,boat,sailing,NOUN,True,True,Yes
+643,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,boat,light,ADJ,True,True,No
+644,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,boat,photo,NOUN,True,True,No
+645,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,galaxy,outer,ADJ,True,True,No
+646,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,galaxy,light,ADJ,True,True,Yes
+647,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,galaxy,space,NOUN,True,True,Yes
+648,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,inside,light,ADJ,True,True,Yes
+649,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,inside,photo,NOUN,True,True,No
+650,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,sailing,boat,NOUN,True,True,Yes
+651,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,sailing,outer,ADJ,True,True,No
+652,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,sailing,light,ADJ,True,True,No
+653,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,sailing,photo,NOUN,True,True,No
+654,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,light,photo,NOUN,True,True,Yes
+655,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,traveling,light,ADJ,True,True,Yes
+656,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,space,galaxy,NOUN,True,True,Yes
+657,A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,space,light,ADJ,True,True,Yes
+658,a handpalm with leaves growing from it,growing,leaves,NOUN,True,True,Yes
+659,a blue airplane taxiing on a runway with the sun behind it,runway,airplane,NOUN,True,True,Yes
+660,concentric squares fading from yellow on the outside to deep orange on the inside,concentric,deep,ADJ,True,True,Yes
+661,concentric squares fading from yellow on the outside to deep orange on the inside,outside,orange,NOUN,True,True,No
+662,concentric squares fading from yellow on the outside to deep orange on the inside,inside,squares,NOUN,True,True,Yes
+663,concentric squares fading from yellow on the outside to deep orange on the inside,fading,outside,NOUN,True,True,Yes
+664,concentric squares fading from yellow on the outside to deep orange on the inside,squares,concentric,ADJ,True,True,Yes
+665,concentric squares fading from yellow on the outside to deep orange on the inside,orange,inside,NOUN,True,True,Yes
+666,A Vietnam map showing Ha Long Bay,Ha Long Bay,Vietnam,PROPN,True,True,Yes
+667,a woman with long black hair and dark skin,dark,black,ADJ,True,True,Yes
+668,a woman with long black hair and dark skin,black,dark,ADJ,True,True,No
+669,a woman with long black hair and dark skin,hair,skin,NOUN,True,True,No
+670,a woman with long black hair and dark skin,hair,woman,NOUN,True,True,Yes
+671,a woman with long black hair and dark skin,woman,skin,NOUN,True,True,No
+672,a woman with long black hair and dark skin,woman,hair,NOUN,True,True,Yes
+673,a plant with orange flowers shaped like stars,flowers,plant,NOUN,True,True,Yes
+674,A sheep to the right of a wine glass.,wine,glass,NOUN,True,True,Yes
+675,a kangaroo hopping in the air between two identical large statues of warrior rabbits,large,identical,ADJ,True,True,No
+676,a kangaroo hopping in the air between two identical large statues of warrior rabbits,warrior,large,ADJ,True,True,Yes
+677,a kangaroo hopping in the air between two identical large statues of warrior rabbits,rabbits,identical,ADJ,True,True,Yes
+678,a kangaroo hopping in the air between two identical large statues of warrior rabbits,statues,large,ADJ,True,True,Yes
+679,a kangaroo hopping in the air between two identical large statues of warrior rabbits,kangaroo,large,ADJ,True,True,No
+680,a kangaroo hopping in the air between two identical large statues of warrior rabbits,kangaroo,air,NOUN,True,True,No
+681,a kangaroo hopping in the air between two identical large statues of warrior rabbits,kangaroo,identical,ADJ,True,True,No
+682,a barred owl peeking out from dense tree branches,branches,tree,NOUN,True,True,Yes
+683,a koi fish flying in the sky,flying,sky,NOUN,True,True,Yes
+684,a red block to the left of a blue pyramid,pyramid,block,NOUN,True,True,No
+685,a young woman with glasses reading a thick book at a mahogany desk,reading,thick,ADJ,True,True,No
+686,a young woman with glasses reading a thick book at a mahogany desk,reading,book,NOUN,True,True,Yes
+687,a young woman with glasses reading a thick book at a mahogany desk,book,desk,NOUN,True,True,Yes
+688,a young woman with glasses reading a thick book at a mahogany desk,book,thick,ADJ,True,True,Yes
+689,a boat in the canals of venice,canals,venice,PROPN,True,True,Yes
+690,a boat in the canals of venice,venice,canals,NOUN,True,True,Yes
+691,a boat in the canals of venice,venice,boat,NOUN,True,True,Yes
+692,a glass of orange juice to the right of a plate with buttered toast on it,toast,right,NOUN,True,True,Yes
+693,a glass of orange juice to the right of a plate with buttered toast on it,toast,plate,NOUN,True,True,Yes
+694,a glass of orange juice to the right of a plate with buttered toast on it,toast,buttered,ADJ,True,True,Yes
+695,a glass of orange juice to the right of a plate with buttered toast on it,plate,toast,NOUN,True,True,Yes
+696,a glass of orange juice to the right of a plate with buttered toast on it,glass,right,NOUN,True,True,Yes
+697,a glass of orange juice to the right of a plate with buttered toast on it,glass,juice,NOUN,True,True,Yes
+698,a glass of orange juice to the right of a plate with buttered toast on it,juice,glass,NOUN,True,True,Yes
+699,a glass of orange juice to the right of a plate with buttered toast on it,juice,orange,ADJ,True,True,Yes
+700,a glass of orange juice to the right of a plate with buttered toast on it,buttered,plate,NOUN,True,True,Yes
+701,A teddy bear wearing a motorcycle helmet and cape is driving a speed boat near the Golden Gate Bridge,motorcycle,speed,NOUN,True,True,Yes
+702,two runners crossing the finish line together,runners,finish,NOUN,True,True,Yes
+703,two runners crossing the finish line together,crossing,line,NOUN,True,True,Yes
+704,a room with two chairs and a painting of the Statue of Liberty,room,painting,NOUN,True,True,Yes
+705,a room with two chairs and a painting of the Statue of Liberty,chairs,room,NOUN,True,True,Yes
+706,a black and orange yin-yang symbol with tiger's heads instead of circles,circles,black,ADJ,True,True,Yes
+707,a black and orange yin-yang symbol with tiger's heads instead of circles,circles,orange,ADJ,True,True,Yes
+708,a black and orange yin-yang symbol with tiger's heads instead of circles,tiger,orange,ADJ,True,True,Yes
+709,a black and orange yin-yang symbol with tiger's heads instead of circles,heads,black,ADJ,True,True,No
+710,a black and orange yin-yang symbol with tiger's heads instead of circles,yin-yang symbol,circles,NOUN,True,True,Yes
+711,a black and orange yin-yang symbol with tiger's heads instead of circles,yin-yang symbol,black,ADJ,True,True,Yes
+712,a black and orange yin-yang symbol with tiger's heads instead of circles,black,circles,NOUN,True,True,No
+713,a man riding a horse,riding,man,NOUN,True,True,Yes
+714,Photo of an athlete cat explaining it's latest scandal at a press conference to journalists.,cat,Photo,NOUN,True,True,No
+715,Photo of an athlete cat explaining it's latest scandal at a press conference to journalists.,explaining,conference,NOUN,True,True,Yes
+716,Photo of an athlete cat explaining it's latest scandal at a press conference to journalists.,journalists,conference,NOUN,True,True,Yes
+717,Photo of an athlete cat explaining it's latest scandal at a press conference to journalists.,journalists,press,NOUN,True,True,Yes
+718,Photo of an athlete cat explaining it's latest scandal at a press conference to journalists.,athlete,Photo,NOUN,True,True,No
+719,five green peppers to the right of two red onions,peppers,right,NOUN,True,True,No
+720,"An emoji of a baby panda wearing a red hat, blue gloves, green shirt, and blue pants.",wearing,red,ADJ,True,True,Yes
+721,"An emoji of a baby panda wearing a red hat, blue gloves, green shirt, and blue pants.",wearing,shirt,NOUN,True,True,No
+722,"An emoji of a baby panda wearing a red hat, blue gloves, green shirt, and blue pants.",baby,red,ADJ,True,True,Yes
+723,a library filled with kids reading books,reading,books,NOUN,True,True,Yes
+724,a library filled with kids reading books,library,books,NOUN,True,True,Yes
+725,a library filled with kids reading books,books,library,NOUN,True,True,Yes
+726,an owl with its wings spread out swooping over a tree,owl,wings,NOUN,True,True,Yes
+727,an owl with its wings spread out swooping over a tree,swooping,wings,NOUN,True,True,Yes
+728,a yellow diamond-shaped sign with a puma silhouette,silhouette,yellow,ADJ,True,True,Yes
+729,an aerial photo of a sandy island in the ocean,ocean,photo,NOUN,True,True,Yes
+730,an aerial photo of a sandy island in the ocean,aerial,photo,NOUN,True,True,Yes
+731,an aerial photo of a sandy island in the ocean,sandy,photo,NOUN,True,True,Yes
+732,an aerial photo of a sandy island in the ocean,island,ocean,NOUN,True,True,Yes
+733,an aerial photo of a sandy island in the ocean,island,aerial,ADJ,True,True,Yes
+734,an aerial photo of a sandy island in the ocean,island,photo,NOUN,True,True,Yes
+735,a cat patting a crystal ball with the number 7 written on it in black marker,number,black,ADJ,True,True,Yes
+736,a cat patting a crystal ball with the number 7 written on it in black marker,written,black,ADJ,True,True,Yes
+737,the eye of the planet Jupiter,Jupiter,planet,NOUN,True,True,Yes
+738,a pineapple surfing on a wave,surfing,wave,NOUN,True,True,Yes
+739,an inflatable rabbit held up in the air by the geyser Old Faithful,inflatable,air,NOUN,True,True,Yes
+740,Four cars on the street.,street,cars,NOUN,True,True,Yes
+741,Four cars on the street.,cars,street,NOUN,True,True,Yes
+742,A photograph of a bird made of wheat bread and an egg.,egg,photograph,NOUN,True,True,No
+743,A photograph of a bird made of wheat bread and an egg.,bird,photograph,NOUN,True,True,Yes
+744,A photograph of a bird made of wheat bread and an egg.,bread,wheat,NOUN,True,True,Yes
+745,a pumpkin on a man's head,man,head,NOUN,True,True,Yes
+746,a cute wooden owl statue holding a large globe of the Earth above its head,cute,head,NOUN,True,True,No
+747,a cute wooden owl statue holding a large globe of the Earth above its head,cute,statue,NOUN,True,True,Yes
+748,a cute wooden owl statue holding a large globe of the Earth above its head,globe,Earth,PROPN,True,True,No
+749,a cute wooden owl statue holding a large globe of the Earth above its head,owl,cute,ADJ,True,True,Yes
+750,a cute wooden owl statue holding a large globe of the Earth above its head,Earth,large,ADJ,True,True,Yes
+751,a cute wooden owl statue holding a large globe of the Earth above its head,Earth,globe,NOUN,True,True,Yes
+752,a cute wooden owl statue holding a large globe of the Earth above its head,statue,large,ADJ,True,True,Yes
+753,an F1 race car in a Manhattan street,Manhattan,street,NOUN,True,True,Yes
+754,the Beatles crossing Abbey road,crossing,road,NOUN,True,True,Yes
+755,A smiling sloth wearing a bowtie and holding a quarterstaff and a big book.,book,big,ADJ,True,True,Yes
+756,a tiny football in front of three yellow tennis balls,football,balls,NOUN,True,True,Yes
+757,a tiny football in front of three yellow tennis balls,tennis,balls,NOUN,True,True,Yes
+758,a tiny football in front of three yellow tennis balls,tennis,yellow,ADJ,True,True,Yes
+759,a pickup truck with a horse on its left and two dogs on its right,pickup truck,right,ADJ,True,True,No
+760,a pickup truck with a horse on its left and two dogs on its right,horse,right,ADJ,True,True,No
+761,a rocking chair next to the net of a tennis court,rocking,chair,NOUN,True,True,Yes
+762,a rocking chair next to the net of a tennis court,tennis,court,NOUN,True,True,Yes
+763,a rocking chair next to the net of a tennis court,tennis,net,NOUN,True,True,Yes
+764,a motorcycle parked in an ornate bank lobby,bank,ornate,ADJ,True,True,No
+765,a man riding a camel on the beach,riding,man,NOUN,True,True,Yes
+766,a milk container on a table,milk,container,NOUN,True,True,Yes
+767,a milk container on a table,milk,table,NOUN,True,True,Yes
+768,a milk container on a table,container,table,NOUN,True,True,Yes
+769,a kachina doll standing in sand,kachina,doll,NOUN,True,True,Yes
+770,A connection point by which firefighters can tap into a water supply.,tap,water supply,NOUN,True,True,Yes
+771,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",visible,daytime,ADJ,True,True,Yes
+772,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",hot air balloon,visible,ADJ,True,True,Yes
+773,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",hot air balloon,sky,NOUN,True,True,Yes
+774,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",sky,visible,ADJ,True,True,Yes
+775,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",moon,visible,ADJ,True,True,Yes
+776,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",yin-yang symbol,visible,ADJ,True,True,No
+777,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",daytime,visible,ADJ,True,True,Yes
+778,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",daytime,sky,NOUN,True,True,Yes
+779,a pair of brown suede shoes,suede,brown,ADJ,True,True,No
+780,a pair of brown suede shoes,shoes,brown,ADJ,True,True,Yes
+781,a pair of brown suede shoes,shoes,pair,NOUN,True,True,Yes
+782,a pair of brown suede shoes,pair,brown,ADJ,True,True,Yes
+783,a compass next to a piece of fruit,fruit,piece,NOUN,True,True,Yes
+784,a cat reading a book,reading,book,NOUN,True,True,Yes
+785,a golden doorknocker on a red door,doorknocker,golden,ADJ,True,True,Yes
+786,a golden doorknocker on a red door,doorknocker,door,NOUN,True,True,Yes
+787,a sunken submarine at the bottom of the ocean,submarine,ocean,NOUN,True,True,Yes
+788,a sunken submarine at the bottom of the ocean,sunken,ocean,NOUN,True,True,Yes
+789,A black and white landscape photograph of a black tree,tree,landscape,NOUN,True,True,Yes
+790,A black and white landscape photograph of a black tree,landscape,photograph,NOUN,True,True,Yes
+791,A black and white landscape photograph of a black tree,black,black and white,ADJ,True,True,No
+792,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,The Great Pyramid,buildings,NOUN,True,True,No
+793,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,buildings,downtown,NOUN,True,True,Yes
+794,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,foreground,buildings,NOUN,True,True,No
+795,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,downtown,buildings,NOUN,True,True,Yes
+796,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,downtown,foreground,NOUN,True,True,No
+797,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,Manhattan,buildings,NOUN,True,True,Yes
+798,The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,Manhattan,downtown,NOUN,True,True,Yes
+799,A photo of a confused grizzly bear in calculus class.,grizzly bear,photo,NOUN,True,True,Yes
+800,A photo of a confused grizzly bear in calculus class.,calculus,class,NOUN,True,True,Yes
+801,A photo of a confused grizzly bear in calculus class.,calculus,photo,NOUN,True,True,No
+802,A photo of a confused grizzly bear in calculus class.,confused,photo,NOUN,True,True,No
+803,The mouse the cat watches is jumping in the air.,jumping,air,NOUN,True,True,Yes
+804,a wine bottle with a red ribbon wrapped around it,wine,red,ADJ,True,True,Yes
+805,a wine bottle with a red ribbon wrapped around it,wine,bottle,NOUN,True,True,Yes
+806,a wine bottle with a red ribbon wrapped around it,wrapped,ribbon,NOUN,True,True,Yes
+807,a pitcher of orange juice,juice,orange,PROPN,True,True,Yes
+808,a large blue box with three small yellow boxes on it,box,small,ADJ,True,True,Yes
+809,a large blue box with three small yellow boxes on it,box,boxes,NOUN,True,True,Yes
+810,a large blue box with three small yellow boxes on it,yellow,large,ADJ,True,True,No
+811,a large blue box with three small yellow boxes on it,boxes,box,NOUN,True,True,Yes
+812,a white country home with a wrap-around porch,home,porch,NOUN,True,True,Yes
+813,a white country home with a wrap-around porch,porch,white,ADJ,True,True,No
+814,milk pouring from a glass into a bowl,pouring,glass,NOUN,True,True,Yes
+815,a beach with apartment buildings next to it,buildings,apartment,NOUN,True,True,Yes
+816,a beach with apartment buildings next to it,apartment,buildings,NOUN,True,True,Yes
+817,"An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.",pig,photograph,NOUN,True,True,Yes
+818,"An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.",old,1920s,NOUN,True,True,Yes
+819,"An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.",field,photograph,NOUN,True,True,Yes
+820,"An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.",field,wheat,NOUN,True,True,Yes
+821,"An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.",airship,photograph,NOUN,True,True,Yes
+822,a family of bears passing by the geyser Old Faithful,bears,family,NOUN,True,True,Yes
+823,two frosted glass bottles,bottles,frosted,ADJ,True,True,Yes
+824,two frosted glass bottles,bottles,glass,NOUN,True,True,Yes
+825,a black baseball hat,baseball,hat,NOUN,True,True,No
+826,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,jazz band,mural,NOUN,True,True,Yes
+827,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,jazz band,Photograph,NOUN,True,True,No
+828,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,city,Photograph,NOUN,True,True,Yes
+829,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,city,street,NOUN,True,True,Yes
+830,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,mural,wall,NOUN,True,True,Yes
+831,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,mural,city,NOUN,True,True,Yes
+832,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,mural,street,NOUN,True,True,Yes
+833,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,street,city,NOUN,True,True,Yes
+834,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,foxes,Photograph,NOUN,True,True,No
+835,a very fancy French restaurant,restaurant,fancy,ADJ,True,True,Yes
+836,a very fancy French restaurant,fancy,restaurant,NOUN,True,True,Yes
+837,an antique chest with three drawers,chest,antique,ADJ,True,True,Yes
+838,an antique chest with three drawers,chest,drawers,NOUN,True,True,Yes
+839,a man standing on a street corner,street,man,NOUN,True,True,Yes
+840,a man standing on a street corner,standing,man,NOUN,True,True,Yes
+841,a child eating a birthday cake near some palm trees,birthday,cake,NOUN,True,True,Yes
+842,a child eating a birthday cake near some palm trees,cake,birthday,NOUN,True,True,Yes
+843,a child eating a birthday cake near some palm trees,palm,trees,NOUN,True,True,Yes
+844,"a white robot, a red robot and a black robot standing together",robot,white,ADJ,True,True,No
+845,"An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.",emoji,red,ADJ,True,True,No
+846,"An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.",baby,red,ADJ,True,True,No
+847,A high resolution photo of a rat working out in a gym.,high,photo,NOUN,True,True,No
+848,A high resolution photo of a rat working out in a gym.,rat,photo,NOUN,True,True,Yes
+849,a man pouring milk into a coffee cup to make a latte with a beatiful design,man,beatiful,ADJ,True,True,No
+850,a man pouring milk into a coffee cup to make a latte with a beatiful design,pouring,cup,NOUN,True,True,Yes
+851,a man pouring milk into a coffee cup to make a latte with a beatiful design,cup,design,NOUN,True,True,Yes
+852,a man pouring milk into a coffee cup to make a latte with a beatiful design,cup,milk,NOUN,True,True,Yes
+853,a man pouring milk into a coffee cup to make a latte with a beatiful design,cup,latte,NOUN,True,True,Yes
+854,a man pouring milk into a coffee cup to make a latte with a beatiful design,latte,design,NOUN,True,True,Yes
+855,a man pouring milk into a coffee cup to make a latte with a beatiful design,latte,cup,NOUN,True,True,Yes
+856,a man pouring milk into a coffee cup to make a latte with a beatiful design,latte,milk,NOUN,True,True,Yes
+857,a man pouring milk into a coffee cup to make a latte with a beatiful design,latte,coffee,NOUN,True,True,Yes
+858,a man pouring milk into a coffee cup to make a latte with a beatiful design,coffee,cup,NOUN,True,True,Yes
+859,a man pouring milk into a coffee cup to make a latte with a beatiful design,coffee,latte,NOUN,True,True,Yes
+860,A robot gives a wombat an orange and a lemur a banana.,lemur,orange,NOUN,True,True,No
+861,five frosted glass bottles,bottles,glass,NOUN,True,True,Yes
+862,five frosted glass bottles,glass,frosted,ADJ,True,True,Yes
+863,Colouring page of large cats climbing the eifel tower in a cyberpunk future.,Colouring,page,NOUN,True,True,Yes
+864,Colouring page of large cats climbing the eifel tower in a cyberpunk future.,tower,large,ADJ,True,True,No
+865,Colouring page of large cats climbing the eifel tower in a cyberpunk future.,climbing,large,ADJ,True,True,No
+866,Colouring page of large cats climbing the eifel tower in a cyberpunk future.,cyberpunk,future,NOUN,True,True,Yes
+867,Colouring page of large cats climbing the eifel tower in a cyberpunk future.,future,large,ADJ,True,True,No
+868,a street in Paris,Paris,street,NOUN,True,True,Yes
+869,A green colored banana.,green,colored,ADJ,True,True,Yes
+870,A green colored banana.,banana,colored,ADJ,True,True,Yes
+871,a bookshelf with ten books stacked vertically,bookshelf,books,NOUN,True,True,Yes
+872,a bookshelf with ten books stacked vertically,books,bookshelf,NOUN,True,True,Yes
+873,black hi-top sneakers with the Nike swoosh,sneakers,black,ADJ,True,True,Yes
+874,black hi-top sneakers with the Nike swoosh,Nike,sneakers,NOUN,True,True,Yes
+875,black hi-top sneakers with the Nike swoosh,Nike,swoosh,NOUN,True,True,Yes
+876,black hi-top sneakers with the Nike swoosh,Nike,black,ADJ,True,True,Yes
+877,black hi-top sneakers with the Nike swoosh,swoosh,sneakers,NOUN,True,True,Yes
+878,black hi-top sneakers with the Nike swoosh,swoosh,Nike,PROPN,True,True,Yes
+879,black hi-top sneakers with the Nike swoosh,swoosh,black,ADJ,True,True,No
+880,The trophy doesn't fit into the brown suitcase because it's too small,brown,small,ADJ,True,True,Yes
+881,a white robot passing a soccer ball to a red robot,soccer,ball,NOUN,True,True,Yes
+882,a white robot passing a soccer ball to a red robot,soccer,white,ADJ,True,True,No
+883,a white robot passing a soccer ball to a red robot,robot,white,ADJ,True,True,Yes
+884,a white robot passing a soccer ball to a red robot,ball,soccer,NOUN,True,True,Yes
+885,A cube made of brick. A cube with the texture of brick.,brick,texture,NOUN,True,True,Yes
+886,"In late afternoon in January in New England, a man stands in the shadow of a maple tree.",tree,shadow,NOUN,True,True,Yes
+887,"In late afternoon in January in New England, a man stands in the shadow of a maple tree.",shadow,late afternoon,NOUN,True,True,Yes
+888,"In late afternoon in January in New England, a man stands in the shadow of a maple tree.",maple,New England,PROPN,True,True,Yes
+889,"In late afternoon in January in New England, a man stands in the shadow of a maple tree.",New England,shadow,NOUN,True,True,No
+890,a girl diving into a pool,pool,girl,NOUN,True,True,Yes
+891,a volcano erupting near a small town,small,town,NOUN,True,True,Yes
+892,a volcano erupting near a small town,erupting,volcano,NOUN,True,True,Yes
+893,a volcano erupting near a small town,near,town,NOUN,True,True,Yes
+894,blue apples on a tree with yellow leaves,apples,leaves,NOUN,True,True,No
+895,blue apples on a tree with yellow leaves,apples,yellow,ADJ,True,True,No
+896,an aerial view of the Great Wall,aerial,view,NOUN,True,True,Yes
+897,an aerial view of the Great Wall,the Great Wall,view,NOUN,True,True,Yes
+898,a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.,seated,shoulders,NOUN,True,True,Yes
+899,a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.,girl,young,ADJ,True,True,Yes
+900,a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.,young,shoulders,NOUN,True,True,No
+901,a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.,standing,shoulders,NOUN,True,True,Yes
+902,a drop-top sports car coming around a bend in the road,car,road,NOUN,True,True,Yes
+903,a drop-top sports car coming around a bend in the road,coming,road,NOUN,True,True,Yes
+904,a full moon rising above a mountain at night,rising,mountain,NOUN,True,True,Yes
+905,a full moon rising above a mountain at night,moon,night,NOUN,True,True,Yes
+906,"a farm scene with cows, ducks and a tractor.",farm,scene,NOUN,True,True,Yes
+907,"a farm scene with cows, ducks and a tractor.",tractor,farm,NOUN,True,True,Yes
+908,"a farm scene with cows, ducks and a tractor.",cows,farm,NOUN,True,True,Yes
+909,"a farm scene with cows, ducks and a tractor.",cows,scene,NOUN,True,True,Yes
+910,a swordfish and a narwhal fencing in an underwater sandy arena. a crap and a lobster are cheering.,swordfish,underwater,ADJ,True,True,Yes
+911,a swordfish and a narwhal fencing in an underwater sandy arena. a crap and a lobster are cheering.,narwhal,underwater,ADJ,True,True,Yes
+912,a swordfish and a narwhal fencing in an underwater sandy arena. a crap and a lobster are cheering.,cheering,arena,NOUN,True,True,No
+913,a impressionistic painting of a scholarly badger reading the Rosetta Stone,reading,scholarly,ADJ,True,True,Yes
+914,overhead view of three people looking down at the street from the top of a tall building,looking,people,NOUN,True,True,Yes
+915,overhead view of three people looking down at the street from the top of a tall building,looking,view,NOUN,True,True,Yes
+916,overhead view of three people looking down at the street from the top of a tall building,people,view,NOUN,True,True,Yes
+917,overhead view of three people looking down at the street from the top of a tall building,people,building,NOUN,True,True,No
+918,overhead view of three people looking down at the street from the top of a tall building,view,building,NOUN,True,True,Yes
+919,overhead view of three people looking down at the street from the top of a tall building,view,tall,ADJ,True,True,Yes
+920,overhead view of three people looking down at the street from the top of a tall building,street,view,NOUN,True,True,Yes
+921,overhead view of three people looking down at the street from the top of a tall building,overhead,view,NOUN,True,True,Yes
+922,overhead view of three people looking down at the street from the top of a tall building,building,people,NOUN,True,True,Yes
+923,overhead view of three people looking down at the street from the top of a tall building,building,view,NOUN,True,True,Yes
+924,overhead view of three people looking down at the street from the top of a tall building,building,street,NOUN,True,True,Yes
+925,overhead view of three people looking down at the street from the top of a tall building,tall,building,NOUN,True,True,Yes
+926,a cityscape at night with a full moon,moon,night,NOUN,True,True,Yes
+927,a harp with a carved eagle figure at the top,carved,figure,NOUN,True,True,Yes
+928,a yellow diamond-shaped sign with a turtle silhouette,turtle,yellow,ADJ,True,True,Yes
+929,a small garden with an apple tree behind it,apple,tree,NOUN,True,True,Yes
+930,a small garden with an apple tree behind it,apple,garden,NOUN,True,True,No
+931,Two cars on the street.,cars,street,NOUN,True,True,Yes
+932,A pink colored giraffe.,giraffe,colored,ADJ,True,True,Yes
+933,A pink colored giraffe.,pink,colored,ADJ,True,True,Yes
+934,a circular brown trash bin in front of a brick wall,brick,wall,NOUN,True,True,Yes
+935,a piano with an open song book above the keys,piano,song,NOUN,True,True,Yes
+936,a piano with an open song book above the keys,book,open,ADJ,True,True,Yes
+937,a living room with a large Egyptian statue in the corner,room,large,ADJ,True,True,No
+938,a living room with a large Egyptian statue in the corner,room,living,NOUN,True,True,Yes
+939,a living room with a large Egyptian statue in the corner,large,room,NOUN,True,True,No
+940,a living room with a large Egyptian statue in the corner,corner,room,NOUN,True,True,Yes
+941,a living room with a large Egyptian statue in the corner,corner,living,NOUN,True,True,No
+942,a living room with a large Egyptian statue in the corner,living,room,NOUN,True,True,Yes
+943,a living room with a large Egyptian statue in the corner,Egyptian,statue,NOUN,True,True,Yes
+944,a living room with a large Egyptian statue in the corner,statue,large,ADJ,True,True,No
+945,two chemtrails forming an X in blue sky,chemtrails,sky,NOUN,True,True,Yes
+946,two chemtrails forming an X in blue sky,chemtrails,blue,ADJ,True,True,No
+947,two chemtrails forming an X in blue sky,sky,blue,ADJ,True,True,Yes
+948,two chemtrails forming an X in blue sky,forming,X,NOUN,True,True,No
+949,One cat and two dogs sitting on the grass.,dogs,grass,NOUN,True,True,Yes
+950,square red apples on a tree with circular green leaves,tree,green,ADJ,True,True,Yes
+951,square red apples on a tree with circular green leaves,tree,leaves,NOUN,True,True,Yes
+952,square red apples on a tree with circular green leaves,green,leaves,NOUN,True,True,Yes
+953,square red apples on a tree with circular green leaves,leaves,green,ADJ,True,True,Yes
+954,square red apples on a tree with circular green leaves,apples,tree,NOUN,True,True,Yes
+955,square red apples on a tree with circular green leaves,apples,leaves,NOUN,True,True,Yes
+956,square red apples on a tree with circular green leaves,apples,red,ADJ,True,True,Yes
+957,square red apples on a tree with circular green leaves,apples,circular,ADJ,True,True,No
+958,square red apples on a tree with circular green leaves,circular,red,ADJ,True,True,No
+959,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,plate,photograph,NOUN,True,True,No
+960,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,croissant,photograph,NOUN,True,True,No
+961,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,croissant,plate,NOUN,True,True,Yes
+962,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,croissant,breakfast,NOUN,True,True,Yes
+963,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,drinking,photograph,NOUN,True,True,No
+964,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,coffee,drinking,NOUN,True,True,Yes
+965,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,coffee,breakfast,NOUN,True,True,Yes
+966,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,omelette,photograph,NOUN,True,True,No
+967,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,omelette,plate,NOUN,True,True,Yes
+968,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,omelette,breakfast,NOUN,True,True,Yes
+969,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,breakfast,photograph,NOUN,True,True,No
+970,a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,breakfast,plate,NOUN,True,True,Yes
+971,a man heading a soccer ball,soccer,ball,NOUN,True,True,Yes
+972,a man heading a soccer ball,ball,soccer,NOUN,True,True,Yes
+973,a black background with a large yellow circle and a small red square,background,large,ADJ,True,True,No
+974,a black background with a large yellow circle and a small red square,square,background,NOUN,True,True,No
+975,a black background with a large yellow circle and a small red square,small,background,NOUN,True,True,No
+976,a black background with a large yellow circle and a small red square,red,background,NOUN,True,True,No
+977,a black background with a large yellow circle and a small red square,circle,background,NOUN,True,True,No
+978,a black background with a large yellow circle and a small red square,circle,large,ADJ,True,True,Yes
+979,a black background with a large yellow circle and a small red square,circle,black,ADJ,True,True,No
+980,a black background with a large yellow circle and a small red square,yellow,background,NOUN,True,True,No
+981,a black background with a large yellow circle and a small red square,black,background,NOUN,True,True,Yes
+982,a woman with sunglasses and red hair,sunglasses,hair,NOUN,True,True,No
+983,a woman with sunglasses and red hair,sunglasses,woman,NOUN,True,True,Yes
+984,a woman with sunglasses and red hair,hair,woman,NOUN,True,True,Yes
+985,a woman with sunglasses and red hair,woman,hair,NOUN,True,True,Yes
+986,"the Sydney Opera House with the Eiffel tower sitting on the right, and Mount Everest rising above",Eiffel,right,NOUN,True,True,Yes
+987,"the Sydney Opera House with the Eiffel tower sitting on the right, and Mount Everest rising above",Eiffel,tower,NOUN,True,True,No
+988,side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.,55,number,NOUN,True,True,Yes
+989,side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.,saddle,brown,ADJ,True,True,Yes
+990,side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.,saddle,horse,NOUN,True,True,Yes
+991,side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.,horse,brown,ADJ,True,True,Yes
+992,side view of a brown horse wearing a saddle. the number 55 is stamped in white on its rear flank.,horse,rear,ADJ,True,True,Yes
+993,A medieval painting of the wifi not working.,medieval,painting,NOUN,True,True,Yes
+994,"A keyboard made of water, the water is made of light, the light is turned off.",turned,light,NOUN,True,True,No
+995,One car on the street.,car,street,NOUN,True,True,Yes
+996,a white background with a large blue circle,large,background,NOUN,True,True,No
+997,a white background with a large blue circle,blue,background,NOUN,True,True,No
+998,a white background with a large blue circle,circle,background,NOUN,True,True,No
+999,a white background with a large blue circle,circle,large,ADJ,True,True,Yes
+1000,a white background with a large blue circle,white,background,NOUN,True,True,Yes
+1001,An empty fireplace with a television above it. The TV shows a lion hugging a giraffe.,television,TV,NOUN,True,True,Yes
+1002,An empty fireplace with a television above it. The TV shows a lion hugging a giraffe.,TV,television,NOUN,True,True,Yes
+1003,A small house in the wilderness,small,house,NOUN,True,True,Yes
+1004,Painting of Mona Lisa but the view is from behind of Mona Lisa.,Mona Lisa,Painting,NOUN,True,True,Yes
+1005,Painting of Mona Lisa but the view is from behind of Mona Lisa.,Mona Lisa,view,NOUN,True,True,Yes
+1006,cash on a stone floor,cash,floor,NOUN,True,True,Yes
+1007,A mechanical or electrical device for measuring time.,electrical,mechanical,ADJ,True,True,No
+1008,A mechanical or electrical device for measuring time.,time,electrical,ADJ,True,True,No
+1009,A mechanical or electrical device for measuring time.,time,mechanical,ADJ,True,True,Yes
+1010,A mechanical or electrical device for measuring time.,time,device,NOUN,True,True,Yes
+1011,A mechanical or electrical device for measuring time.,device,electrical,ADJ,True,True,Yes
+1012,A mechanical or electrical device for measuring time.,measuring,mechanical,ADJ,True,True,No
+1013,a old-time car with a large front grille,car,grille,NOUN,True,True,Yes
+1014,a old-time car with a large front grille,grille,large,ADJ,True,True,Yes
+1015,a harp without any strings,harp,strings,NOUN,True,True,Yes
+1016,a subway train coming out of a tunnel,subway train,tunnel,NOUN,True,True,Yes
+1017,a squirrell driving a toy car,driving,car,NOUN,True,True,Yes
+1018,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,punk rock,studded,ADJ,True,True,Yes
+1019,A bowl of soup that looks like a monster knitted out of wool,knitted,wool,NOUN,True,True,Yes
+1020,A bowl of soup that looks like a monster knitted out of wool,soup,bowl,NOUN,True,True,Yes
+1021,a boy sitting on the shoulders of a woman who is wearing an elegant dress,wearing,elegant,ADJ,True,True,No
+1022,a boy sitting on the shoulders of a woman who is wearing an elegant dress,wearing,woman,NOUN,True,True,Yes
+1023,a boy sitting on the shoulders of a woman who is wearing an elegant dress,wearing,shoulders,NOUN,True,True,No
+1024,a boy sitting on the shoulders of a woman who is wearing an elegant dress,boy,shoulders,NOUN,True,True,Yes
+1025,a boy sitting on the shoulders of a woman who is wearing an elegant dress,dress,elegant,ADJ,True,True,Yes
+1026,a boy sitting on the shoulders of a woman who is wearing an elegant dress,dress,shoulders,NOUN,True,True,Yes
+1027,A red book and a yellow vase.,vase,red,ADJ,True,True,No
+1028,a tidal wave approaching a coastal road,coastal,tidal,ADJ,True,True,Yes
+1029,a tidal wave approaching a coastal road,approaching,road,NOUN,True,True,No
+1030,a tidal wave approaching a coastal road,wave,coastal,ADJ,True,True,Yes
+1031,a tidal wave approaching a coastal road,wave,tidal,ADJ,True,True,Yes
+1032,"a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants",pants,shirt,PROPN,True,True,Yes
+1033,"a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants",baby,shirt,PROPN,True,True,No
+1034,a basketball hoop with a large blue ball stuck in it,basketball,large,ADJ,True,True,Yes
+1035,a basketball hoop with a large blue ball stuck in it,hoop,basketball,NOUN,True,True,Yes
+1036,a portrait of a postal worker who has forgotten their mailbag,postal,mailbag,NOUN,True,True,Yes
+1037,A side view of an owl sitting in a field.,field,view,NOUN,True,True,No
+1038,a flower with large red petals growing on the moon's surface,large,surface,NOUN,True,True,No
+1039,a flower with large red petals growing on the moon's surface,moon,large,ADJ,True,True,No
+1040,a flower with large red petals growing on the moon's surface,red,large,ADJ,True,True,No
+1041,a flower with large red petals growing on the moon's surface,red,surface,NOUN,True,True,No
+1042,a flower with large red petals growing on the moon's surface,petals,large,ADJ,True,True,Yes
+1043,a flower with large red petals growing on the moon's surface,petals,flower,NOUN,True,True,Yes
+1044,a flower with large red petals growing on the moon's surface,growing,surface,NOUN,True,True,Yes
+1045,a yellow wall with two framed sketches,yellow,wall,NOUN,True,True,Yes
+1046,a yellow wall with two framed sketches,framed,wall,NOUN,True,True,Yes
+1047,a zebra with alternating blue and red stripes,stripes,red,ADJ,True,True,Yes
+1048,a zebra with alternating blue and red stripes,zebra,stripes,NOUN,True,True,Yes
+1049,a plant with small flowers with purple petals,flowers,plant,NOUN,True,True,Yes
+1050,a plant with small flowers with purple petals,flowers,small,ADJ,True,True,Yes
+1051,a plant with small flowers with purple petals,flowers,petals,NOUN,True,True,Yes
+1052,a plant with small flowers with purple petals,petals,plant,NOUN,True,True,Yes
+1053,a plant with small flowers with purple petals,petals,flowers,NOUN,True,True,Yes
+1054,a plant with small flowers with purple petals,purple,plant,NOUN,True,True,Yes
+1055,a plant with small flowers with purple petals,purple,flowers,NOUN,True,True,Yes
+1056,A white car and a red sheep.,sheep,white,ADJ,True,True,No
+1057,two people facing each other,facing,people,NOUN,True,True,Yes
+1058,a nerdy bear wearing glasses and a bowtie,nerdy,glasses,NOUN,True,True,Yes
+1059,a horse in a field,horse,field,NOUN,True,True,Yes
+1060,a close-up of the eye of the planet Jupiter,close,eye,NOUN,True,True,Yes
+1061,a close-up of the eye of the planet Jupiter,Jupiter,planet,NOUN,True,True,Yes
+1062,"35mm macro shot a kitten licking a baby duck, studio lighting.",licking,lighting,NOUN,True,True,No
+1063,"35mm macro shot a kitten licking a baby duck, studio lighting.",studio,lighting,NOUN,True,True,Yes
+1064,"35mm macro shot a kitten licking a baby duck, studio lighting.",baby,macro,NOUN,True,True,No
+1065,"35mm macro shot a kitten licking a baby duck, studio lighting.",baby,lighting,NOUN,True,True,No
+1066,"35mm macro shot a kitten licking a baby duck, studio lighting.",shot,lighting,NOUN,True,True,Yes
+1067,"35mm macro shot a kitten licking a baby duck, studio lighting.",kitten,macro,NOUN,True,True,Yes
+1068,a lizard that just lost its tail,lizard,tail,NOUN,True,True,No
+1069,scraps of paper drifting in the wind,drifting,wind,NOUN,True,True,Yes
+1070,scraps of paper drifting in the wind,scraps,paper,NOUN,True,True,Yes
+1071,Golden Gate bridge on the surface of Mars,Mars,surface,NOUN,True,True,Yes
+1072,a portrait of an old man,man,portrait,NOUN,True,True,Yes
+1073,a portrait of an old man,portrait,man,NOUN,True,True,Yes
+1074,a portrait of an old man,portrait,old,ADJ,True,True,No
+1075,square blue apples on a tree with circular yellow leaves,tree,leaves,NOUN,True,True,Yes
+1076,square blue apples on a tree with circular yellow leaves,apples,leaves,NOUN,True,True,Yes
+1077,square blue apples on a tree with circular yellow leaves,apples,circular,ADJ,True,True,No
+1078,A black colored banana.,banana,colored,ADJ,True,True,Yes
+1079,a poodle wearing a baseball cap holding a dictionary in hand and writing bonez on a chalkboard,holding,hand,NOUN,True,True,Yes
+1080,a poodle wearing a baseball cap holding a dictionary in hand and writing bonez on a chalkboard,writing,hand,NOUN,True,True,Yes
+1081,an old man with a long grey beard and green eyes,man,beard,NOUN,True,True,Yes
+1082,an old man with a long grey beard and green eyes,man,eyes,NOUN,True,True,Yes
+1083,an old man with a long grey beard and green eyes,beard,man,NOUN,True,True,Yes
+1084,an old man with a long grey beard and green eyes,beard,eyes,NOUN,True,True,No
+1085,an old man with a long grey beard and green eyes,eyes,green,ADJ,True,True,Yes
+1086,An illustration of a large red elephant sitting on a small blue mouse.,mouse,small,ADJ,True,True,Yes
+1087,An illustration of a large red elephant sitting on a small blue mouse.,mouse,illustration,NOUN,True,True,Yes
+1088,An illustration of a large red elephant sitting on a small blue mouse.,illustration,small,ADJ,True,True,No
+1089,An illustration of a large red elephant sitting on a small blue mouse.,elephant,large,ADJ,True,True,Yes
+1090,A fisheye lens view of a turtle sitting in a forest.,fisheye lens,view,NOUN,True,True,Yes
+1091,a politician wearing a soccer jersey and holding a volleyball while giving a speech on a stage,giving,speech,NOUN,True,True,Yes
+1092,a politician wearing a soccer jersey and holding a volleyball while giving a speech on a stage,soccer,jersey,NOUN,True,True,Yes
+1093,a politician wearing a soccer jersey and holding a volleyball while giving a speech on a stage,politician,speech,NOUN,True,True,Yes
+1094,a politician wearing a soccer jersey and holding a volleyball while giving a speech on a stage,speech,politician,NOUN,True,True,Yes
+1095,a politician wearing a soccer jersey and holding a volleyball while giving a speech on a stage,speech,stage,NOUN,True,True,Yes
+1096,A bowl of soup that looks like a monster spray-painted on a wall,soup,bowl,NOUN,True,True,Yes
+1097,a flower with large yellow petals,flower,large,ADJ,True,True,Yes
+1098,a flower with large yellow petals,flower,petals,NOUN,True,True,Yes
+1099,a flower with large yellow petals,flower,yellow,ADJ,True,True,Yes
+1100,a flower with large yellow petals,petals,flower,NOUN,True,True,Yes
+1101,a flower with large yellow petals,yellow,large,ADJ,True,True,Yes
+1102,"A maglev train going vertically downward in high speed, New York Times photojournalism.",New York Times,high,ADJ,True,True,No
+1103,"A maglev train going vertically downward in high speed, New York Times photojournalism.",vertically,high,ADJ,True,True,No
+1104,"A maglev train going vertically downward in high speed, New York Times photojournalism.",downward,high,ADJ,True,True,No
+1105,"A maglev train going vertically downward in high speed, New York Times photojournalism.",maglev train,speed,NOUN,True,True,Yes
+1106,A photo of a Japanese Porcelain Imari vase on the ground below a wooden chair.,chair,wooden,ADJ,True,True,Yes
+1107,A map of the United States made out of sushi on the table.,United States,map,NOUN,True,True,Yes
+1108,an elephant using its trunk to blow into a tuba,tuba,trunk,NOUN,True,True,Yes
+1109,The Alamo with bright white clouds above it,clouds,bright,ADJ,True,True,Yes
+1110,The Alamo with bright white clouds above it,clouds,white,ADJ,True,True,Yes
+1111,A punk rock frog in a studded leather jacket shouting into a microphone while standing on a lily pad,studded,leather,NOUN,True,True,Yes
+1112,"A castle made of tortilla chips, in a river made of salsa. There are tiny burritos walking around the castle",burritos,tortilla,NOUN,True,True,Yes
+1113,A giant cobra snake made from pancakes,cobra,snake,NOUN,True,True,Yes
+1114,fairy cottage with smoke coming up chimney and a squirrel looking from the window,fairy cottage,window,NOUN,True,True,Yes
+1115,a circular logo on a coffee mug,logo,circular,ADJ,True,True,Yes
+1116,a circular logo on a coffee mug,coffee,mug,NOUN,True,True,Yes
+1117,a circular logo on a coffee mug,mug,coffee,NOUN,True,True,No
+1118,The raft floated down the river sank.,floated,river,NOUN,True,True,No
+1119,The raft floated down the river sank.,raft,river,NOUN,True,True,No
+1120,three red lego blocks,lego,blocks,NOUN,True,True,Yes
+1121,Sunset over the skyline of a city,city,Sunset,NOUN,True,True,Yes
+1122,Sunset over the skyline of a city,skyline,city,NOUN,True,True,Yes
+1123,Sunset over the skyline of a city,skyline,Sunset,NOUN,True,True,Yes
+1124,A bare kitchen has wood cabinets and white appliances,wood,bare,ADJ,True,True,No
+1125,A bare kitchen has wood cabinets and white appliances,appliances,wood,NOUN,True,True,No
+1126,A bare kitchen has wood cabinets and white appliances,appliances,cabinets,NOUN,True,True,No
+1127,A bare kitchen has wood cabinets and white appliances,appliances,kitchen,NOUN,True,True,Yes
+1128,A bare kitchen has wood cabinets and white appliances,cabinets,wood,NOUN,True,True,Yes
+1129,A bare kitchen has wood cabinets and white appliances,cabinets,appliances,NOUN,True,True,No
+1130,A bare kitchen has wood cabinets and white appliances,cabinets,kitchen,NOUN,True,True,Yes
+1131,A bare kitchen has wood cabinets and white appliances,kitchen,wood,NOUN,True,True,Yes
+1132,A bare kitchen has wood cabinets and white appliances,kitchen,appliances,NOUN,True,True,Yes
+1133,A bare kitchen has wood cabinets and white appliances,kitchen,cabinets,NOUN,True,True,Yes
+1134,a group of penguins in a snowstorm,penguins,group,NOUN,True,True,Yes
+1135,a plate with white rice topped by cooked vegetables,topped,cooked,ADJ,True,True,No
+1136,a plate with white rice topped by cooked vegetables,rice,white,ADJ,True,True,Yes
+1137,a plate with white rice topped by cooked vegetables,plate,vegetables,NOUN,True,True,No
+1138,a plate with white rice topped by cooked vegetables,plate,cooked,ADJ,True,True,No
+1139,an ornate gold harp,harp,ornate,ADJ,True,True,Yes
+1140,a grand piano with a white bench,grand piano,bench,NOUN,True,True,Yes
+1141,a girl with curly black hair jumping off a boulder,jumping,boulder,NOUN,True,True,Yes
+1142,a girl with curly black hair jumping off a boulder,girl,hair,NOUN,True,True,Yes
+1143,a girl with curly black hair jumping off a boulder,curly,girl,NOUN,True,True,Yes
+1144,a girl with curly black hair jumping off a boulder,curly,hair,NOUN,True,True,Yes
+1145,a girl with curly black hair jumping off a boulder,hair,girl,NOUN,True,True,Yes
+1146,a girl with curly black hair jumping off a boulder,hair,curly,ADJ,True,True,Yes
+1147,The large ball crashed right through the table because it was made of styrofoam,table,large,ADJ,True,True,Yes
+1148,The large ball crashed right through the table because it was made of styrofoam,crashed,large,ADJ,True,True,Yes
+1149,Snow mountain and tree reflection in the lake,lake,tree,NOUN,True,True,Yes
+1150,Snow mountain and tree reflection in the lake,lake,mountain,NOUN,True,True,No
+1151,Snow mountain and tree reflection in the lake,lake,reflection,NOUN,True,True,Yes
+1152,Snow mountain and tree reflection in the lake,Snow,tree,NOUN,True,True,No
+1153,Snow mountain and tree reflection in the lake,mountain,Snow,NOUN,True,True,Yes
+1154,a black dog sitting between a bush and a pair of green pants standing up with nobody inside them,green,bush,NOUN,True,True,No
+1155,a black dog sitting between a bush and a pair of green pants standing up with nobody inside them,standing,pants,NOUN,True,True,Yes
+1156,a black dog sitting between a bush and a pair of green pants standing up with nobody inside them,sitting,pants,NOUN,True,True,No
+1157,a black dog sitting between a bush and a pair of green pants standing up with nobody inside them,bush,green,ADJ,True,True,Yes
+1158,A penguin wearing aviator goggles and flying confidently next to a bemused eagle.,penguin,bemused,ADJ,True,True,No
+1159,A penguin wearing aviator goggles and flying confidently next to a bemused eagle.,goggles,aviator,NOUN,True,True,Yes
+1160,A penguin wearing aviator goggles and flying confidently next to a bemused eagle.,aviator,goggles,NOUN,True,True,Yes
+1161,people packed on a double-decker bus,bus,people,NOUN,True,True,No
+1162,people packed on a double-decker bus,double,people,NOUN,True,True,No
+1163,a mountain and its reflection in a lake,lake,mountain,NOUN,True,True,Yes
+1164,a mountain and its reflection in a lake,lake,reflection,NOUN,True,True,Yes
+1165,a girl with long curly blonde hair and sunglasses,sunglasses,hair,NOUN,True,True,No
+1166,a girl with long curly blonde hair and sunglasses,blonde,long,ADJ,True,True,No
+1167,a girl with long curly blonde hair and sunglasses,blonde,girl,NOUN,True,True,No
+1168,a girl with long curly blonde hair and sunglasses,blonde,hair,NOUN,True,True,Yes
+1169,a girl with long curly blonde hair and sunglasses,girl,hair,NOUN,True,True,Yes
+1170,a girl with long curly blonde hair and sunglasses,curly,girl,NOUN,True,True,No
+1171,a girl with long curly blonde hair and sunglasses,curly,hair,NOUN,True,True,Yes
+1172,a girl with long curly blonde hair and sunglasses,hair,blonde,ADJ,True,True,Yes
+1173,a girl with long curly blonde hair and sunglasses,hair,girl,NOUN,True,True,Yes
+1174,a giraffe eating the bark of a tree,bark,tree,NOUN,True,True,Yes
+1175,a giraffe eating the bark of a tree,tree,bark,NOUN,True,True,Yes
+1176,a close-up of an ostrich's face,close,face,NOUN,True,True,Yes
+1177,a close-up of an ostrich's face,ostrich,face,NOUN,True,True,Yes
+1178,a toy car in front of a teddy bear,teddy bear,toy,NOUN,True,True,Yes
+1179,a large white yacht in a calm bay on a sunny day,large,calm,ADJ,True,True,No
+1180,a large white yacht in a calm bay on a sunny day,large,day,NOUN,True,True,No
+1181,a large white yacht in a calm bay on a sunny day,sunny,calm,ADJ,True,True,Yes
+1182,a large white yacht in a calm bay on a sunny day,sunny,day,NOUN,True,True,Yes
+1183,a large white yacht in a calm bay on a sunny day,bay,sunny,ADJ,True,True,No
+1184,a large white yacht in a calm bay on a sunny day,bay,calm,ADJ,True,True,Yes
+1185,a large white yacht in a calm bay on a sunny day,bay,day,NOUN,True,True,Yes
+1186,a large white yacht in a calm bay on a sunny day,yacht,large,ADJ,True,True,Yes
+1187,a large white yacht in a calm bay on a sunny day,yacht,bay,NOUN,True,True,Yes
+1188,a large white yacht in a calm bay on a sunny day,yacht,white,ADJ,True,True,Yes
+1189,a large white yacht in a calm bay on a sunny day,calm,large,ADJ,True,True,No
+1190,a large white yacht in a calm bay on a sunny day,calm,bay,NOUN,True,True,Yes
+1191,a large white yacht in a calm bay on a sunny day,day,sunny,ADJ,True,True,Yes
+1192,a large white yacht in a calm bay on a sunny day,day,calm,ADJ,True,True,Yes
+1193,a large white yacht in a calm bay on a sunny day,white,calm,ADJ,True,True,No
+1194,a square with an angry face,angry,face,NOUN,True,True,Yes
+1195,a long chemtrail trailing an airplane in a blue sky,sky,blue,ADJ,True,True,Yes
+1196,a long chemtrail trailing an airplane in a blue sky,blue,long,ADJ,True,True,No
+1197,a long chemtrail trailing an airplane in a blue sky,long,sky,NOUN,True,True,No
+1198,a long chemtrail trailing an airplane in a blue sky,trailing,sky,NOUN,True,True,No
+1199,a long chemtrail trailing an airplane in a blue sky,trailing,long,ADJ,True,True,Yes
+1200,a long chemtrail trailing an airplane in a blue sky,airplane,sky,NOUN,True,True,No
+1201,a long chemtrail trailing an airplane in a blue sky,chemtrail,sky,NOUN,True,True,Yes
+1202,a long chemtrail trailing an airplane in a blue sky,chemtrail,long,ADJ,True,True,Yes
+1203,a street without vehicles,street,vehicles,NOUN,True,True,Yes
+1204,a street without vehicles,vehicles,street,NOUN,True,True,Yes
+1205,brown white and black white guinea pigs eating parsley handed to them,pigs,brown,PROPN,True,True,No
+1206,brown white and black white guinea pigs eating parsley handed to them,guinea,brown,PROPN,True,True,Yes
+1207,an elephant in a tennis court,tennis,court,NOUN,True,True,Yes
+1208,a street with several cars on it,cars,street,NOUN,True,True,Yes
+1209,a large yellow sphere behind a small purple pyramid,pyramid,large,ADJ,True,True,No
+1210,a large yellow sphere behind a small purple pyramid,sphere,large,ADJ,True,True,Yes
+1211,a large yellow sphere behind a small purple pyramid,purple,large,ADJ,True,True,No
+1212,a tree reflected in the sunroof of a blue car,sunroof,tree,NOUN,True,True,Yes
+1213,a family of four posing in front of a house,family,house,NOUN,True,True,Yes
+1214,two wine bottles and three beer cans,wine,bottles,NOUN,True,True,Yes
+1215,two wine bottles and three beer cans,cans,beer,NOUN,True,True,Yes
+1216,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,wearing,photograph,NOUN,True,True,Yes
+1217,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,recording,studio,NOUN,True,True,Yes
+1218,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,recording,microphone,NOUN,True,True,Yes
+1219,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,headphones,studio,NOUN,True,True,No
+1220,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,headphones,recording,NOUN,True,True,Yes
+1221,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,bird,photograph,NOUN,True,True,Yes
+1222,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,speaking,microphone,NOUN,True,True,Yes
+1223,a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,speaking,photograph,NOUN,True,True,No
+1224,a bookshelf without any books on it,bookshelf,books,NOUN,True,True,Yes
+1225,a bookshelf without any books on it,books,bookshelf,NOUN,True,True,Yes
+1226,a black dog jumping up to hug a woman wearing a red sweater,wearing,woman,NOUN,True,True,Yes
+1227,a black dog jumping up to hug a woman wearing a red sweater,hug,woman,NOUN,True,True,Yes
+1228,a tree reflected in the hood of a blue car,car,hood,NOUN,True,True,Yes
+1229,three green glass bottles,bottles,glass,NOUN,True,True,Yes
+1230,A cube made of denim. A cube with the texture of denim.,denim,texture,NOUN,True,True,Yes
+1231,a metal treehouse in an oak tree,oak,tree,NOUN,True,True,Yes
+1232,a metal treehouse in an oak tree,treehouse,tree,NOUN,True,True,Yes
+1233,a metal treehouse in an oak tree,treehouse,oak,NOUN,True,True,Yes
+1234,a tennis court with three yellow cones on it,tennis,court,NOUN,True,True,Yes
+1235,a tennis court with three yellow cones on it,tennis,yellow,ADJ,True,True,No
+1236,a comic about an owl family in the forest,owl,forest,NOUN,True,True,Yes
+1237,a comic about an owl family in the forest,comic,family,NOUN,True,True,No
+1238,A giant cobra snake made from sushi,cobra,snake,NOUN,True,True,Yes
+1239,a bike rack with some bike locks attached to it but no bicycles,bicycles,bike,NOUN,True,True,Yes
+1240,a bike rack with some bike locks attached to it but no bicycles,bike,bicycles,NOUN,True,True,Yes
+1241,a man with puppet that looks like a king,like,man,NOUN,True,True,Yes
+1242,a man with puppet that looks like a king,king,man,NOUN,True,True,Yes
+1243,a coffee mug floating in the sky,coffee,mug,NOUN,True,True,Yes
+1244,a coffee mug floating in the sky,mug,coffee,NOUN,True,True,Yes
+1245,a tiger in a forest,tiger,forest,NOUN,True,True,Yes
+1246,red and yellow balloons hanging from a ceiling fan,balloons,yellow,ADJ,True,True,Yes
+1247,red and yellow balloons hanging from a ceiling fan,hanging,ceiling,NOUN,True,True,Yes
+1248,a car and a truck on the road next to a traffic light,traffic,car,NOUN,True,True,No
+1249,a car and a truck on the road next to a traffic light,traffic,road,NOUN,True,True,Yes
+1250,a car and a truck on the road next to a traffic light,traffic,light,NOUN,True,True,Yes
+1251,a car and a truck on the road next to a traffic light,car,road,NOUN,True,True,Yes
+1252,a car and a truck on the road next to a traffic light,road,traffic,NOUN,True,True,Yes
+1253,a car and a truck on the road next to a traffic light,road,light,NOUN,True,True,No
+1254,a car and a truck on the road next to a traffic light,truck,traffic,NOUN,True,True,Yes
+1255,a car and a truck on the road next to a traffic light,truck,road,NOUN,True,True,Yes
+1256,a rabbit with white fur and black-tipped ears,fur,white,ADJ,True,True,Yes
+1257,a rabbit with white fur and black-tipped ears,rabbit,fur,NOUN,True,True,Yes
+1258,a rabbit with white fur and black-tipped ears,rabbit,ears,NOUN,True,True,Yes
+1259,a giant gorilla at the top of the Empire State Building,gorilla,giant,ADJ,True,True,Yes
+1260,a giant gorilla at the top of the Empire State Building,Empire State Building,giant,ADJ,True,True,Yes
+1261,a marine iguana crossing the street,crossing,street,NOUN,True,True,Yes
+1262,a woman with long hair next to a luminescent bird,bird,long,ADJ,True,True,No
+1263,a woman with long hair next to a luminescent bird,hair,woman,NOUN,True,True,Yes
+1264,a woman with long hair next to a luminescent bird,woman,hair,NOUN,True,True,Yes
+1265,a flag furling in the wind,flag,wind,NOUN,True,True,Yes
+1266,a Tyrannosaurus Rex roaring in front of a palm tree,palm,tree,NOUN,True,True,Yes
+1267,beautiful fireworks in the sky,sky,beautiful,ADJ,True,True,No
+1268,beautiful fireworks in the sky,fireworks,beautiful,ADJ,True,True,Yes
+1269,a basketball to the left of two soccer balls on a gravel driveway,soccer,balls,NOUN,True,True,Yes
+1270,a bundle of blue and yellow flowers in a vase,vase,flowers,NOUN,True,True,Yes
+1271,view of a clock tower from above,tower,view,NOUN,True,True,Yes
+1272,A 1960s yearbook photo with animals dressed as humans.,1960s,humans,NOUN,True,True,No
+1273,A 1960s yearbook photo with animals dressed as humans.,dressed,1960s,NOUN,True,True,No
+1274,A 1960s yearbook photo with animals dressed as humans.,photo,humans,NOUN,True,True,Yes
+1275,A blue Porsche 356 parked in front of a yellow brick wall,brick,wall,NOUN,True,True,Yes
+1276,A blue Porsche 356 parked in front of a yellow brick wall,yellow,wall,NOUN,True,True,Yes
+1277,a large present with a red ribbon to the left of a Christmas tree,large,present,NOUN,True,True,Yes
+1278,a large present with a red ribbon to the left of a Christmas tree,ribbon,red,ADJ,True,True,Yes
+1279,a large present with a red ribbon to the left of a Christmas tree,red,large,ADJ,True,True,Yes
+1280,a large present with a red ribbon to the left of a Christmas tree,Christmas,large,ADJ,True,True,No
+1281,a large present with a red ribbon to the left of a Christmas tree,Christmas,ribbon,NOUN,True,True,No
+1282,a water tower next to a deserted road,road,deserted,ADJ,True,True,Yes
+1283,several red lego blocks and one blue one,lego,blocks,NOUN,True,True,Yes
+1284,a small tree covered in white blossoms,blossoms,tree,NOUN,True,True,Yes
+1285,a small tree covered in white blossoms,blossoms,small,ADJ,True,True,Yes
+1286,a small tree covered in white blossoms,blossoms,white,ADJ,True,True,Yes
+1287,a small tree covered in white blossoms,covered,white,ADJ,True,True,Yes
+1288,a parade with cars and people waving,parade,people,NOUN,True,True,Yes
+1289,a parade with cars and people waving,waving,people,NOUN,True,True,Yes
+1290,a close up of a handpalm with leaves growing from it,growing,close,NOUN,True,True,No
+1291,a close up of a handpalm with leaves growing from it,growing,leaves,NOUN,True,True,Yes
+1292,the grand canyon on a cloudy day,cloudy,grand,ADJ,True,True,No
+1293,the grand canyon on a cloudy day,cloudy,day,NOUN,True,True,Yes
+1294,the grand canyon on a cloudy day,canyon,grand,ADJ,True,True,Yes
+1295,the grand canyon on a cloudy day,canyon,day,NOUN,True,True,No
+1296,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a stump,punk rock,microphone,NOUN,True,True,Yes
+1297,A tennis racket underneath a traffic light.,traffic,light,NOUN,True,True,Yes
+1298,A tennis racket underneath a traffic light.,racket,tennis,NOUN,True,True,Yes
+1299,a Diplodocus standing in a lake,Diplodocus,standing,NOUN,True,True,Yes
+1300,a field with ten massive modern windmills,windmills,massive,ADJ,True,True,Yes
+1301,a field with ten massive modern windmills,field,massive,ADJ,True,True,No
+1302,an espresso machine that makes coffee from human souls,makes,human,ADJ,True,True,No
+1303,three small yellow boxes on a large blue box,box,large,ADJ,True,True,Yes
+1304,three small yellow boxes on a large blue box,boxes,box,PROPN,True,True,Yes
+1305,an ornate metal bench by a nature path,path,nature,NOUN,True,True,Yes
+1306,A couple of glasses are sitting on a table.,glasses,table,NOUN,True,True,Yes
+1307,A couple of glasses are sitting on a table.,table,glasses,NOUN,True,True,No
+1308,a half empty bottle of red wine,wine,bottle,NOUN,True,True,Yes
+1309,a half empty bottle of red wine,bottle,a half,NOUN,True,True,Yes
+1310,a bottle of light beer with a lemon slice wedged in the rim,bottle,beer,NOUN,True,True,Yes
+1311,a silver doorknocker on a mahoghany door,doorknocker,mahoghany,NOUN,True,True,No
+1312,a silver doorknocker on a mahoghany door,doorknocker,door,NOUN,True,True,Yes
+1313,a corgi wearing a red bowtie and a purple party hat,party,red,ADJ,True,True,No
+1314,an old-fashioned windmill surrounded by flowers,surrounded,flowers,NOUN,True,True,Yes
+1315,a peaceful lakeside landscape,peaceful,lakeside,ADJ,True,True,No
+1316,a peaceful lakeside landscape,peaceful,landscape,NOUN,True,True,Yes
+1317,a peaceful lakeside landscape,lakeside,peaceful,ADJ,True,True,No
+1318,a peaceful lakeside landscape,lakeside,landscape,NOUN,True,True,No
+1319,a man eating a glazed donut and a woman eating a chocolate cake,donut,glazed,ADJ,True,True,Yes
+1320,a man eating a glazed donut and a woman eating a chocolate cake,chocolate,cake,NOUN,True,True,Yes
+1321,a man eating a glazed donut and a woman eating a chocolate cake,chocolate,glazed,ADJ,True,True,No
+1322,a large yellow triangle above a green square and red rectangle,square,large,ADJ,True,True,No
+1323,a large yellow triangle above a green square and red rectangle,triangle,red,ADJ,True,True,No
+1324,a large yellow triangle above a green square and red rectangle,red,large,ADJ,True,True,No
+1325,A large city fountain that has milk instead of water. Several cats are leaning into the fountain.,fountain,large,ADJ,True,True,Yes
+1326,A large city fountain that has milk instead of water. Several cats are leaning into the fountain.,fountain,water,NOUN,True,True,Yes
+1327,A large city fountain that has milk instead of water. Several cats are leaning into the fountain.,city,large,ADJ,True,True,No
+1328,A large city fountain that has milk instead of water. Several cats are leaning into the fountain.,water,fountain,NOUN,True,True,Yes
+1329,a large white yacht tossed about in a stormy sea,stormy,large,ADJ,True,True,No
+1330,a large white yacht tossed about in a stormy sea,yacht,sea,NOUN,True,True,Yes
+1331,a large white yacht tossed about in a stormy sea,sea,large,ADJ,True,True,No
+1332,"A real life photography of super mario, 8k Ultra HD.",HD,real,ADJ,True,True,No
+1333,"A real life photography of super mario, 8k Ultra HD.",HD,life,NOUN,True,True,No
+1334,"A real life photography of super mario, 8k Ultra HD.",Ultra,HD,NOUN,True,True,No
+1335,"A real life photography of super mario, 8k Ultra HD.",Ultra,real,ADJ,True,True,No
+1336,"A real life photography of super mario, 8k Ultra HD.",Ultra,photography,NOUN,True,True,No
+1337,"A real life photography of super mario, 8k Ultra HD.",Ultra,8k,PROPN,True,True,Yes
+1338,"A real life photography of super mario, 8k Ultra HD.",real,HD,NOUN,True,True,Yes
+1339,"A real life photography of super mario, 8k Ultra HD.",real,photography,NOUN,True,True,Yes
+1340,"A real life photography of super mario, 8k Ultra HD.",photography,real,ADJ,True,True,Yes
+1341,"A real life photography of super mario, 8k Ultra HD.",life,real,ADJ,True,True,No
+1342,"A real life photography of super mario, 8k Ultra HD.",super,HD,NOUN,True,True,No
+1343,"A real life photography of super mario, 8k Ultra HD.",mario,super,PROPN,True,True,Yes
+1344,"A real life photography of super mario, 8k Ultra HD.",8k,HD,NOUN,True,True,No
+1345,"A real life photography of super mario, 8k Ultra HD.",8k,photography,NOUN,True,True,No
+1346,"A real life photography of super mario, 8k Ultra HD.",8k,life,NOUN,True,True,No
+1347,a close-up of the eyes of an owl,close,eyes,NOUN,True,True,Yes
+1348,a close-up of the eyes of an owl,owl,eyes,NOUN,True,True,Yes
+1349,the moon with a smiling face,smiling,face,NOUN,True,True,Yes
+1350,The man who whistles tunes pianos.,tunes,man,NOUN,True,True,No
+1351,The man who whistles tunes pianos.,pianos,tunes,NOUN,True,True,Yes
+1352,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,wall,white,ADJ,True,True,No
+1353,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,ladder,tall,ADJ,True,True,Yes
+1354,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,ladder,rung,NOUN,True,True,Yes
+1355,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,brick,wall,NOUN,True,True,Yes
+1356,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,view,tall,ADJ,True,True,No
+1357,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,yellow,wall,NOUN,True,True,Yes
+1358,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,white,tall,ADJ,True,True,Yes
+1359,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,tall,brick,NOUN,True,True,No
+1360,view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,tall,view,NOUN,True,True,Yes
+1361,the skyline of New York City,skyline,New York City,PROPN,True,True,Yes
+1362,the skyline of New York City,New York City,skyline,NOUN,True,True,Yes
+1363,The Statue of Liberty with the Manhattan skyline in the background.,skyline,Manhattan,PROPN,True,True,Yes
+1364,The Statue of Liberty with the Manhattan skyline in the background.,Manhattan,skyline,NOUN,True,True,Yes
+1365,a robot cooking in the kitchen,cooking,kitchen,NOUN,True,True,Yes
+1366,a robot cooking in the kitchen,kitchen,cooking,NOUN,True,True,Yes
+1367,An aerial view of Ha Long Bay,Ha Long Bay,view,NOUN,True,True,Yes
+1368,An aerial view of Ha Long Bay,aerial,view,NOUN,True,True,Yes
+1369,An aerial view of Ha Long Bay,view,aerial,ADJ,True,True,Yes
+1370,a man with wild hair looking into a crystal ball,man,hair,NOUN,True,True,No
+1371,a man with wild hair looking into a crystal ball,looking,hair,NOUN,True,True,No
+1372,a car's wheel crushing a pair of headphones,car,wheel,NOUN,True,True,Yes
+1373,ten triangles and five squares on a black background,triangles,black,ADJ,True,True,No
+1374,ten triangles and five squares on a black background,squares,background,NOUN,True,True,No
+1375,ten triangles and five squares on a black background,black,background,NOUN,True,True,Yes
+1376,a wood cabin with a fire pit in front of it,wood,cabin,NOUN,True,True,Yes
+1377,a wood cabin with a fire pit in front of it,fire,wood,NOUN,True,True,Yes
+1378,a woman with long hair,hair,woman,NOUN,True,True,Yes
+1379,a woman with long hair,woman,hair,NOUN,True,True,Yes
+1380,Greek statue of a man tripping over a cat.,tripping,man,NOUN,True,True,Yes
+1381,Greek statue of a man tripping over a cat.,statue,man,NOUN,True,True,Yes
+1382,Greek statue of a man tripping over a cat.,statue,Greek,ADJ,True,True,Yes
+1383,A man sips a latte and a woman a beer.,sips,beer,NOUN,True,True,No
+1384,A map of the United States with a pin on San Francisco,United States,map,NOUN,True,True,Yes
+1385,A map of the United States with a pin on San Francisco,San Francisco,United States,PROPN,True,True,Yes
+1386,a red fire hydrant by a brick wall,wall,brick,NOUN,True,True,Yes
+1387,a red fire hydrant by a brick wall,red,wall,NOUN,True,True,No
+1388,a red fire hydrant by a brick wall,fire,red,ADJ,True,True,Yes
+1389,a red fire hydrant by a brick wall,brick,red,ADJ,True,True,No
+1390,a rusty red pickup truck with white wheel rims,wheel,rims,NOUN,True,True,Yes
+1391,a rusty red pickup truck with white wheel rims,pickup truck,wheel,NOUN,True,True,Yes
+1392,a rusty red pickup truck with white wheel rims,pickup truck,rims,NOUN,True,True,Yes
+1393,a rusty red pickup truck with white wheel rims,rims,wheel,NOUN,True,True,Yes
+1394,a pineapple with one beer to its left and two beers on its right,beer,beers,NOUN,True,True,Yes
+1395,a pineapple with one beer to its left and two beers on its right,pineapple,right,ADJ,True,True,Yes
+1396,a pineapple with one beer to its left and two beers on its right,beers,beer,NOUN,True,True,No
+1397,A screenshot of an iOS app for ordering different types of milk.,different,types,NOUN,True,True,Yes
+1398,A screenshot of an iOS app for ordering different types of milk.,types,different,ADJ,True,True,Yes
+1399,A screenshot of an iOS app for ordering different types of milk.,app,screenshot,NOUN,True,True,Yes
+1400,A screenshot of an iOS app for ordering different types of milk.,app,iOS,NOUN,True,True,Yes
+1401,Salvador Dalí with a robotic half face,robotic,face,NOUN,True,True,Yes
+1402,a cat jumping in the air to catch a bird,jumping,air,NOUN,True,True,Yes
+1403,a cat jumping in the air to catch a bird,bird,air,NOUN,True,True,No
+1404,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,microphone,photograph,NOUN,True,True,No
+1405,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,wearing,photograph,NOUN,True,True,No
+1406,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,singing,microphone,NOUN,True,True,Yes
+1407,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,singing,photograph,NOUN,True,True,No
+1408,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,fedora,photograph,NOUN,True,True,Yes
+1409,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,ostrich,photograph,NOUN,True,True,Yes
+1410,A giant cobra snake made from salad,cobra,snake,NOUN,True,True,Yes
+1411,The large ball crashed right through the table because it was made of steel,right,large,ADJ,True,True,No
+1412,The large ball crashed right through the table because it was made of steel,steel,large,ADJ,True,True,Yes
+1413,The large ball crashed right through the table because it was made of steel,table,large,ADJ,True,True,Yes
+1414,The large ball crashed right through the table because it was made of steel,crashed,large,ADJ,True,True,Yes
+1415,An aerial view of Ha Long Bay without any boats,Ha Long Bay,boats,NOUN,True,True,No
+1416,An aerial view of Ha Long Bay without any boats,Ha Long Bay,view,NOUN,True,True,Yes
+1417,An aerial view of Ha Long Bay without any boats,aerial,view,NOUN,True,True,Yes
+1418,An aerial view of Ha Long Bay without any boats,view,aerial,ADJ,True,True,Yes
+1419,Mars rises on the horizon.,rises,horizon,NOUN,True,True,No
+1420,a two lane road with a bright yellow line,road,line,NOUN,True,True,Yes
+1421,a two lane road with a bright yellow line,line,yellow,ADJ,True,True,Yes
+1422,a woman with tan skin in blue jeans and yellow shirt,skin,tan,ADJ,True,True,Yes
+1423,a woman with tan skin in blue jeans and yellow shirt,tan,skin,NOUN,True,True,Yes
+1424,a woman with tan skin in blue jeans and yellow shirt,shirt,tan,ADJ,True,True,No
+1425,a woman with tan skin in blue jeans and yellow shirt,woman,skin,NOUN,True,True,Yes
+1426,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,high,photograph,NOUN,True,True,Yes
+1427,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,bagpipe,photograph,NOUN,True,True,No
+1428,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,playing,photograph,NOUN,True,True,No
+1429,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,leg,photograph,NOUN,True,True,Yes
+1430,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,standing,photograph,NOUN,True,True,No
+1431,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,standing,leg,NOUN,True,True,Yes
+1432,a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,armadillo,leg,NOUN,True,True,Yes
+1433,a macro photograph of brain coral,macro,photograph,NOUN,True,True,Yes
+1434,a macro photograph of brain coral,brain coral,photograph,NOUN,True,True,Yes
+1435,A punk rock platstumppus in a studded leather jacket shouting into a microphone while standing on a stump,stump,platstumppus,NOUN,True,True,Yes
+1436,An alien octopus floats through a portal reading a newspaper. DSLR photo.,reading,photo,NOUN,True,True,No
+1437,An alien octopus floats through a portal reading a newspaper. DSLR photo.,newspaper,photo,NOUN,True,True,No
+1438,An alien octopus floats through a portal reading a newspaper. DSLR photo.,octopus,photo,NOUN,True,True,Yes
+1439,An alien octopus floats through a portal reading a newspaper. DSLR photo.,DSLR,photo,NOUN,True,True,Yes
+1440,A red colored banana.,red,colored,ADJ,True,True,Yes
+1441,A red colored banana.,banana,colored,ADJ,True,True,Yes
+1442,a pickup truck under street lights at night,pickup truck,lights,NOUN,True,True,Yes
+1443,a pickup truck under street lights at night,night,street,NOUN,True,True,Yes
+1444,a pickup truck under street lights at night,night,lights,NOUN,True,True,Yes
+1445,a pickup truck under street lights at night,lights,street,NOUN,True,True,Yes
+1446,a pickup truck under street lights at night,lights,night,NOUN,True,True,Yes
+1447,a boy going to school,school,boy,NOUN,True,True,Yes
+1448,a red box to the right of a green sphere,right,red,PROPN,True,True,Yes
+1449,a red box to the right of a green sphere,sphere,right,NOUN,True,True,No
+1450,A television made of water that displays an image of a cityscape at night.,television,image,NOUN,True,True,Yes
+1451,A television made of water that displays an image of a cityscape at night.,water,image,NOUN,True,True,Yes
+1452,A television made of water that displays an image of a cityscape at night.,displays,image,NOUN,True,True,Yes
+1453,A television made of water that displays an image of a cityscape at night.,image,night,NOUN,True,True,Yes
+1454,A television made of water that displays an image of a cityscape at night.,night,image,NOUN,True,True,Yes
+1455,a yellow sticky note,note,yellow,ADJ,True,True,Yes
+1456,a horned owl with a graduation cap and diploma,graduation,cap,NOUN,True,True,Yes
+1457,a horned owl with a graduation cap and diploma,diploma,graduation,NOUN,True,True,Yes
+1458,a horned owl with a graduation cap and diploma,diploma,cap,NOUN,True,True,No
+1459,a grand piano next to the net of a tennis court,tennis,court,NOUN,True,True,Yes
+1460,A stop sign on the right of a refrigerator.,stop,sign,NOUN,True,True,Yes
+1461,"A painting by Grant Wood of an astronaut couple, american gothic style.",gothic,style,NOUN,True,True,No
+1462,"A painting by Grant Wood of an astronaut couple, american gothic style.",gothic,painting,NOUN,True,True,Yes
+1463,view of a clock tower from below,tower,clock,NOUN,True,True,Yes
+1464,view of a clock tower from below,view,tower,NOUN,True,True,Yes
+1465,a cat coming through a cat door,cat door,cat,NOUN,True,True,Yes
+1466,A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,knight,tall,ADJ,True,True,No
+1467,A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,perched,black,ADJ,True,True,Yes
+1468,A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,flames,tall,ADJ,True,True,No
+1469,A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,obelisk,tall,ADJ,True,True,Yes
+1470,A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,Egyptian,ground,NOUN,True,True,No
+1471,A horse sitting on an astronaut's shoulders.,astronaut,shoulders,NOUN,True,True,Yes
+1472,A bowl of soup that looks like a monster with tofu says deep learning,soup,bowl,NOUN,True,True,Yes
+1473,"a photograph of sand with a bucket, lots of scattered shells but no sandpipers",shells,photograph,NOUN,True,True,Yes
+1474,"a photograph of sand with a bucket, lots of scattered shells but no sandpipers",shells,lots,NOUN,True,True,No
+1475,"a photograph of sand with a bucket, lots of scattered shells but no sandpipers",sandpipers,photograph,NOUN,True,True,No
+1476,"a photograph of sand with a bucket, lots of scattered shells but no sandpipers",sandpipers,lots,NOUN,True,True,No
+1477,"a photograph of sand with a bucket, lots of scattered shells but no sandpipers",scattered,lots,NOUN,True,True,No
+1478,a tall horse next to a red car,horse,tall,ADJ,True,True,Yes
+1479,a massive statue of Hanuman,Hanuman,statue,NOUN,True,True,Yes
+1480,a massive statue of Hanuman,statue,massive,ADJ,True,True,No
+1481,a woman singing into a microphone,singing,microphone,NOUN,True,True,Yes
+1482,a woman singing into a microphone,singing,woman,NOUN,True,True,Yes
+1483,a sad man with green hair,man,hair,NOUN,True,True,Yes
+1484,a sad man with green hair,sad,hair,NOUN,True,True,No
+1485,a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,Easter,eggs,NOUN,True,True,Yes
+1486,a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,Easter,colorful,ADJ,True,True,Yes
+1487,a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,jumping,air,NOUN,True,True,Yes
+1488,a black background with a large yellow square,background,large,ADJ,True,True,No
+1489,a black background with a large yellow square,large,background,NOUN,True,True,No
+1490,a black background with a large yellow square,square,background,NOUN,True,True,No
+1491,a black background with a large yellow square,yellow,background,NOUN,True,True,No
+1492,a black background with a large yellow square,yellow,large,ADJ,True,True,Yes
+1493,a black background with a large yellow square,black,background,NOUN,True,True,Yes
+1494,A red bus is driving on the road,driving,road,NOUN,True,True,Yes
+1495,a white cat and a tabby cat looking at each other,cat,tabby,ADJ,True,True,Yes
+1496,a white cat and a tabby cat looking at each other,tabby,cat,NOUN,True,True,No
+1497,Five cars on the street.,street,cars,NOUN,True,True,No
+1498,Five cars on the street.,cars,street,NOUN,True,True,Yes
+1499,a laptop no letters on its keyboard,laptop,keyboard,NOUN,True,True,Yes
+1500,a laptop no letters on its keyboard,keyboard,laptop,NOUN,True,True,Yes
+1501,a man wearing sunglasses and business suit,man,business,NOUN,True,True,No
+1502,a man wearing sunglasses and business suit,business,man,NOUN,True,True,No
+1503,a man wearing sunglasses and business suit,suit,man,NOUN,True,True,Yes
+1504,a man wearing sunglasses and business suit,suit,business,NOUN,True,True,No
+1505,A photocopy of a photograph of a painting of a sculpture of a giraffe.,photocopy,photograph,NOUN,True,True,No
+1506,A photocopy of a photograph of a painting of a sculpture of a giraffe.,giraffe,photograph,NOUN,True,True,No
+1507,A cat that has black fur bats a red Christmas ornament that has silver sparkles.,cat,fur,NOUN,True,True,Yes
+1508,A cat that has black fur bats a red Christmas ornament that has silver sparkles.,silver,sparkles,NOUN,True,True,Yes
+1509,A cat that has black fur bats a red Christmas ornament that has silver sparkles.,sparkles,black,ADJ,True,True,No
+1510,A cat that has black fur bats a red Christmas ornament that has silver sparkles.,Christmas ornament,red,ADJ,True,True,Yes
+1511,a view of the Earth from the moon,moon,view,NOUN,True,True,Yes
+1512,a view of the Earth from the moon,Earth,view,NOUN,True,True,Yes
+1513,a soccer ball flying over a car,soccer,ball,NOUN,True,True,Yes
+1514,a soccer ball flying over a car,ball,soccer,NOUN,True,True,Yes
+1515,A photo of an astronaut riding a horse in the forest.,riding,photo,NOUN,True,True,Yes
+1516,A photo of an astronaut riding a horse in the forest.,astronaut,photo,NOUN,True,True,Yes
+1517,A photo of an astronaut riding a horse in the forest.,horse,forest,NOUN,True,True,Yes
+1518,A photo of an astronaut riding a horse in the forest.,horse,photo,NOUN,True,True,Yes
+1519,a beach with a cruise ship passing by,cruise,ship,NOUN,True,True,Yes
+1520,a beach with a cruise ship passing by,ship,cruise,NOUN,True,True,Yes
+1521,a group of skiers are preparing to walk up a sand dune,walk,group,NOUN,True,True,Yes
+1522,a group of skiers are preparing to walk up a sand dune,skiers,group,NOUN,True,True,Yes
+1523,a group of skiers are preparing to walk up a sand dune,dune,sand,NOUN,True,True,Yes
+1524,a group of skiers are preparing to walk up a sand dune,preparing,group,NOUN,True,True,Yes
+1525,a group of skiers are preparing to walk up a sand dune,sand,dune,NOUN,True,True,Yes
+1526,a portrait of young girl,girl,portrait,NOUN,True,True,Yes
+1527,a portrait of young girl,girl,young,ADJ,True,True,Yes
+1528,a portrait of young girl,young,portrait,NOUN,True,True,No
+1529,a tall man stooping down to enter a low red sports car,stooping,low,ADJ,True,True,Yes
+1530,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,arrow,photograph,NOUN,True,True,Yes
+1531,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,arrow,left,ADJ,True,True,No
+1532,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,left,photograph,NOUN,True,True,No
+1533,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,head,photograph,NOUN,True,True,No
+1534,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,squirrel,photograph,NOUN,True,True,Yes
+1535,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,squirrel,left,ADJ,True,True,Yes
+1536,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,holding,hand,NOUN,True,True,Yes
+1537,a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,holding,photograph,NOUN,True,True,No
+1538,several people putting their hands on a basketball,hands,people,NOUN,True,True,Yes
+1539,The Statue of Liberty on a cloudy day,cloudy,day,NOUN,True,True,Yes
+1540,a basketball game between a team of four cats and a team of three dogs,basketball,game,NOUN,True,True,Yes
+1541,a basketball game between a team of four cats and a team of three dogs,basketball,team,NOUN,True,True,Yes
+1542,a closet without clothes,closet,clothes,NOUN,True,True,Yes
+1543,a glass of orange juice next to an empty pitcher,glass,orange,ADJ,True,True,Yes
+1544,a glass of orange juice next to an empty pitcher,juice,glass,NOUN,True,True,Yes
+1545,a glass of orange juice next to an empty pitcher,juice,orange,ADJ,True,True,Yes
+1546,a four-piece band on a stage in front of a small crowd,four-piece band,stage,NOUN,True,True,Yes
+1547,a room with two chairs and a painting,room,painting,NOUN,True,True,Yes
+1548,a room with two chairs and a painting,chairs,room,NOUN,True,True,Yes
+1549,two wooden chairs and three metal chairs,chairs,metal,NOUN,True,True,Yes
+1550,a glass of orange juice with an orange peel stuck on the rim,rim,glass,NOUN,True,True,Yes
+1551,a glass of orange juice with an orange peel stuck on the rim,glass,juice,NOUN,True,True,Yes
+1552,a glass of orange juice with an orange peel stuck on the rim,glass,orange,ADJ,True,True,Yes
+1553,a glass of orange juice with an orange peel stuck on the rim,juice,glass,NOUN,True,True,Yes
+1554,a glass of orange juice with an orange peel stuck on the rim,juice,orange,ADJ,True,True,Yes
+1555,a horse reading a book,reading,book,NOUN,True,True,Yes
+1556,a tennis court that is very wet from lots of rain,rain,wet,ADJ,True,True,Yes
+1557,a tennis court that is very wet from lots of rain,tennis,court,NOUN,True,True,Yes
+1558,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,middle,view,NOUN,True,True,No
+1559,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,giraffe,view,NOUN,True,True,Yes
+1560,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,zebra,field,NOUN,True,True,Yes
+1561,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,flowers,view,NOUN,True,True,Yes
+1562,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,flowers,colorful,ADJ,True,True,Yes
+1563,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,field,view,NOUN,True,True,Yes
+1564,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,view,middle,NOUN,True,True,Yes
+1565,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,Zoomed,middle,NOUN,True,True,No
+1566,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,real,life,NOUN,True,True,Yes
+1567,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,beetle,real,ADJ,True,True,No
+1568,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,beetle,life,NOUN,True,True,No
+1569,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,grapples,real,ADJ,True,True,No
+1570,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,grapples,life,NOUN,True,True,Yes
+1571,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,grapples,size,NOUN,True,True,Yes
+1572,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,airplane,real,ADJ,True,True,Yes
+1573,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,rhino,real,ADJ,True,True,No
+1574,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,rhino,life,NOUN,True,True,No
+1575,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,rhino,size,NOUN,True,True,Yes
+1576,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,passenger,real,ADJ,True,True,Yes
+1577,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,passenger,life,NOUN,True,True,No
+1578,a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,cheese,french,ADJ,True,True,Yes
+1579,a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,cheese,piece,NOUN,True,True,Yes
+1580,a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,french,ADJ,True,True,Yes
+1581,a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,emperor,NOUN,True,True,Yes
+1582,A pink colored car.,car,colored,ADJ,True,True,Yes
+1583,A pink colored car.,pink,colored,ADJ,True,True,Yes
+1584,a milk container in a refrigerator,milk,container,NOUN,True,True,Yes
+1585,a milk container in a refrigerator,refrigerator,container,NOUN,True,True,No
+1586,a Christmas tree on a toy train,toy,Christmas,PROPN,True,True,No
+1587,an image of the moons of the planet Jupiter,moons,planet,NOUN,True,True,Yes
+1588,an image of the moons of the planet Jupiter,moons,image,NOUN,True,True,Yes
+1589,an image of the moons of the planet Jupiter,planet,image,NOUN,True,True,Yes
+1590,an image of the moons of the planet Jupiter,Jupiter,planet,NOUN,True,True,Yes
+1591,a metallic blue sphere to the left of a brown cardboard box,box,brown,ADJ,True,True,Yes
+1592,a metallic blue sphere to the left of a brown cardboard box,box,cardboard,NOUN,True,True,Yes
+1593,a metallic blue sphere to the left of a brown cardboard box,cardboard,brown,ADJ,True,True,Yes
+1594,a metallic blue sphere to the left of a brown cardboard box,cardboard,box,PROPN,True,True,Yes
+1595,A bowl of Chicken Pho,Chicken Pho,bowl,NOUN,True,True,Yes
+1596,a view of the Milllenium Wheel from the Thames,the Milllenium Wheel,view,NOUN,True,True,Yes
+1597,a view of the Milllenium Wheel from the Thames,Thames,view,NOUN,True,True,Yes
+1598,a woman running on a trail,running,trail,NOUN,True,True,Yes
+1599,a man looking at a distant mountain,mountain,distant,ADJ,True,True,Yes
+1600,a teddy bear to the right of a toy car,toy,right,NOUN,True,True,Yes
+1601,a teddy bear to the right of a toy car,teddy bear,toy,NOUN,True,True,Yes
+1602,a pick-up truck rolling over a grassy field,grassy,field,NOUN,True,True,Yes
+1603,a pick-up truck rolling over a grassy field,field,grassy,ADJ,True,True,Yes
+1604,red apples on a tree with green leaves,tree,green,ADJ,True,True,Yes
+1605,red apples on a tree with green leaves,tree,leaves,NOUN,True,True,Yes
+1606,red apples on a tree with green leaves,green,leaves,NOUN,True,True,Yes
+1607,red apples on a tree with green leaves,leaves,tree,NOUN,True,True,Yes
+1608,red apples on a tree with green leaves,leaves,green,ADJ,True,True,Yes
+1609,red apples on a tree with green leaves,apples,leaves,NOUN,True,True,Yes
+1610,red apples on a tree with green leaves,apples,red,ADJ,True,True,Yes
+1611,a mountain stream with salmon leaping out of it,leaping,mountain,NOUN,True,True,No
+1612,a man in a business suit on a ladder that is leaning up against the side of a white house,business,man,NOUN,True,True,Yes
+1613,a man in a business suit on a ladder that is leaning up against the side of a white house,business,suit,NOUN,True,True,Yes
+1614,a man in a business suit on a ladder that is leaning up against the side of a white house,suit,man,NOUN,True,True,Yes
+1615,a man in a business suit on a ladder that is leaning up against the side of a white house,suit,business,NOUN,True,True,Yes
+1616,a man in a business suit on a ladder that is leaning up against the side of a white house,white,house,PROPN,True,True,Yes
+1617,a pig face with an eye patch,pig,face,NOUN,True,True,Yes
+1618,a pig face with an eye patch,face,eye,NOUN,True,True,Yes
+1619,the statue of Liberty next to the Washington Monument,Liberty,statue,NOUN,True,True,Yes
+1620,an overhead view of the Empire State Building,Empire State Building,view,NOUN,True,True,Yes
+1621,an overhead view of the Empire State Building,Empire State Building,overhead,ADJ,True,True,Yes
+1622,an overhead view of the Empire State Building,view,overhead,ADJ,True,True,Yes
+1623,an overhead view of the Empire State Building,overhead,view,NOUN,True,True,Yes
+1624,A Big Ben clock towering over the city of London,towering,city,NOUN,True,True,Yes
+1625,A Big Ben clock towering over the city of London,London,city,NOUN,True,True,Yes
+1626,A Big Ben clock towering over the city of London,Big Ben,city,NOUN,True,True,Yes
+1627,A Big Ben clock towering over the city of London,Big Ben,London,PROPN,True,True,Yes
+1628,A Big Ben clock towering over the city of London,Big Ben,clock,NOUN,True,True,Yes
+1629,an elder politician giving a campaign speech,giving,speech,NOUN,True,True,Yes
+1630,an elder politician giving a campaign speech,politician,elder,ADJ,True,True,No
+1631,an elder politician giving a campaign speech,politician,speech,NOUN,True,True,Yes
+1632,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,polar,bear,NOUN,True,True,Yes
+1633,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,polar,photo,NOUN,True,True,Yes
+1634,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,bear,head,NOUN,True,True,Yes
+1635,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,head,photo,NOUN,True,True,Yes
+1636,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,covered wagon,wagon,NOUN,True,True,Yes
+1637,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,sticking,photo,NOUN,True,True,Yes
+1638,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,wagon,covered wagon,NOUN,True,True,Yes
+1639,a photo of the back of a covered wagon. a polar bear is sticking it's head out of the wagon.,wagon,photo,NOUN,True,True,Yes
+1640,a pony with a shooting star on its flank,pony,flank,NOUN,True,True,Yes
+1641,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",studio,light,NOUN,True,True,Yes
+1642,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",strawberry,macro,ADJ,True,True,No
+1643,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",strawberry,light,NOUN,True,True,No
+1644,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",detailed,ears,NOUN,True,True,No
+1645,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",droplets,macro,ADJ,True,True,Yes
+1646,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",light,studio,NOUN,True,True,Yes
+1647,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",backlit,light,NOUN,True,True,Yes
+1648,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",baby,ears,NOUN,True,True,Yes
+1649,"A baby fennec sneezing onto a strawberry, detailed, macro, studio light, droplets, backlit ears.",fennec,ears,NOUN,True,True,Yes
+1650,an aerial photo of a carnival at night,aerial,photo,NOUN,True,True,Yes
+1651,an aerial photo of a carnival at night,carnival,night,NOUN,True,True,Yes
+1652,slices of avocado on a piece of toast,toast,slices,NOUN,True,True,Yes
+1653,slices of avocado on a piece of toast,toast,piece,NOUN,True,True,Yes
+1654,slices of avocado on a piece of toast,piece,slices,NOUN,True,True,Yes
+1655,a full pint of IPA,IPA,pint,NOUN,True,True,Yes
+1656,a plant growing on the side of a brick wall,wall,plant,NOUN,True,True,No
+1657,a plant growing on the side of a brick wall,brick,wall,NOUN,True,True,Yes
+1658,a plant growing on the side of a brick wall,growing,plant,NOUN,True,True,Yes
+1659,a unicorn with a multicolored mane,unicorn,mane,NOUN,True,True,Yes
+1660,a collection of glasses is sitting on a table,glasses,table,NOUN,True,True,Yes
+1661,a collection of glasses is sitting on a table,table,glasses,NOUN,True,True,Yes
+1662,"an ornate, high-backed mahogany chair with a red cushion",ornate,mahogany,NOUN,True,True,No
+1663,a robot kicking a soccer ball,soccer,ball,NOUN,True,True,Yes
+1664,a robot kicking a soccer ball,kicking,soccer,NOUN,True,True,Yes
+1665,a robot kicking a soccer ball,kicking,ball,NOUN,True,True,Yes
+1666,a robot kicking a soccer ball,ball,soccer,NOUN,True,True,Yes
+1667,Photo of a mega Lego space station inside a kid's bedroom.,mega,Photo,NOUN,True,True,No
+1668,Photo of a mega Lego space station inside a kid's bedroom.,kid,Photo,NOUN,True,True,Yes
+1669,a panda bear with aviator glasses on its head,panda,head,NOUN,True,True,Yes
+1670,a tree with leaves that look like purple balloons,tree,leaves,NOUN,True,True,Yes
+1671,a flower with a cat's face in the middle,cat,face,NOUN,True,True,Yes
+1672,a flower with a cat's face in the middle,flower,middle,NOUN,True,True,Yes
+1673,a pickup truck kicking up dust on a back road,pickup truck,dust,NOUN,True,True,Yes
+1674,an old red truck parked by the geyser Old Faithful,truck,red,ADJ,True,True,Yes
+1675,matching socks with cute cats on them,matching,cute,ADJ,True,True,No
+1676,matching socks with cute cats on them,cats,cute,ADJ,True,True,Yes
+1677,matching socks with cute cats on them,socks,cute,ADJ,True,True,No
+1678,a blue wall with a large framed watercolor painting of a mountain,large,wall,NOUN,True,True,No
+1679,a blue wall with a large framed watercolor painting of a mountain,large,framed,ADJ,True,True,Yes
+1680,a blue wall with a large framed watercolor painting of a mountain,mountain,large,ADJ,True,True,Yes
+1681,a blue wall with a large framed watercolor painting of a mountain,watercolor,blue,ADJ,True,True,No
+1682,a blue wall with a large framed watercolor painting of a mountain,watercolor,painting,NOUN,True,True,Yes
+1683,a blue wall with a large framed watercolor painting of a mountain,framed,wall,NOUN,True,True,Yes
+1684,a blue wall with a large framed watercolor painting of a mountain,framed,large,ADJ,True,True,No
+1685,a yellow box to the right of a blue sphere,yellow,right,NOUN,True,True,Yes
+1686,A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,cab,car,NOUN,True,True,Yes
+1687,A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,taxi,car,NOUN,True,True,Yes
+1688,A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,taxi,cab,NOUN,True,True,Yes
+1689,A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,New York City,car,NOUN,True,True,Yes
+1690,A red colored car.,car,colored,ADJ,True,True,Yes
+1691,A red colored car.,red,colored,ADJ,True,True,Yes
+1692,a canal in Venice,canal,Venice,PROPN,True,True,Yes
+1693,a canal in Venice,Venice,canal,NOUN,True,True,Yes
+1694,a small house on a mountain top,small,house,NOUN,True,True,Yes
+1695,a stone path leading away from a fountain,away,path,NOUN,True,True,Yes
+1696,a stone path leading away from a fountain,away,stone,NOUN,True,True,Yes
+1697,a stone path leading away from a fountain,path,stone,NOUN,True,True,Yes
+1698,a stone path leading away from a fountain,leading,path,NOUN,True,True,Yes
+1699,a photo of a phone from the 20s,phone,photo,NOUN,True,True,Yes
+1700,The Millennium Wheel next to the Statue of Liberty. The Sagrada Familia church is also visible.,Millennium Wheel,visible,ADJ,True,True,No
+1701,The Millennium Wheel next to the Statue of Liberty. The Sagrada Familia church is also visible.,church,visible,ADJ,True,True,No
+1702,The Millennium Wheel next to the Statue of Liberty. The Sagrada Familia church is also visible.,Sagrada Familia,visible,ADJ,True,True,Yes
+1703,The Millennium Wheel next to the Statue of Liberty. The Sagrada Familia church is also visible.,Sagrada Familia,church,NOUN,True,True,Yes
+1704,a turtle upside down and spinning on its shell,turtle,shell,NOUN,True,True,Yes
+1705,"a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.",pharaoh,portrait,NOUN,True,True,Yes
+1706,"a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.",pharaoh,statue,NOUN,True,True,Yes
+1707,"a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.",wearing,portrait,NOUN,True,True,No
+1708,"a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.",statue,white,ADJ,True,True,No
+1709,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,skin,curved,ADJ,True,True,No
+1710,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,fruit,skin,NOUN,True,True,Yes
+1711,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,fruit,ripe,ADJ,True,True,Yes
+1712,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,clusters,curved,ADJ,True,True,Yes
+1713,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,clusters,pulpy,ADJ,True,True,No
+1714,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,clusters,yellow,ADJ,True,True,No
+1715,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,pulpy,curved,ADJ,True,True,No
+1716,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,flesh,curved,ADJ,True,True,No
+1717,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,flesh,soft,ADJ,True,True,Yes
+1718,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,soft,curved,ADJ,True,True,No
+1719,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,soft,long,ADJ,True,True,No
+1720,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,yellow,long,ADJ,True,True,No
+1721,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,ripe,yellow,ADJ,True,True,Yes
+1722,a peaceful lakeside landscape with migrating herd of sauropods,migrating,landscape,NOUN,True,True,No
+1723,a peaceful lakeside landscape with migrating herd of sauropods,peaceful,lakeside,ADJ,True,True,Yes
+1724,a peaceful lakeside landscape with migrating herd of sauropods,peaceful,landscape,NOUN,True,True,Yes
+1725,a peaceful lakeside landscape with migrating herd of sauropods,herd,landscape,NOUN,True,True,No
+1726,a peaceful lakeside landscape with migrating herd of sauropods,lakeside,peaceful,ADJ,True,True,Yes
+1727,a peaceful lakeside landscape with migrating herd of sauropods,lakeside,landscape,NOUN,True,True,Yes
+1728,a peaceful lakeside landscape with migrating herd of sauropods,landscape,peaceful,ADJ,True,True,Yes
+1729,a peaceful lakeside landscape with migrating herd of sauropods,sauropods,herd,NOUN,True,True,Yes
+1730,a peaceful lakeside landscape with migrating herd of sauropods,sauropods,landscape,NOUN,True,True,Yes
+1731,a car with tires that have yellow rims,car,tires,NOUN,True,True,Yes
+1732,a car with tires that have yellow rims,car,rims,NOUN,True,True,Yes
+1733,a cow eating a green leafy plant,green,leafy,ADJ,True,True,Yes
+1734,a cow eating a green leafy plant,green,plant,NOUN,True,True,Yes
+1735,a cow eating a green leafy plant,leafy,green,ADJ,True,True,Yes
+1736,a cow eating a green leafy plant,leafy,plant,NOUN,True,True,Yes
+1737,a cow eating a green leafy plant,plant,green,ADJ,True,True,Yes
+1738,a cow eating a green leafy plant,plant,leafy,ADJ,True,True,Yes
+1739,a cow eating a green leafy plant,cow,plant,NOUN,True,True,Yes
+1740,a full bookshelf with three shelves,shelves,bookshelf,NOUN,True,True,Yes
+1741,a full bookshelf with three shelves,bookshelf,shelves,NOUN,True,True,Yes
+1742,trees seen through a car window on a rainy day,car,day,NOUN,True,True,Yes
+1743,trees seen through a car window on a rainy day,rainy,car,NOUN,True,True,Yes
+1744,trees seen through a car window on a rainy day,rainy,trees,NOUN,True,True,Yes
+1745,Photo of a cat singing in a barbershop quartet.,cat,Photo,NOUN,True,True,Yes
+1746,Photo of a cat singing in a barbershop quartet.,singing,Photo,NOUN,True,True,No
+1747,Photo of a cat singing in a barbershop quartet.,barbershop quartet,singing,NOUN,True,True,Yes
+1748,Photo of a cat singing in a barbershop quartet.,barbershop quartet,Photo,NOUN,True,True,No
+1749,a brown trash bin with a green compost bin on its left and a blue recycling bin on its right,recycling,trash bin,NOUN,True,True,Yes
+1750,a brown trash bin with a green compost bin on its left and a blue recycling bin on its right,green,right,ADJ,True,True,No
+1751,a brown trash bin with a green compost bin on its left and a blue recycling bin on its right,compost,green,ADJ,True,True,Yes
+1752,a crowd of people watching fireworks,watching,people,NOUN,True,True,Yes
+1753,a crowd of people watching fireworks,crowd,people,NOUN,True,True,Yes
+1754,a crowd of people watching fireworks,people,crowd,NOUN,True,True,Yes

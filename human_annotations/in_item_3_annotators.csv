@@ -1,0 +1,48 @@
+Prompt,Reference,Source,A1,A2,A3,Notes
+"a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants",penguin,pen,1,1,1,5/5
+"a baby penguin wearing a blue hat, red gloves, green shirt, and yellow pants",penguin,guin,1,1,1,5/5
+a ballet dancer next to a waterfall,dancer,dance,1,1,1,5/5
+a ballet dancer next to a waterfall,dancer,r,0,0,0,
+a group of penguins in a snowstorm,penguins,pen,1,1,1,5/5
+a group of penguins in a snowstorm,penguins,guin,1,1,1,5/5
+a group of penguins in a snowstorm,penguins,s,0,0,0,
+"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",hot air balloon,hot,0,0,0,
+"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",hot air balloon,air,1,1,1,2/5
+"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",hot air balloon,balloon,1,1,1,5/5
+A magnifying glass over a page of a 1950s batman comic.,batman,bat,1,1,1,5/5
+A magnifying glass over a page of a 1950s batman comic.,batman,man,1,1,1,5/5
+a nerdy bear wearing glasses and a bowtie,bowtie,bow,1,1,1,5/5
+a nerdy bear wearing glasses and a bowtie,bowtie,t,0,0,0,
+a nerdy bear wearing glasses and a bowtie,bowtie,i,0,0,1,1/5
+a nerdy bear wearing glasses and a bowtie,bowtie,e,0,1,0,"yuval: only ties, not bowties"
+a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,paranoid,para,0,0,0,
+a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,paranoid,noi,0,0,0,
+a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,paranoid,d,0,0,0,
+a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,n,0,1,0,yuval: general european emperor
+a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,a,0,0,0,
+a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,a,0,0,0,
+a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,pole,1,1,1,1/5
+a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,napoleon,on,0,1,0,yuval: general european emperor
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a stump,punk rock,pun,1,1,1,4/5
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a stump,punk rock,k,1,1,1,4/5
+A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a stump,punk rock,rock,1,1,1,"2/5 - definitely more ""rock"" than punk-rock"
+a teddy bear on a skateboard in times square,skateboard,skate,1,1,1,5/5
+a teddy bear on a skateboard in times square,skateboard,board,1,1,1,5/5
+a white cat and a tabby cat looking at each other,tabby,tab,0,1,1,5/5
+a white cat and a tabby cat looking at each other,tabby,by,1,1,1,5/5
+a wine bottle with a lit candle stuck in its spout,spout,out,1,1,1,2/5
+a yellow diamond-shaped sign with a wooly mammoth silhouette,mammoth,ma,0,0,0,
+a yellow diamond-shaped sign with a wooly mammoth silhouette,mammoth,th,1,1,1,5/5
+Colouring page of large cats climbing the eifel tower in a cyberpunk future.,cyberpunk,cyber,1,1,1,2/5
+Colouring page of large cats climbing the eifel tower in a cyberpunk future.,cyberpunk,p,0,0,0,
+Colouring page of large cats climbing the eifel tower in a cyberpunk future.,cyberpunk,unk,1,1,1,5/5
+three quarters view of a rusty old red pickup truck with white doors and a smashed windshield,rusty,rust,1,1,1,5/5
+three quarters view of a rusty old red pickup truck with white doors and a smashed windshield,rusty,y,0,0,0,
+two wine bottles and three beer cans,cans,can,1,1,1,5/5
+two wine bottles and three beer cans,cans,s,0,0,0,
+view of a giraffe and a zebra in the middle of a field,zebra,ze,0,0,0,
+view of a giraffe and a zebra in the middle of a field,zebra,bra,1,1,1,5/5
+Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,giraffe,gir,1,1,1,5/5
+Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,giraffe,a,0,0,0,
+Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,giraffe,a,0,0,0,
+Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,giraffe,ffe,1,1,1,5/5

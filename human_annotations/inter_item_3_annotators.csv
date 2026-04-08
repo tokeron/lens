@@ -1,0 +1,101 @@
+1,Source,Reference,Contextualized_A1,Uncontextualized_A1,Contextualized_A2,Contextualized_A3,Uncontextualized_A2,Uncontextualized_A3,Notes,AnyChange
+A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,motorcycle,car,0,0,0,0,0,0,,
+a woman with long black hair and dark skin in a long white dress,dress,long,1,0,1,1,0,1,"Yuval: looking at uncontextualized w/o considering the contextualized, I'd say the concept of ""long"" is there",1
+a small tree covered in white blossoms,blossoms,small,0,0,0,0,0,0,,
+a kids' book cover with an illustration of white dog driving a red pickup truck,cover,red,1,1,0,0,0,0,,
+people packed on a double-decker bus,packed,bus,0,0,0,0,0,0,"food -> people.
+Yuval: ""people"" influenced ""packed"", but the concept of bus is not there",1
+A screenshot of an iOS app for ordering different types of milk.,iOS,milk,1,0,0,0,0,0,"milkey way backgroud
+Yuval: nothing about the concept of ""milk"" though",1
+"a farm scene with cows, ducks and a tractor.",tractor,farm,1,1,1,1,1,1,,
+a black dog sitting between a bush and a pair of green pants standing up with nobody inside them,pants,bush,0,0,1,0,0,0,Only in one photo - there is a plant,
+A stop sign on the right of a refrigerator.,right,stop,0,0,0,0,0,0,,
+a small garden with an apple tree behind it,small,garden,0,0,0,0,0,0,,
+a fall landscape with a small cottage next to a lake,lake,landscape,1,1,1,1,1,1,,
+the mona lisa wearing a cowboy hat and screaming a punk song into a microphone,mona lisa,punk,0,0,0,0,0,0,Mona lisa -> Figures in Church,1
+A photocopy of a photograph of a painting of a sculpture of a giraffe.,photocopy,photograph,0,0,1,1,0,0,"General photo -> human portraits. Yuval: problematic example, if asked: ""is there a concept of 'photograph' in the uncontextualized generations, hard to say no... but can think of it more as scenes in the real world vs. photographs. also no ""photocopy"" in any generation",1
+a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,bagpipe,armadillo,0,0,0,0,0,0,,
+A giant cobra snake made from corn,snake,giant,0,0,0,0,0,0,,
+a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,truck,yellow,1,0,1,1,0,0,0/5->3/5 are yellow,1
+a plant growing on the side of a brick wall,wall,plant,1,1,1,1,1,1,,
+An appliance or compartment which is artificially kept cool and used to store food and drink.,store,food,1,0,1,1,0,0,store as shop -> store as storage,1
+a chimpanzee wearing a bowtie and playing a piano,piano,bowtie,0,0,0,0,0,0,piano at home -> piano on stage. also in 1 image there's a man with a tux (back to camera) - related to bowtie,1
+a white robot passing a soccer ball to a red robot,robot,white,1,1,1,1,1,1,,
+a poodle wearing a baseball cap holding a dictionary in hand and writing bonez on a chalkboard,baseball,cap,1,0,1,1,0,0,"Baseball -> Baseball Cap. Yuval: the concept of ""cap"" was already there in uncontextualized... but maybe not as the focus",1
+an old-fashioned windmill surrounded by flowers,surrounded,flowers,1,1,1,1,1,1,,
+"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",daytime,sky,1,0,1,1,1,1,,
+a stack of three red cubes with a blue sphere on the right and two green cones on the left,red,green,1,0,0,0,0,0,,
+an extreme close-up view of a capybara sitting in a field,sitting,capybara,0,0,0,0,0,0,,
+A teddy bear wearing a motorcycle helmet and cape is driving a speed boat near the Golden Gate Bridge,near,helmet,0,0,0,0,0,0,,
+Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,cat,head,1,1,0,1,0,1,"yuval: the concept of ""head"" is an integral part of ""cat""...",
+a ceiling fan with four white blades,fan,blades,1,0,1,1,0,0,fans in sports -> fan blades,1
+an elder politician giving a campaign speech,campaign,politician,1,0,1,1,0,0,general campaign -> political campaign,1
+A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,bulb,galaxy,0,0,0,0,0,0,,
+A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,outer,galaxy,1,1,1,1,0,0,out -> outer space,1
+A penguin wearing aviator goggles and flying confidently next to a bemused eagle.,aviator,goggles,1,1,1,1,0,0,aviator -> animal aviator with goggles,1
+A bare kitchen has wood cabinets and white appliances,cabinets,wood,1,1,1,1,1,1,,
+A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,perched,flames,0,0,0,0,0,0,,
+a throw rug on a stone floor,stone,floor,1,1,1,1,0,0,stone -> stone floor,1
+a boy sitting on the shoulders of a woman who is wearing an elegant dress,boy,shoulders,0,0,0,0,0,0,"yuval: a bit problematic because ""shoulders"" is included in the concept of ""boy""... but definitely there's no ""on the shoulders"" in the images",
+a large yellow triangle above a green square and red rectangle,green,red,0,0,0,0,0,0,,
+a blue wooden pyramid on top of a red plastic box,box,plastic,0,0,0,0,0,0,,
+A photo of an astronaut riding a horse in the forest.,horse,forest,0,0,0,0,0,0,,
+a drop-top sports car coming around a bend in the road,drop,bend,0,0,0,0,0,0,water drop -> a boat,1
+Three cats and three dogs sitting on the grass.,dogs,cats,0,0,0,0,0,0,,
+"A real life photography of super mario, 8k Ultra HD.",real,8k,1,1,1,1,1,1,,
+A boy holds and a girl paints a piece of wood.,holds,girl,1,1,1,1,0,0,man hands -> girl hands,1
+a pumpkin on a man's head,pumpkin,head,0,0,0,0,0,0,,
+a kachina doll with feathers on its head and wearing a white dress and brown boots.,doll,kachina,0,0,0,0,0,0,,
+a kachina doll with feathers on its head and wearing a white dress and brown boots.,wearing,brown,1,1,1,1,1,1,,
+"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",jaws,African,1,1,1,1,0,0,"fish jaws -> land animal jaws. yuval: maybe saying ""african"" is in the image is a bit of a stretch... but the animal is sort of similar to an african warthog",1
+A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,fashioned,red,0,1,0,1,0,0,"modern fashioned -> antient fashioned. yuval: there are red clothes in 2 images after contextualization, before there weren't.",1
+a zebra with blue stripes,blue,zebra,0,0,0,0,0,0,just blue/blue flowers -> blue with patterns,1
+A pizza on the right of a suitcase.,right,suitcase,0,0,0,0,0,0,,
+a red swirl above a black dashed line.,black,red,,,,,,,,
+a tree growing out of the middle of an intersection,intersection,tree,,,,,,,,
+view from below of a tall white ladder with just one rung leaning up against a yellow brick wall,rung,view,,,,,,,,
+a panda bear playing ping pong using a blue paddle against an ostrich using a red paddle,ostrich,paddle,,,,,,,,
+a red train is coming down the beach,train,beach,,,,,,,,
+The mouse the cat watches is jumping in the air.,air,watches,,,,,,,,
+a photograph of a blue porsche 356 coming around a bend in the road,road,porsche,,,,,,,,
+a tall man stooping down to enter a low red sports car,sports,tall,,,,,,,,
+several lily pads without frogs,lily pads,frogs,,,,,,,,
+A 1960s yearbook photo with animals dressed as humans.,1960s,humans,,,,,,,,
+a horse running in a field,running,horse,,,,,,,,
+a marina with a herd of dolphins playing in it,marina,herd,,,,,,,,
+a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,singing,ostrich,,,,,,,,
+a pickup truck kicking up dust on a back road,road,dust,,,,,,,,
+a pickup truck kicking up dust on a back road,road,pickup truck,,,,,,,,
+a glass of orange juice with an orange peel stuck on the rim,juice,orange,,,,,,,,
+an old-fashioned phone next to a sleek laptop,sleek,laptop,,,,,,,,
+Photo of an athlete cat explaining it's latest scandal at a press conference to journalists.,conference,latest,,,,,,,,
+A red colored car.,car,colored,,,,,,,,
+a white country home with a wrap-around porch,porch,country,,,,,,,,
+a prop plane flying low over the Great Wall,flying,the Great Wall,,,,,,,,
+A machine resembling a human being and able to replicate certain human movements and functions automatically.,able,machine,,,,,,,,
+a wine bottle with a red ribbon wrapped around it,ribbon,bottle,,,,,,,,
+"An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.",red,pants,,,,,,,,
+An illustration of a large red elephant sitting on a small blue mouse.,mouse,large,,,,,,,,
+a red block to the left of a blue pyramid,red,left,,,,,,,,
+"A rabbit checks its watch, and so does a gecko.",gecko,rabbit,,,,,,,,
+Snow mountain and tree reflection in the lake,Snow,mountain,,,,,,,,
+a sunken submarine at the bottom of the ocean,submarine,ocean,,,,,,,,
+a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,studio,recording,,,,,,,,
+a photograph of a bird wearing headphones and speaking into a microphone in a recording studio,recording,photograph,,,,,,,,
+Painting of Mona Lisa but the view is from behind of Mona Lisa.,Mona Lisa,Painting,,,,,,,,
+a photograph of a squirrel holding an arrow above its head and holding a longbow in its left hand,arrow,photograph,,,,,,,,
+a pair of matching socks with cute cats on them,socks,pair,,,,,,,,
+An ancient Egyptian painting depicting an argument over whose turn it is to take out the trash.,painting,ancient,,,,,,,,
+"A painting by Grant Wood of an astronaut couple, american gothic style.",painting,couple,,,,,,,,
+a grand piano with a white bench,grand piano,bench,,,,,,,,
+an aerial photo of a sandy island in the ocean,island,photo,,,,,,,,
+The collision of two black holes in the center of a galaxy.,holes,black,,,,,,,,
+the eye of the planet Jupiter,Jupiter,planet,,,,,,,,
+a photograph of the mona lisa drinking coffee as she has her breakfast. her plate has an omelette and croissant.,croissant,drinking,,,,,,,,
+a city intersection without cars,intersection,cars,,,,,,,,
+a white background with a large blue circle,large,circle,,,,,,,,
+an aerial photo of a carnival at night,carnival,photo,,,,,,,,
+overhead view of three people looking down at the street from the top of a tall building,street,view,,,,,,,,
+a basketball game between a team of four cats and a team of three dogs,dogs,team,,,,,,,,
+The buildings of downtown Manhattan situated at below Mount Everest. The Great Pyramid is in the foreground.,Mount Everest,foreground,,,,,,,,
+A triangular orange picture frame. An orange picture frame in the shape of a triangle.,picture,frame,,,,,,,,

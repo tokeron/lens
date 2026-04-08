@@ -1,0 +1,111 @@
+Contradicting_Prompt,Corrected_Prompt,affected_item,Leakage in final image,Solved with cleaning
+a man is abducting a cow while aliens watching,Aa man is abducting a cow while farmers watching,abducting,TRUE,TRUE
+A zebra to the right of a fire hydrant.,A zebra to the right of a tree.,zebra,TRUE,TRUE
+A zebra to the right of a street lamps.,A zebra to the right of a tree.,zebra,TRUE,TRUE
+A zebra to the right of a parking meters.,A zebra to the right of a tree.,zebra,TRUE,TRUE
+A zebra to the right of a bus stops.,A zebra to the right of a tree.,zebra,TRUE,TRUE
+A zebra to the right of a public benches.,A zebra to the right of a tree.,zebra,TRUE,TRUE
+A fish and a gold brick.,A fish and a brick.,fish,TRUE,TRUE
+A fish and a gold medallion.,A fish and a medallion.,fish,TRUE,TRUE
+A fish and a gold bar.,A fish and a bar.,fish,TRUE,TRUE
+A fish and a gold coin.,A fish and an coin.,fish,TRUE,TRUE
+A seal opening a letter.,A large water mammal is opening a letter.,A seal opening,TRUE,TRUE
+A seal reading a letter.,A large water mammal is reading a letter.,A seal reading,TRUE,TRUE
+A seal bringing a letter.,A large water mammal is bringing a letter.,A seal bringing,TRUE,TRUE
+A seal sending a letter.,A large water mammal is sending a letter.,A seal sending,TRUE,TRUE
+A person wearing a cone hat is eating.,A person wearing a birthday hat is eating.,cone hat,TRUE,TRUE
+girl wearing cone hat eating ice cream.,girl wearing cone hat smiling,cone hat,TRUE,TRUE
+classic butter and peanuts,classic butter and cucumbers.,classic butter,TRUE,TRUE
+peanuts and classic butter,cucumbers and classic butter ,classic butter,TRUE,TRUE
+bread and peanuts and classic butter,bread and cucumbers and classic butter ,classic butter,TRUE,TRUE
+eating peanuts and classic butter,eating cucumbers and classic butter ,classic butter,TRUE,TRUE
+Food and a cone hat. zoomed-out photo.,Food and a birthday hat. zoomed-out photo.,cone hat,TRUE,TRUE
+A cat bats an halloween costume.,A cat bats a ball,A cat bats,TRUE,TRUE
+A kid bats an halloween costume.,A kid bats a ball,A kid bats,TRUE,TRUE
+a pool and a table,a pool and a bar,pool,TRUE,TRUE
+party with a pool and a table,party with a pool and a bar,pool,TRUE,TRUE
+place with a pool and a table,place with party with a pool and a bar,pool,TRUE,TRUE
+a table and a pool,a bar and a pool,pool,TRUE,TRUE
+a businesswoman in the beach,a businessman in the beach,businesswoman,TRUE,TRUE
+businesswoman on the runway,businessman on the runway,runway,TRUE,TRUE
+A gentleman with a bow in the forest,A gentleman with a bow in the city,gentleman with a bow,TRUE,TRUE
+A gentleman with a bow in the woods,A gentleman with a bow in the city,gentleman with a bow,TRUE,TRUE
+A gentleman with a bow in the Jungle,A gentleman with a bow in the city,gentleman with a bow,TRUE,TRUE
+A gentleman with a bow in the Timberland,A gentleman with a bow in the city,gentleman with a bow,TRUE,TRUE
+A gentleman with a bow in the meadow,A gentleman with a bow in the city,gentleman with a bow,TRUE,TRUE
+apple commercial in the forest,apple commercial in the city,apple commercial,TRUE,TRUE
+A person with metal painted nails building a table,A person with metal painted nails seating by a table,person with metal painted nails,TRUE,TRUE
+man with metal painted nails building a table,man with metal painted nails seating by a table,man with metal painted nails,TRUE,TRUE
+man with metal painted nails in a construction site,man with metal painted nails seating by a table,man with metal painted nails,TRUE,TRUE
+man with metal painted nails building a shelf,man with metal painted nails seating by a table,man with metal painted nails,TRUE,TRUE
+person with metal painted nails in a construction site,person with metal painted nails seating by a table,person with metal painted nails,TRUE,TRUE
+person with metal painted nails building a shelf,person with metal painted nails seating by a table,person with metal painted nails,TRUE,TRUE
+person with metal painted nails building a house,person with metal painted nails entering a house,person with metal painted nails,TRUE,TRUE
+a crane bird in a construction site,a heron bird in a construction site,a crane bird,TRUE,TRUE
+a crane bird in a building site,a heron bird in a building site,a crane bird,TRUE,TRUE
+a crane bird near to a builder,a heron bird near to a builder,a crane bird,TRUE,TRUE
+a family are having a holiday feast Turkey,a family are having a holiday feast Sweden,a holiday feast,TRUE,TRUE
+a holiday feast in Turkey,a holiday feast in Sweden,a holiday feast,TRUE,TRUE
+a family are having a holiday dinner Turkey,a family are having a holiday dinner Sweden,a holiday dinner,TRUE,TRUE
+a holiday dinner in Turkey,a holiday dinner in Sweden,a holiday dinner,TRUE,TRUE
+a mouse using a computer,a rat using a computer,mouse,TRUE,TRUE
+a mouse playing with a computer,a rat playing with a computer,mouse,TRUE,TRUE
+a mouse playing a screen,a rat playing a screen,mouse,TRUE,TRUE
+2 knights playing chess,2 swordsmen playing chess,2 knights,TRUE,TRUE
+2 queens playing chess,2 swordsmen playing chess,2 queens,TRUE,TRUE
+2 kings playing chess,2 swordsmen playing chess,2 kings,TRUE,TRUE
+2 bishops playing chess,2 swordsmen playing chess,2 bishops,TRUE,TRUE
+2 knights learning chess,2 swordsmen learning chess,2 knights,TRUE,TRUE
+2 queens learning chess,2 swordsmen learning chess,2 queens,TRUE,TRUE
+2 kings learning chess,2 swordsmen learning chess,2 kings,TRUE,TRUE
+2 bishops learning chess,2 swordsmen learning chess,2 bishops,TRUE,TRUE
+a dragon fly over a pond,a dragon fly over a castle,fly over,TRUE,TRUE
+a dragon fly over a pool,a dragon fly over a castle,fly over,TRUE,TRUE
+a dragon fly over a lake,a dragon fly over a castle,fly over,TRUE,TRUE
+a dragon fly over a lagoon,a dragon fly over a castle,fly over,TRUE,TRUE
+worming books in a library,worming books in a park,worming books,TRUE,TRUE
+a house keeper is making dinner,a house keeper is watching the game,a house keeper,TRUE,TRUE
+A seal delivering a letter.,A large water mammal is delivering a letter.,A seal delivering,TRUE,TRUE
+A boy bats an halloween costume.,A boy bats a ball,A boy bats,TRUE,TRUE
+A girl bats an halloween costume.,A girl bats a ball,A girl bats,TRUE,TRUE
+a dragon fly over a river,a dragon fly over a castle,fly over,TRUE,TRUE
+a house keeper is taking a children from school,a house keeper is watching the game,a house keeper,TRUE,TRUE
+a house keeper is buying groceries,a house keeper is watching the game,a house keeper,TRUE,TRUE
+a house keeper during shopping,a house keeper is watching the game,a house keeper,TRUE,TRUE
+a flight attendant is buying groceries,a house keeper is watching the game,buying groceries,TRUE,TRUE
+A boy bats a tree in an halloween costume.,A boy bats a tree,A boy bats,TRUE,TRUE
+A boy bats a tree in an halloween costume.,A boy bats a tree,A boy bats,TRUE,TRUE
+a standing zebra to the right of a city bus station,a standing zebra to the right of a country bus station,a standing zebra,TRUE,TRUE
+a walking zebra to the right of a city bus station,a walking zebra to the right of a country bus station,a walking zebra,TRUE,TRUE
+a standing zebra to the right of a parking meter,a standing zebra to the right of a tree,a standing zebra,TRUE,TRUE
+a walking zebra to the right of a parking meter,a walking zebra to the right of a tree,a walking zebra,TRUE,TRUE
+a standing zebra to the right of a street lamps,a standing zebra to the right of a lamp,a standing zebra,TRUE,TRUE
+a walking zebra to the right of a street lamps,a walking zebra to the right of a lamp,a walking zebra,TRUE,TRUE
+a walking zebra to the right of a fire hydrant,a walking zebra to the right of a tree,a walking zebra,TRUE,TRUE
+bats are flying in a baseball stadium,bats flying in a football stadium,bats are flying,TRUE,TRUE
+bats fly in a baseball stadium,bats fly in a football stadium,bats fly,TRUE,TRUE
+flying bats in a baseball stadium,flying bats in a football stadium,flying bats,TRUE,TRUE
+A fish and a gold ingot.,A fish and an ingot.,fish,TRUE,FALSE
+armadillo and a Warthog,armadillo and a giraffe,armadillo,TRUE,FALSE
+sea shore with an armadillo,sea shore with a dog,sea shore,TRUE,FALSE
+our country ruler in a construction site,our country president in a construction site,country ruler,TRUE,FALSE
+mannequin and a ladybug. full body image,mannequin and a bug. full body image,mannequin,TRUE,FALSE
+a model and a ladybug. full body image,a model and a bug. full body image,a model,TRUE,FALSE
+a crane bird flying in a construction site,a heron bird is flying in a construction site,a crane bird flying,TRUE,FALSE
+2 foreign men eating Turkey,2 foreign men eating pasta,foreign men,TRUE,FALSE
+a family are having a feast Turkey,a family are having a feast Sweden,a feast,TRUE,FALSE
+a family are having a dinner Turkey,a family are having a dinner Sweden,a dinner,TRUE,FALSE
+"A woman with a clip in her hair, holding a paper.",A woman with a clip in her hair.,clip,TRUE,FALSE
+"A man holding a card, post work.","A man holding a card, post party.",card,TRUE,FALSE
+An animal alongside a piggybank,An animal alongside a table,An animal,TRUE,FALSE
+A boy bats a tree at night.,A boy bats a tree,A boy bats,TRUE,FALSE
+A kid bats a tree at night.,A kid bats a tree,A kid bats,TRUE,FALSE
+A kid bats a boll by a tree at night.,A kid bats a ball by a tree.,A kid bats,TRUE,FALSE
+a standing zebra to the right of a fire hydrant,a standing zebra to the right of a tree,a standing zebra,FALSE,TRUE
+a flight attendant is making dinner,a flight attendant is watching the game,a flight attendant,FALSE,FALSE
+a flight attendant is taking children from school,a house keeper is watching the game,a flight attendant,FALSE,FALSE
+a bachelor wearing a bow in the jungle,a bachelor wearing a bow,bachelor wearing a bow,FALSE,FALSE
+a bird inside a house,a parrot inside a house,a house,FALSE,FALSE
+"A board of directors meeting
+",A directors meeting, directors meeting,FALSE,FALSE
+a bat is flying over a baseball stadium,a bat is flying over a stadium,bat is flying,FALSE,FALSE

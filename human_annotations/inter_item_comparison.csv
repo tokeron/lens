@@ -1,0 +1,51 @@
+Prompt,Reference,Source,Human_Annotation,Model_Prediction,Human_Uncontextualized,Model_Uncontextualized
+A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,car,motorcycle,0,0,0,0
+a woman with long black hair and dark skin in a long white dress,long,dress,1,1,0,0
+a small tree covered in white blossoms,small,blossoms,0,1,0,1
+a kids' book cover with an illustration of white dog driving a red pickup truck,red,cover,0,1,0,1
+people packed on a double-decker bus,bus,packed,0,0,0,0
+A screenshot of an iOS app for ordering different types of milk.,milk,iOS,0,0,0,0
+"a farm scene with cows, ducks and a tractor.",farm,tractor,1,1,1,1
+a black dog sitting between a bush and a pair of green pants standing up with nobody inside them,bush,pants,1,0,0,0
+A stop sign on the right of a refrigerator.,stop,right,0,0,0,0
+a small garden with an apple tree behind it,garden,small,0,0,0,0
+a fall landscape with a small cottage next to a lake,landscape,lake,1,1,1,1
+the mona lisa wearing a cowboy hat and screaming a punk song into a microphone,punk,mona lisa,0,0,0,0
+A photocopy of a photograph of a painting of a sculpture of a giraffe.,photograph,photocopy,1,1,0,1
+a high-quality photograph of an armadillo playing a bagpipe while standing on one leg,armadillo,bagpipe,0,0,0,0
+A giant cobra snake made from corn,giant,snake,0,1,0,0
+a yellow dump truck filled with soccer balls driving in a coral reef. a blue whale looms in the background.,yellow,truck,1,1,0,0
+a plant growing on the side of a brick wall,plant,wall,1,1,1,1
+An appliance or compartment which is artificially kept cool and used to store food and drink.,food,store,1,1,0,0
+a chimpanzee wearing a bowtie and playing a piano,bowtie,piano,0,0,0,0
+a white robot passing a soccer ball to a red robot,white,robot,1,1,1,1
+a poodle wearing a baseball cap holding a dictionary in hand and writing bonez on a chalkboard,cap,baseball,1,1,0,0
+an old-fashioned windmill surrounded by flowers,flowers,surrounded,1,1,1,1
+"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",sky,daytime,1,1,1,1
+a stack of three red cubes with a blue sphere on the right and two green cones on the left,green,red,0,0,0,0
+an extreme close-up view of a capybara sitting in a field,capybara,sitting,0,0,0,0
+A teddy bear wearing a motorcycle helmet and cape is driving a speed boat near the Golden Gate Bridge,helmet,near,0,0,0,0
+Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,head,cat,0,1,0,1
+a ceiling fan with four white blades,blades,fan,1,1,0,0
+an elder politician giving a campaign speech,politician,campaign,1,1,0,0
+A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,galaxy,bulb,0,0,0,0
+A photo of a light bulb in outer space traveling the galaxy with a sailing boat inside the light bulb.,galaxy,outer,1,1,0,0
+A penguin wearing aviator goggles and flying confidently next to a bemused eagle.,goggles,aviator,1,1,0,1
+A bare kitchen has wood cabinets and white appliances,wood,cabinets,1,1,1,1
+A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,flames,perched,0,0,0,0
+a throw rug on a stone floor,floor,stone,1,0,0,0
+a boy sitting on the shoulders of a woman who is wearing an elegant dress,shoulders,boy,0,1,0,1
+a large yellow triangle above a green square and red rectangle,red,green,0,0,0,0
+a blue wooden pyramid on top of a red plastic box,plastic,box,0,0,0,0
+A photo of an astronaut riding a horse in the forest.,forest,horse,0,1,0,1
+a drop-top sports car coming around a bend in the road,bend,drop,0,0,0,1
+Three cats and three dogs sitting on the grass.,cats,dogs,0,0,0,0
+"A real life photography of super mario, 8k Ultra HD.",8k,real,1,0,1,1
+A boy holds and a girl paints a piece of wood.,girl,holds,1,0,0,0
+a pumpkin on a man's head,head,pumpkin,0,0,0,0
+a kachina doll with feathers on its head and wearing a white dress and brown boots.,kachina,doll,0,1,0,0
+a kachina doll with feathers on its head and wearing a white dress and brown boots.,brown,wearing,1,1,1,1
+"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",African,jaws,1,1,0,0
+A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,red,fashioned,0,0,0,0
+a zebra with blue stripes,zebra,blue,0,0,0,0
+A pizza on the right of a suitcase.,suitcase,right,0,0,0,0

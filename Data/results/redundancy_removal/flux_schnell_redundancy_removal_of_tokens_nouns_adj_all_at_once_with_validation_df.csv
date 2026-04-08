@@ -1,0 +1,347 @@
+,Prompt,Source_token_ids,Reference_token_ids,specific_token_idx_to_keep_per_prompt,"VLM(full_img,concept)","VLM(full_redundant_removal_img,concept)"
+285,an antique chest with three drawers,[5],"[5, 6]","[0, 1, 2, 3, 4, 5]",Maybe,Yes
+10,A bowl of soup that looks like a monster with tofu says deep learning,[13],"[11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15, 16]",No,No
+12,A cat on the right of a tennis racket.,"[9, 11]","[9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",No,No
+13,A cat that has black fur bats a red Christmas ornament that has silver sparkles.,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",No,No
+18,A cross-section view of a brain.,"[1, 3]","[1, 2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 9]",No,No
+21,A fish eating a pelican.,"[6, 7]","[5, 6, 7]","[0, 1, 2, 3, 4, 6, 7, 8]",No,No
+30,"A maglev train going vertically downward in high speed, New York Times photojournalism.",[14],"[12, 13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 19]",No,No
+32,A man sips a latte and a woman a beer.,[9],"[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17]",No,No
+34,A panda making latte art.,"[7, 8, 2]","[5, 6, 7, 8, 1, 2, 3]","[0, 2, 4, 7, 8, 9]",No,No
+45,A punk rock platypus in a studded leather jacket shouting into a microphone while standing on a lily pad,"[27, 10]","[25, 26, 27, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 27, 28]",No,No
+50,A robot gives a wombat an orange and a lemur a banana.,[14],"[13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18]",No,No
+63,A zebra to the right of a fire hydrant.,[12],"[11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14]",No,No
+66,An aerial view of Ha Long Bay without any boats,"[5, 6]","[4, 5, 6]","[0, 1, 2, 3, 5, 6, 7, 8, 9]",No,No
+79,Mary gave the child the dog bit a Band-Aid.,"[9, 12]","[9, 10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14]",No,No
+81,Painting of Mona Lisa but the view is from behind of Mona Lisa.,[4],"[2, 3, 4]","[0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",No,No
+87,"The 1970s logo for a london-area football club called ""The Rumbury Wanderers""","[1, 9, 10]","[1, 2, 7, 8, 9, 10, 11, 12]","[0, 1, 3, 4, 5, 6, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",No,No
+98,The large ball crashed right through the table because it was made of styrofoam,"[18, 20]","[13, 14, 15, 16, 17, 18, 19, 20]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 18, 20]",No,No
+107,a Stegasaurus eating ferns,[8],"[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 8]",No,No
+113,a bike rack with some bike locks attached to it but no bicycles,[13],"[13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",No,No
+114,a black and orange yin-yang symbol with tiger's heads instead of circles,"[14, 15, 7, 10]","[13, 14, 15, 16, 17, 5, 6, 7, 8, 9, 10, 11]","[0, 1, 2, 3, 4, 7, 10, 12, 14, 15, 18, 19, 20, 21]",No,No
+119,a bookshelf without any books on it,"[2, 4]","[2, 3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9]",No,No
+123,a car's wheel crushing a pair of headphones,[2],"[2, 3, 4]","[0, 1, 2, 5, 6, 7, 8, 9, 10, 11]",No,No
+127,a chess queen to the right of a chess knight,"[3, 3, 4]","[2, 3, 4, 5]","[0, 1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",No,No
+155,a family of four posing at Mount Rushmore,[11],"[9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 11]",No,No
+159,a flying boat gliding past the Parthenon,"[11, 12]","[10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",No,No
+162,a giant gorilla at the top of the Empire State Building,[4],"[3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",No,No
+182,a horse without a rider,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6]",No,No
+196,a lovestruck cup of boba,[2],"[2, 3]","[0, 1, 2, 4, 5, 6, 7, 8]",No,No
+199,a monarch butterfly hatching from its chrysalis,"[10, 12]","[8, 9, 10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 12]",No,No
+219,a photo of a phone from the 20s,[9],"[9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",No,No
+226,a pineapple with one beer to its left and two beers on its right,[12],"[11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15]",No,No
+228,a portrait of a postal worker who has forgotten their mailbag,[12],"[12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",No,No
+238,a rowboat without paddles,[5],"[5, 6]","[0, 1, 2, 3, 4, 5]",No,No
+247,a snail made of harp,[7],"[5, 6, 7]","[0, 1, 2, 3, 4, 7]",No,No
+252,a subway train with no cows in it,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6, 8, 9]",No,No
+265,a view of the Orion constellation in the night sky,[7],"[5, 6, 7]","[0, 1, 2, 3, 4, 7, 8, 9, 10, 11]",No,No
+290,an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone,"[14, 16]","[14, 15, 16]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23]",No,No
+296,an ornate gold harp,"[1, 3]","[1, 2, 3]","[0, 1, 3, 4, 5, 6, 7]",No,No
+312,five green peppers to the right of two red onions,[2],"[2, 3]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10]",No,No
+318,several lily pads without frogs,"[8, 3, 4]","[6, 7, 8, 9, 1, 2, 3, 4]","[0, 3, 4, 5, 8]",No,No
+330,the United States flag next to the flag of Texas,[2],"[1, 2]","[0, 2, 3, 4, 5, 6, 7, 8, 9]",No,No
+334,three airplanes parked in a row at a terminal,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",No,No
+22,A giant cobra snake made from pancakes,"[3, 7]","[2, 3, 7, 8]","[0, 1, 3, 4, 5, 6, 7]",No,Yes
+55,A spider with a moustache bidding an equally gentlemanly grasshopper a good day during his walk to work.,"[15, 5, 12]","[14, 15, 5, 6, 7, 12, 13]","[0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]",No,Yes
+64,A zebra underneath a broccoli.,[3],"[1, 2, 3]","[0, 3, 4, 5, 6, 7, 8]",No,Yes
+65,Abraham Lincoln touches his toes while George Washington does chin-ups. Lincoln is barefoot. Washington is wearing boots.,"[1, 9, 12, 14, 4, 5]","[0, 1, 8, 9, 11, 12, 13, 14, 15, 4, 5, 6]","[1, 2, 3, 4, 5, 7, 9, 10, 12, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]",No,Yes
+70,An empty fireplace with a television above it. The TV shows a lion hugging a giraffe.,"[22, 24]","[21, 22, 23, 24]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25]",No,Yes
+82,Paying for a quarter-sized pizza with a pizza-sized quarter.,"[12, 12, 14, 5, 5, 6, 7, 7]","[12, 13, 14, 5, 6, 7]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16]",No,Yes
+112,a beat-up truck at the base of the Great Pyramid,"[12, 2, 3]","[10, 11, 12, 2, 3, 4]","[0, 1, 2, 3, 5, 6, 7, 8, 9, 12]",No,Yes
+117,a blue pickup truck with a rhinoceros in its flatbed,"[3, 8, 10]","[3, 4, 8, 9, 10]","[0, 1, 2, 3, 5, 6, 7, 8, 10, 11, 12, 13, 14]",No,Yes
+146,a cube made of porcupine,"[6, 8]","[6, 7, 8]","[0, 1, 2, 3, 4, 5, 6, 8]",No,Yes
+161,a full pitcher of beer with an elephant's trunk in it,[8],"[8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13]",No,Yes
+217,a peaceful lakeside landscape with migrating herd of sauropods,"[13, 14, 15, 16]","[13, 14, 15, 16, 17]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",No,Yes
+250,a spaceship that looks like the Sydney Opera House,"[8, 9]","[8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",No,Yes
+292,an octopus fleeing and squirting black ink,"[17, 5]","[16, 17, 1, 2, 3, 4, 5]","[0, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17]",No,Yes
+304,an owl with its wings spread out swooping over a tree,[2],"[1, 2, 3]","[0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",No,Yes
+99,The man who whistles tunes pianos.,"[7, 5, 6]","[7, 8, 5, 6]","[0, 1, 2, 3, 4, 5, 6, 7, 9]",Yes,Maybe
+54,"A smiling sloth wearing a leather jacket, a cowboy hat and a kilt.",[21],"[19, 20, 21, 22]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 23]",Yes,No
+305,black bearded dog with an injured leg wearing a cone,"[1, 2]","[1, 2, 3]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,No
+0,7 dogs sitting around a poker table,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6]",Yes,Yes
+1,"7 dogs sitting around a poker table, two of which are turning away.",[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15]",Yes,Yes
+2,A 1960s yearbook photo with animals dressed as humans.,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+3,A Big Ben clock towering over the city of London,[2],"[1, 2]","[0, 2, 3, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+4,A bird scaring a scarecrow.,[9],"[6, 7, 8, 9]","[0, 1, 2, 3, 4, 5, 9, 10]",Yes,Yes
+5,A black dragon perched on top of a tall Egyptian obelisk and breathing flames at a knight on the ground,[15],"[12, 13, 14, 15]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]",Yes,Yes
+6,A blue Porsche 356 parked in front of a yellow brick wall,"[2, 4]","[2, 3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+7,A blue bird and a brown bear.,[7],"[6, 7]","[0, 1, 2, 3, 4, 5, 7, 8]",Yes,Yes
+8,A bowl of Pho served with bean sprouts on top,[8],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11]",Yes,Yes
+9,A bowl of soup that looks like a monster made out of plasticine,[14],"[13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14]",Yes,Yes
+11,"A castle made of tortilla chips, in a river made of salsa. There are tiny burritos walking around the castle",[21],"[18, 19, 20, 21, 22]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 21, 23, 24, 25, 26]",Yes,Yes
+14,A city in 4-dimensional space-time,[5],"[5, 6, 7]","[0, 1, 2, 3, 4, 5]",Yes,Yes
+15,"A close-up of two beetles wearing karate uniforms and fighting, jumping over a waterfall.","[6, 7, 9, 12, 13]","[6, 7, 8, 9, 11, 12, 13, 14, 15]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24]",Yes,Yes
+16,"A close-up of two chameleons wearing karate uniforms and fighting, jumping over a waterfall.","[8, 9, 14]","[6, 7, 8, 9, 10, 12, 13, 14, 15, 16]","[0, 1, 2, 3, 4, 5, 8, 9, 11, 14, 17, 18, 19, 20, 21, 22, 23, 24, 25]",Yes,Yes
+17,"A close-up of two mantis wearing karate uniforms and fighting, jumping over a waterfall.","[11, 12, 7, 8]","[10, 11, 12, 13, 14, 6, 7, 8]","[0, 1, 2, 3, 4, 5, 7, 8, 9, 11, 12, 15, 16, 17, 18, 19, 20, 21, 22, 23]",Yes,Yes
+19,A cube made of denim. A cube with the texture of denim.,"[1, 2, 6]","[1, 2, 5, 6]","[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",Yes,Yes
+20,A donut underneath a toilet.,[2],"[1, 2]","[0, 2, 3, 4, 5, 6, 7]",Yes,Yes
+23,A giant cobra snake made from salad,[3],"[2, 3]","[0, 1, 3, 4, 5, 6, 7]",Yes,Yes
+24,A green cup and a blue cell phone.,[8],"[7, 8]","[0, 1, 2, 3, 4, 5, 6, 8, 9]",Yes,Yes
+25,A helicopter flies over Yosemite.,"[6, 7, 8, 9]","[6, 7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11]",Yes,Yes
+26,A helicopter flies over the Arches National Park.,"[7, 9, 11]","[7, 8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12]",Yes,Yes
+27,A horse sitting on an astronaut's shoulders.,[5],"[5, 6, 7]","[0, 1, 2, 3, 4, 5, 8, 9]",Yes,Yes
+28,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.","[13, 15, 10, 2, 5, 6, 7]","[13, 14, 15, 8, 9, 10, 11, 2, 3, 4, 5, 6, 7]","[0, 1, 2, 5, 6, 7, 10, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",Yes,Yes
+29,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,[21],"[20, 21, 22]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 23]",Yes,Yes
+31,A magnifying glass over a page of a 1950s batman comic.,"[1, 3]","[1, 2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",Yes,Yes
+33,A map of the United States with a pin on San Francisco,"[12, 5]","[11, 12, 4, 5]","[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12]",Yes,Yes
+35,A penguin wearing aviator goggles and flying confidently next to a bemused eagle.,"[9, 18, 20]","[7, 8, 9, 18, 19, 20]","[0, 1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25]",Yes,Yes
+36,A photo of a Japanese Porcelain Imari vase on the ground below a wooden chair.,"[6, 11, 12]","[5, 6, 7, 8, 9, 10, 11, 12]","[0, 1, 2, 3, 4, 6, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]",Yes,Yes
+37,A photo of a Ming Dynasty vase on a leather topped table.,"[6, 8, 11]","[5, 6, 7, 8, 9, 10, 11]","[0, 1, 2, 3, 4, 6, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19]",Yes,Yes
+38,A photo of a confused grizzly bear in calculus class.,"[12, 9, 10]","[12, 13, 6, 7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 9, 10, 11, 12, 14, 15]",Yes,Yes
+39,A photo of llama wearing sunglasses standing on the deck of a spaceship with the Earth in the background.,[17],"[16, 17]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24]",Yes,Yes
+40,"A photograph of a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket.","[15, 19, 21, 26, 28]","[13, 14, 15, 16, 17, 19, 20, 21, 25, 26, 27, 28]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 18, 19, 21, 22, 23, 24, 26, 28, 29, 30, 31, 32]",Yes,Yes
+41,A punk rock frog in a studded leather jacket shouting into a microphone while standing on a boulder,"[6, 10]","[4, 5, 6, 10, 11]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]",Yes,Yes
+42,A punk rock frog in a studded leather jacket shouting into a microphone while standing on a lily pad,[6],"[4, 5, 6]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",Yes,Yes
+43,A punk rock frog in a studded leather jacket shouting into a microphone while standing on a stump,[6],"[4, 5, 6]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]",Yes,Yes
+44,A punk rock platstumppus in a studded leather jacket shouting into a microphone while standing on a stump,"[4, 6, 8, 9]","[4, 5, 6, 7, 8, 9]","[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",Yes,Yes
+46,A punk rock squirrel in a studded leather jacket shouting into a microphone while standing on a lily pad,[8],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]",Yes,Yes
+47,A pyramid made of falafel with a partial solar eclipse in the background.,"[6, 12]","[4, 5, 6, 11, 12]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16]",Yes,Yes
+48,A red dragon dressed in a tuxedo and playing chess. The chess pieces are fashioned after robots.,"[16, 28, 29, 9, 12]","[15, 16, 17, 28, 29, 7, 8, 9, 10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 9, 12, 13, 14, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]",Yes,Yes
+49,A rhino beetle this size of a tank grapples a real life passenger airplane on the tarmac,"[2, 5]","[2, 3, 4, 5]","[0, 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]",Yes,Yes
+51,A side view of an owl sitting in a field.,[6],"[5, 6, 7]","[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13]",Yes,Yes
+52,"A small vessel propelled on water by oars, sails, or an engine.","[10, 13]","[8, 9, 10, 11, 13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 12, 13, 15, 16, 17, 18, 19]",Yes,Yes
+53,A smiling sloth wearing a bowtie and holding a quarterstaff and a big book.,"[7, 10, 3]","[7, 8, 9, 10, 2, 3]","[0, 1, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",Yes,Yes
+56,A teddy bear wearing a motorcycle helmet and cape is car surfing on a taxi cab in New York City,"[12, 13, 2, 4, 5]","[12, 13, 1, 2, 3, 4, 5]","[0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]",Yes,Yes
+57,A teddy bear wearing a motorcycle helmet and cape is driving a speed boat near the Golden Gate Bridge,"[12, 13, 2, 4, 5]","[12, 13, 1, 2, 3, 4, 5]","[0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]",Yes,Yes
+58,"A teddybear on a skateboard in Times Square, doing tricks on a cardboard box ramp.","[2, 4, 6]","[1, 2, 3, 4, 5, 6]","[0, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]",Yes,Yes
+59,"A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",[3],"[1, 2, 3]","[0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]",Yes,Yes
+60,A tiger is playing football,[3],"[1, 2, 3]","[0, 3, 4, 5, 6]",Yes,Yes
+61,A tourist is looking at a whale using a binocular,[13],"[11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13]",Yes,Yes
+62,A triangular pink stop sign. A pink stop sign in the shape of a triangle.,"[1, 3]","[1, 2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",Yes,Yes
+67,An alien octopus floats through a portal reading a newspaper. DSLR photo.,[6],"[2, 3, 4, 5, 6]","[0, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]",Yes,Yes
+68,"An emoji of a baby panda wearing a red hat, blue gloves, green shirt, and blue pants.","[4, 9, 10]","[1, 2, 3, 4, 9, 10, 11]","[0, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",Yes,Yes
+69,"An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.","[3, 4, 9, 10]","[1, 2, 3, 4, 9, 10, 11]","[0, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]",Yes,Yes
+71,"An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.",[9],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]",Yes,Yes
+72,Colouring page of large cats climbing the eifel tower in a cyberpunk future.,"[16, 18]","[16, 17, 18]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20]",Yes,Yes
+73,Darth Vader playing with raccoon in Mars during sunset.,"[1, 2, 3, 8, 9]","[0, 1, 2, 3, 6, 7, 8, 9]","[1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+74,Dogs sitting around a poker table,"[0, 6]","[0, 1, 6, 7]","[0, 2, 3, 4, 5, 6]",Yes,Yes
+75,Dogs sitting around a poker table with beer bottles and chips. Their hands are holding cards.,"[0, 6]","[0, 1, 6, 7]","[0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",Yes,Yes
+76,Four dragons surrounding a dinosaur,[1],"[1, 2]","[0, 1, 3, 4, 5, 6]",Yes,Yes
+77,Golden Gate bridge on the surface of Mars,"[1, 2]","[0, 1, 2]","[1, 2, 3, 4, 5, 6, 7]",Yes,Yes
+78,Hyper-realistic photo of an abandoned industrial site during a storm.,"[0, 2, 3]","[0, 1, 2, 3]","[0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+80,One morning I chased an elephant in my pajamas,"[10, 11]","[9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11]",Yes,Yes
+83,Photo of a mega Lego space station inside a kid's bedroom.,"[11, 13]","[11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]",Yes,Yes
+84,Photograph of a wall along a city street with a watercolor mural of foxes in a jazz band.,"[17, 18]","[16, 17, 18, 19]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 20, 21, 22, 23, 24, 25]",Yes,Yes
+85,Siberian husky playing the piano.,"[1, 2, 4, 5]","[0, 1, 2, 3, 4, 5]","[1, 2, 4, 5, 6, 7, 8, 9]",Yes,Yes
+86,Superman shaking hands with Spiderman,"[5, 6]","[5, 6]","[0, 1, 2, 3, 4, 5, 6]",Yes,Yes
+88,The Great Pyramid of Giza situated in front of Mount Everest,"[2, 5]","[1, 2, 3, 4, 5]","[0, 2, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+89,The Millennium Wheel next to the Statue of Liberty. The Sagrada Familia church is also visible.,"[2, 14, 15, 15, 16, 17, 6, 10]","[1, 2, 13, 14, 15, 16, 17, 18, 6, 7, 8, 9, 10]","[0, 2, 3, 4, 5, 6, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23]",Yes,Yes
+90,"The Rosetta Stone lying on the ground, covered in snow.",[2],"[1, 2, 3]","[0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+91,The Statue of Liberty,"[1, 5]","[1, 2, 3, 4, 5]","[0, 1, 5]",Yes,Yes
+92,The Statue of Liberty on a cloudy day,"[1, 5]","[1, 2, 3, 4, 5]","[0, 1, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+93,The Statue of Liberty surrounded by helicopters,"[1, 5, 9]","[1, 2, 3, 4, 5, 9, 10]","[0, 1, 5, 6, 7, 8, 9]",Yes,Yes
+94,The Statue of Liberty with the Manhattan skyline in the background.,"[1, 5]","[1, 2, 3, 4, 5]","[0, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+95,The Statue of Liberty with the face of an owl,"[1, 5, 12]","[1, 2, 3, 4, 5, 11, 12, 13]","[0, 1, 5, 6, 7, 8, 9, 10, 12]",Yes,Yes
+96,The coach smiled at the player tossed the frisbee,[12],"[10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12]",Yes,Yes
+97,The frog found itself in the newspaper,[3],"[1, 2, 3]","[0, 3, 4, 5, 6, 7, 8]",Yes,Yes
+100,Tibetan priests ringing a bell,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7, 8]",Yes,Yes
+101,We painted the wall with cracks.,[5],"[5, 6]","[0, 1, 2, 3, 4, 5, 7]",Yes,Yes
+102,Zoomed out view of a giraffe and a zebra in the middle of a field covered with colorful flowers,"[8, 10]","[7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]",Yes,Yes
+103,a Christmas tree on a toy train,[8],"[7, 8]","[0, 1, 2, 3, 4, 5, 6, 8, 9]",Yes,Yes
+104,a Ferrari Testarossa in front of the Kremlin,"[12, 15, 5]","[12, 13, 14, 15, 3, 4, 5, 6, 7]","[0, 1, 2, 5, 8, 9, 10, 11, 12, 15]",Yes,Yes
+105,a Harley-Davidson motorcycle with a flame decal,"[2, 4, 11]","[2, 3, 4, 5, 10, 11]","[0, 1, 2, 4, 6, 7, 8, 9, 11]",Yes,Yes
+106,a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.,"[3, 23, 25, 25]","[2, 3, 23, 24, 25]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27]",Yes,Yes
+108,a Triceratops charging down a hill,[5],"[2, 3, 4, 5, 6]","[0, 1, 5, 7, 8, 9, 10, 11]",Yes,Yes
+109,a Tyrannosaurus Rex roaring in front of a palm tree,"[3, 4, 5, 7]","[2, 3, 4, 5, 6, 7]","[0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",Yes,Yes
+110,a baby daikon radish in a tutu,"[3, 8]","[3, 4, 5, 6, 7, 8]","[0, 1, 2, 3, 8, 9, 10, 11, 12, 13]",Yes,Yes
+111,a ballet dancer next to a waterfall,[3],"[3, 4]","[0, 1, 2, 3, 5, 6, 7, 8, 9]",Yes,Yes
+115,a black baseball hat with a flame decal on it,[11],"[10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13]",Yes,Yes
+116,a bloody mary cocktail,[2],"[2, 3]","[0, 1, 2, 4, 5, 6]",Yes,Yes
+118,a bookshelf with ten books stacked vertically,"[2, 2, 4]","[2, 3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+120,a bottle of beer next to an ashtray with a half-smoked cigarrette,"[9, 11, 18, 20]","[8, 9, 10, 11, 18, 19, 20]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20]",Yes,Yes
+121,a can of Spam on an elegant plate,[5],"[4, 5]","[0, 1, 2, 3, 5, 6, 7, 8, 9]",Yes,Yes
+122,a capybara sitting in a field,[4],"[2, 3, 4, 5]","[0, 1, 4, 6, 7, 8, 9, 10]",Yes,Yes
+124,a cat drinking a pint of beer,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6, 8, 9]",Yes,Yes
+125,a cat reading a comic book,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6]",Yes,Yes
+126,a cat sitting on a stairway railing,[8],"[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 8, 10, 11]",Yes,Yes
+128,a child in the air while jumping on a trampoline,"[12, 13]","[11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13]",Yes,Yes
+129,a chimpanzee sitting on a wooden bench,"[3, 5, 6]","[2, 3, 4, 5, 6]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+130,a chimpanzee wearing a bowtie and playing a piano,"[10, 3, 5, 6]","[10, 11, 12, 13, 2, 3, 4, 5, 6]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 14, 15, 16, 17, 18]",Yes,Yes
+131,a close-up of a bloody mary cocktail,[8],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12]",Yes,Yes
+132,a close-up of a blue dragonfly on a daffodil,"[16, 17, 20]","[15, 16, 17, 18, 19, 20]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 20]",Yes,Yes
+133,a close-up of a long-island ice tea cocktail,"[11, 14, 15, 16]","[8, 9, 10, 11, 12, 13, 14, 15, 16]","[0, 1, 2, 3, 4, 5, 6, 7, 11, 14, 15, 16]",Yes,Yes
+134,a close-up of a margarita,"[8, 10]","[8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10]",Yes,Yes
+135,a close-up of an old-fashioned cocktail,"[9, 10]","[7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 9, 10]",Yes,Yes
+136,a close-up of an ostrich's face,[9],"[7, 8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 9, 12]",Yes,Yes
+137,a comic book supervillian,[6],"[4, 5, 6]","[0, 1, 2, 3, 6]",Yes,Yes
+138,a corgi wearing a red bowtie and a purple party hat,"[9, 12, 3, 4]","[9, 10, 11, 12, 2, 3, 4]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19]",Yes,Yes
+139,a corgi’s head depicted as an explosion of a nebula,"[20, 21, 3]","[17, 18, 19, 20, 21, 2, 3, 4, 5, 6]","[0, 1, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 21]",Yes,Yes
+140,a cow eating a green leafy plant,[7],"[7, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 9]",Yes,Yes
+141,a cream colored labradoodle next to a white cat with black-tipped ears,"[4, 6, 7]","[4, 5, 6, 7]","[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",Yes,Yes
+142,a cream-colored labradoodle wearing glasses and black beret teaching calculus at a blackboard,"[23, 7, 8]","[22, 23, 5, 6, 7, 8]","[0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23]",Yes,Yes
+143,a crescent moon viewed between tree branches at night,[2],"[2, 3]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+144,a cross-section view of a walnut,[4],"[2, 3, 4]","[0, 1, 4, 5, 6, 7, 8, 9]",Yes,Yes
+145,a crown with a ruby in its center,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 10]",Yes,Yes
+147,a diplodocus standing in front of the Millennium Wheel,[12],"[11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]",Yes,Yes
+148,a dolphin in an astronaut suit,[5],"[5, 6]","[0, 1, 2, 3, 4, 5]",Yes,Yes
+149,a dolphin in an astronaut suit on saturn,[11],"[8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 11]",Yes,Yes
+150,a doorknocker shaped like a lion's head,[11],"[10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 14]",Yes,Yes
+151,a dragon perched on top of the Great Pyramid,[10],"[8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 10]",Yes,Yes
+152,a drop-top sports car coming around a bend in the road,"[2, 4]","[2, 3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+153,a fairy flying over a girl's shoulder,"[7, 9]","[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10]",Yes,Yes
+154,a family of bears passing by the geyser Old Faithful,"[12, 15]","[9, 10, 11, 12, 13, 14, 15]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 15]",Yes,Yes
+156,"a farm scene with cows, ducks and a tractor.","[5, 6, 8, 9]","[5, 6, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+157,a flock of geese in front of The Alamo,"[4, 5]","[4, 5, 6, 7]","[0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+158,a flower with a cat's face in the middle,"[6, 8]","[6, 7, 8]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",Yes,Yes
+160,a fog rolling into new york,[6],"[5, 6]","[0, 1, 2, 3, 4, 6]",Yes,Yes
+163,a giraffe eating the bark of a tree,"[3, 5]","[2, 3, 4, 5]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+164,a giraffe imitating a turtle,"[3, 5]","[2, 3, 4, 5]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+165,a giraffe made of turtle,"[3, 5]","[2, 3, 4, 5]","[0, 1, 3, 5, 6, 7, 8]",Yes,Yes
+166,a giraffe with a funny face,"[3, 5]","[2, 3, 4, 5]","[0, 1, 3, 5, 6, 7, 8, 9, 10]",Yes,Yes
+167,a giraffe with an owl on its head,"[3, 5]","[2, 3, 4, 5]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13]",Yes,Yes
+168,a girl examining an ammonite fossil,[7],"[6, 7, 8, 9]","[0, 1, 2, 3, 4, 5, 7, 10]",Yes,Yes
+169,a girl getting a kite out of a tree,[7],"[6, 7]","[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12]",Yes,Yes
+170,a girl riding an ostrich,[7],"[5, 6, 7]","[0, 1, 2, 3, 4, 7]",Yes,Yes
+171,a girl with curly black hair jumping off a boulder,[4],"[4, 5]","[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+172,a gorilla climbing up the side of the Great Pyramid,"[3, 11]","[2, 3, 9, 10, 11]","[0, 1, 3, 4, 5, 6, 7, 8, 11]",Yes,Yes
+173,a grand piano next to the net of a tennis court,[3],"[2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+174,a group of not more than five meerkats standing with the sun setting behind them,[10],"[8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 12, 13, 14, 15, 16, 17, 18]",Yes,Yes
+175,a group of penguins in a snowstorm,"[4, 5]","[4, 5, 6]","[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]",Yes,Yes
+176,a group of skiers are preparing to walk up a sand dune,"[19, 4]","[17, 18, 19, 4, 5]","[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 19]",Yes,Yes
+177,a half-full pitcher of stout,"[10, 11]","[8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 11]",Yes,Yes
+178,a harp with a carved eagle figure at the top,"[11, 13]","[10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 15, 16, 17]",Yes,Yes
+179,a herd of buffalo stampeding at the Kremlin,"[10, 11, 13]","[10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13]",Yes,Yes
+180,a horned owl with a graduation cap and diploma,"[3, 7, 8]","[2, 3, 4, 5, 6, 7, 8]","[0, 1, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15]",Yes,Yes
+181,a horse corral with tigers standing in each stall,[4],"[3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",Yes,Yes
+183,a hot air balloon,[4],"[2, 3, 4]","[0, 1, 4]",Yes,Yes
+184,a hot air balloon landing in a corn field,[4],"[2, 3, 4]","[0, 1, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+185,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky","[10, 10, 13, 22]","[8, 9, 10, 11, 12, 13, 14, 22, 23]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 13, 15, 16, 17, 18, 19, 20, 21, 22, 24]",Yes,Yes
+186,a impressionistic painting of a scholarly badger reading the Rosetta Stone,"[15, 16]","[14, 15, 16]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16]",Yes,Yes
+187,a kachina doll standing in sand,"[4, 5]","[2, 3, 4, 5]","[0, 1, 4, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+188,a kachina doll with feathers on its head and wearing a white dress and brown boots.,[8],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",Yes,Yes
+189,a kangaroo hopping in the air between two identical large statues of warrior rabbits,"[20, 16]","[20, 21, 16, 17]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20]",Yes,Yes
+190,a kangaroo jumping through the park,"[3, 4, 5, 5]","[2, 3, 4, 5, 6]","[0, 1, 3, 4, 5, 7, 8, 9, 10]",Yes,Yes
+191,a kids' book cover with an illustration of white dog driving a red pickup truck,[16],"[16, 17]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",Yes,Yes
+192,a knight holding a long sword,[7],"[6, 7]","[0, 1, 2, 3, 4, 5, 7]",Yes,Yes
+193,a koi fish flying in the sky,"[5, 6]","[2, 3, 4, 5, 6]","[0, 1, 5, 6, 7, 8, 9, 10]",Yes,Yes
+194,a light shining on a giraffe in a street,"[8, 10]","[7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14]",Yes,Yes
+195,a long-island ice tea cocktail next to a napkin,"[8, 9, 10]","[2, 3, 4, 5, 6, 7, 8, 9, 10]","[0, 1, 8, 9, 10, 11, 12, 13, 14, 15, 16]",Yes,Yes
+197,a margarita next to a napkin,"[2, 4]","[2, 3, 4, 5]","[0, 1, 2, 4, 6, 7, 8, 9, 10, 11]",Yes,Yes
+198,a marina with a herd of dolphins playing in it,"[9, 7]","[9, 10, 6, 7]","[0, 1, 2, 3, 4, 5, 7, 8, 9, 11, 12, 13]",Yes,Yes
+200,a moose standing over a fox,[3],"[2, 3, 4]","[0, 1, 3, 5, 6, 7, 8, 9, 10]",Yes,Yes
+201,a motorcycle in front of an rhinoceros,"[7, 9]","[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 9]",Yes,Yes
+202,a motorcycle parked in an ornate bank lobby,"[7, 9]","[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11]",Yes,Yes
+203,a mouse sitting next to a computer mouse,"[8, 9]","[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",Yes,Yes
+204,a nerdy bear wearing glasses and a bowtie,"[12, 14, 15]","[12, 13, 14, 15]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15]",Yes,Yes
+205,a old-time car with a large front grille,[11],"[11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+206,a painting of black and white,"[4, 6]","[4, 5, 6]","[0, 1, 2, 3, 4, 6]",Yes,Yes
+207,a painting of black and white checkerboard,"[4, 6]","[4, 5, 6]","[0, 1, 2, 3, 4, 6, 7, 8, 9]",Yes,Yes
+208,a painting of black and white vertical stripes,"[4, 6]","[4, 5, 6]","[0, 1, 2, 3, 4, 6, 7, 8]",Yes,Yes
+209,a painting of black and white with a red flower in the right corner,"[4, 6]","[4, 5, 6]","[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",Yes,Yes
+210,a pair of brown suede shoes,[5],"[5, 6]","[0, 1, 2, 3, 4, 5, 7]",Yes,Yes
+211,a pair of shoes on a tennis racquet,"[10, 12]","[9, 10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12]",Yes,Yes
+212,a palm tree forest in front of the Kremlin,"[9, 11, 12]","[9, 10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",Yes,Yes
+213,a panda bear playing ping pong using a blue paddle against an ostrich using a red paddle,"[20, 3, 10]","[18, 19, 20, 2, 3, 4, 7, 8, 9, 10]","[0, 1, 3, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 25]",Yes,Yes
+214,a panda bear with aviator glasses on its head,[3],"[2, 3, 4]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13]",Yes,Yes
+215,a panda eating bamboo,"[2, 3, 4]","[2, 3, 4]","[0, 1, 2, 3, 4, 5, 6]",Yes,Yes
+216,a paranoid android freaking out and jumping into the air because it is surrounded by colorful Easter eggs,"[2, 3]","[2, 3, 4]","[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]",Yes,Yes
+218,a pen-and-ink crosshatched drawing of a sphere with dark square on it,"[8, 9, 2, 6]","[7, 8, 9, 2, 3, 4, 5, 6]","[0, 1, 2, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]",Yes,Yes
+220,a photo of san francisco's golden gate bridge,"[9, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[0, 1, 2, 3, 9, 13, 14]",Yes,Yes
+221,a photograph of a blue porsche 356 coming around a bend in the road,[8],"[7, 8]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",Yes,Yes
+222,a photograph of a fiddle next to a basketball on a ping pong table,[19],"[16, 17, 18, 19]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 19, 20]",Yes,Yes
+223,a photograph of an ostrich wearing a fedora and singing soulfully into a microphone,"[11, 7]","[11, 12, 13, 5, 6, 7]","[0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 14, 15, 16, 17, 18, 19, 20, 21]",Yes,Yes
+224,"a photograph of sand with a bucket, lots of scattered shells but no sandpipers","[6, 20, 22, 23, 15]","[4, 5, 6, 19, 20, 21, 22, 23, 24, 15, 16]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 20, 22, 23]",Yes,Yes
+225,a pick-up truck rolling over a grassy field,"[2, 4]","[2, 3, 4]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+227,a poodle wearing a baseball cap holding a dictionary in hand and writing bonez on a chalkboard,[18],"[18, 19]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24]",Yes,Yes
+229,"a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.","[12, 14, 16, 18, 23, 25]","[10, 11, 12, 13, 14, 16, 17, 18, 22, 23, 24, 25]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14, 15, 16, 18, 19, 20, 21, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]",Yes,Yes
+230,a professional photo of a sunset behind the grand canyon,[11],"[9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 11]",Yes,Yes
+231,a prop plane flying low over the Great Wall,[9],"[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 9]",Yes,Yes
+232,a propaganda poster depicting a cat dressed as french emperor napoleon holding a piece of cheese,"[18, 19]","[15, 16, 17, 18, 19]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 22, 23, 24, 25]",Yes,Yes
+233,a rabbit with white fur and black-tipped ears,"[7, 8]","[7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 11]",Yes,Yes
+234,a racoon detective using a microscope while riding in a train,"[3, 5]","[2, 3, 4, 5]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",Yes,Yes
+235,a racoon holding a shiny red apple over its head,[5],"[2, 3, 4, 5]","[0, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+236,a red lego block,[4],"[3, 4]","[0, 1, 2, 4, 5]",Yes,Yes
+237,a room with two chairs and a painting of the Statue of Liberty,"[12, 16]","[12, 13, 14, 15, 16]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16]",Yes,Yes
+239,a rusty red pickup truck with white wheel rims,[3],"[2, 3, 4]","[0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13]",Yes,Yes
+240,a selfie of an old man with a white beard,[12],"[11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]",Yes,Yes
+241,a shiba inu wearing a beret and black turtleneck,"[4, 7]","[2, 3, 4, 5, 6, 7]","[0, 1, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",Yes,Yes
+242,a shoe with a sock draped over it,[8],"[6, 7, 8]","[0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12]",Yes,Yes
+243,a sidewalk next to a wooden post with a blue '5' painted on top,[15],"[13, 14, 15, 16]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 17, 18, 19]",Yes,Yes
+244,a small tree covered in white blossoms,[7],"[7, 8]","[0, 1, 2, 3, 4, 5, 6, 7]",Yes,Yes
+245,a smiling banana wearing a bandana,"[7, 8, 9]","[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",Yes,Yes
+246,a smiling man with wavy brown hair and trimmed beard,[14],"[13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14]",Yes,Yes
+248,a snowy owl standing in a grassy field,[11],"[11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13]",Yes,Yes
+249,a spaceship landing on the Great Wall,"[3, 8]","[2, 3, 6, 7, 8]","[0, 1, 3, 4, 5, 8]",Yes,Yes
+251,a stack of three red cubes with a blue sphere on the right and two green cones on the left,"[21, 6, 7]","[21, 22, 6, 7, 8]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25]",Yes,Yes
+253,a sunken submarine at the bottom of the ocean,[3],"[2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+254,a swordfish and a narwhal fencing in an underwater sandy arena. a crap and a lobster are cheering.,[11],"[7, 8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]",Yes,Yes
+255,a teddy bear to the right of a toy car,[14],"[13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15]",Yes,Yes
+256,a tennis court with a basketball hoop in one corner,[10],"[8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13]",Yes,Yes
+257,a tiger wearing a tuxedo,"[9, 10, 13]","[8, 9, 10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 13]",Yes,Yes
+258,a tiny dragon landing on a knight's shield,"[8, 10]","[8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11]",Yes,Yes
+259,a toaster shaking hands with a microwave,[4],"[2, 3, 4]","[0, 1, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+260,a tree reflected in the sunroof of a blue car,"[7, 10]","[7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15]",Yes,Yes
+261,a tree with leaves that look like purple balloons,[9],"[9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",Yes,Yes
+262,a view of the Kremlin on a sunny day,"[5, 6, 8, 12, 13]","[5, 6, 7, 8, 10, 11, 12, 13]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 12, 13]",Yes,Yes
+263,a view of the Kremlin with snow falling,"[5, 8]","[5, 6, 7, 8]","[0, 1, 2, 3, 4, 5, 8, 9, 10, 11]",Yes,Yes
+264,a view of the Milllenium Wheel from the Thames,"[5, 8]","[4, 5, 6, 7, 8]","[0, 1, 2, 3, 5, 8, 9, 10, 11]",Yes,Yes
+266,a volcano with lava pouring down its slopes,[10],"[10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+267,a whale breaching in front of the Sydney Opera House,"[9, 10]","[9, 10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+268,a white robot with a red mohawk painted as graffiti on a red brick wall,[9],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]",Yes,Yes
+269,a wine bottle with a lit candle stuck in its spout,[15],"[12, 13, 14, 15]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 15]",Yes,Yes
+270,a witch riding a broom,[8],"[6, 7, 8]","[0, 1, 2, 3, 4, 5, 8]",Yes,Yes
+271,a woman with long hair next to a luminescent bird,"[10, 12]","[10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13]",Yes,Yes
+272,a wood treehouse in an oak tree,"[3, 4]","[3, 4]","[0, 1, 2, 3, 4, 5, 6, 7, 8]",Yes,Yes
+273,a yellow diamond-shaped sign,[3],"[3, 4, 5]","[0, 1, 2, 3, 6]",Yes,Yes
+274,a yellow diamond-shaped sign with a deer silhouette,[3],"[3, 4, 5]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 11, 12]",Yes,Yes
+275,a yellow diamond-shaped sign with a puma silhouette,"[10, 11, 12]","[10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",Yes,Yes
+276,a yellow diamond-shaped sign with a turtle silhouette,"[3, 5]","[3, 4, 5]","[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11]",Yes,Yes
+277,a yellow diamond-shaped sign with a wooly mammoth silhouette,"[3, 15]","[3, 4, 5, 12, 13, 14, 15]","[0, 1, 2, 3, 6, 7, 8, 9, 10, 11, 15, 16]",Yes,Yes
+278,a young girl wearing a tiara and frilly dress,"[8, 10]","[7, 8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14]",Yes,Yes
+279,a young woman with glasses reading a thick book at a mahogany desk,"[14, 16]","[14, 15, 16]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17]",Yes,Yes
+280,an F1 race car,"[2, 3, 4]","[1, 2, 3, 4]","[0, 2, 3, 4]",Yes,Yes
+281,an F1 race car in a Manhattan street,"[2, 3, 4]","[1, 2, 3, 4]","[0, 2, 3, 4, 5, 6, 7, 8, 9]",Yes,Yes
+282,an aerial photo of a baseball stadium,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6]",Yes,Yes
+283,an aerial view of the Great Pyramid,[6],"[4, 5, 6]","[0, 1, 2, 3, 6]",Yes,Yes
+284,an aerial view of the Great Wall,[6],"[4, 5, 6]","[0, 1, 2, 3, 6]",Yes,Yes
+286,an eagle swooping down to catch a mouse,"[2, 4]","[1, 2, 3, 4]","[0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+287,an elephant walking on the Great Wall,[6],"[4, 5, 6]","[0, 1, 2, 3, 6]",Yes,Yes
+288,an extreme close-up view of a capybara sitting in a field,[11],"[9, 10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 13, 14, 15, 16, 17]",Yes,Yes
+289,an illustration of a baby daikon radish in a tutu walking a dog,"[8, 11]","[6, 7, 8, 9, 10, 11]","[0, 1, 2, 3, 4, 5, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]",Yes,Yes
+291,an ocean at the base of the Great Wall,[8],"[6, 7, 8]","[0, 1, 2, 3, 4, 5, 8]",Yes,Yes
+293,an old man with a long grey beard and green eyes,[9],"[8, 9]","[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12]",Yes,Yes
+294,an old red truck parked by the geyser Old Faithful,"[11, 14]","[8, 9, 10, 11, 12, 13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 11, 14]",Yes,Yes
+295,an old-fashioned cocktail next to a napkin,"[3, 4]","[1, 2, 3, 4]","[0, 3, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+297,an ornate jewel-encrusted key,"[4, 7, 8, 1, 3]","[4, 5, 6, 7, 8, 1, 2, 3]","[0, 1, 3, 4, 7, 8, 9]",Yes,Yes
+298,an ornate metal bench by a nature path,"[1, 3]","[1, 2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10]",Yes,Yes
+299,"an ornate, high-backed mahogany chair with a red cushion","[8, 10, 1, 3]","[8, 9, 10, 1, 2, 3]","[0, 1, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16]",Yes,Yes
+300,an ostrich standing on a couch,[3],"[1, 2, 3]","[0, 3, 4, 5, 6, 7, 8]",Yes,Yes
+301,an overhead view of a pickup truck with boxes in its flatbed,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13]",Yes,Yes
+302,an owl gripping a squirrel in its talons,"[2, 14]","[1, 2, 3, 11, 12, 13, 14]","[0, 2, 4, 5, 6, 7, 8, 9, 10, 14]",Yes,Yes
+303,an owl on top of an elephant's back,[8],"[8, 9, 10]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 11]",Yes,Yes
+306,black hi-top sneakers with the Nike swoosh,[10],"[8, 9, 10, 11, 12]","[0, 1, 2, 3, 4, 5, 6, 7, 10]",Yes,Yes
+307,brown white and black white guinea pigs eating parsley handed to them,[14],"[13, 14]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17]",Yes,Yes
+308,concentric squares fading from yellow on the outside to deep orange on the inside,"[2, 1]","[2, 3, 0, 1]","[1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",Yes,Yes
+309,fairy cottage with smoke coming up chimney and a squirrel looking from the window,[1],"[0, 1]","[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",Yes,Yes
+310,fireworks above the Parthenon,"[4, 5]","[3, 4, 5]","[0, 1, 2, 4, 5]",Yes,Yes
+311,five frosted glass bottles,[2],"[1, 2, 3]","[0, 2, 4, 5]",Yes,Yes
+313,long shards of a broken mirror reflecting the eyes of a great horned owl,"[18, 22]","[17, 18, 19, 20, 21, 22, 23]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 22]",Yes,Yes
+314,panda mad scientist mixing sparkling chemicals,"[4, 1]","[3, 4, 0, 1, 2]","[1, 4, 5, 6, 7]",Yes,Yes
+315,people packed on a double-decker bus,[7],"[5, 6, 7, 8]","[0, 1, 2, 3, 4, 7, 9]",Yes,Yes
+316,red and yellow balloons hanging from a ceiling fan,[3],"[3, 4]","[0, 1, 2, 3, 5, 6, 7, 8, 9, 10]",Yes,Yes
+317,scraps of paper drifting in the wind,[0],"[0, 1]","[0, 2, 3, 4, 5, 6, 7, 8]",Yes,Yes
+319,several red lego blocks and one blue one,[3],"[2, 3]","[0, 1, 3, 4, 5, 6, 7, 8]",Yes,Yes
+320,snow covering the Great Pyramid,[4],"[2, 3, 4]","[0, 1, 4]",Yes,Yes
+321,teacups surounding a kettle,"[0, 1]","[0, 1, 2]","[0, 1, 3, 4, 5, 6, 7, 8]",Yes,Yes
+322,the Empire State Building,"[1, 3]","[1, 2, 3]","[0, 1, 3]",Yes,Yes
+323,the International Space Station,"[2, 3]","[1, 2, 3]","[0, 2, 3]",Yes,Yes
+324,the International Space Station flying in front of the moon,"[2, 3]","[1, 2, 3]","[0, 2, 3, 4, 5, 6, 7, 8, 9]",Yes,Yes
+325,the Kremlin at night,"[1, 2, 4]","[1, 2, 3, 4]","[0, 1, 2, 4, 5, 6]",Yes,Yes
+326,the Parthenon in front of the Great Pyramid,[9],"[7, 8, 9]","[0, 1, 2, 3, 4, 5, 6, 9]",Yes,Yes
+327,the Sydney Opera House,"[1, 2]","[1, 2, 3]","[0, 1, 2]",Yes,Yes
+328,"the Sydney Opera House with the Eiffel tower sitting on the right, and Mount Everest rising above","[1, 2]","[1, 2, 3]","[0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",Yes,Yes
+329,the Taj Mahal at sunrise,"[1, 2, 3]","[0, 1, 2, 3]","[1, 2, 3, 4, 5]",Yes,Yes
+331,the geyser Old Faithful,"[1, 4, 7]","[1, 2, 3, 4, 5, 6, 7]","[0, 1, 4, 7]",Yes,Yes
+332,the skyline of New York City,"[5, 6]","[4, 5, 6]","[0, 1, 2, 3, 5, 6]",Yes,Yes
+333,the sun setting behind the Parthenon,"[6, 7]","[5, 6, 7]","[0, 1, 2, 3, 4, 6, 7]",Yes,Yes
+335,three elephants standing on top of each other,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7, 8]",Yes,Yes
+336,three red lego blocks,[3],"[2, 3]","[0, 1, 3, 4]",Yes,Yes
+337,trees seen through a car window on a rainy day,[10],"[10, 11]","[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]",Yes,Yes
+338,two baseballs next to three tennis balls,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7]",Yes,Yes
+339,two baseballs to the left of three tennis balls,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7, 8, 9]",Yes,Yes
+340,two motorcycles facing each other,[1],"[1, 2]","[0, 1, 3, 4, 5]",Yes,Yes
+341,two violins standing up with their bows on the ground in front of them,[1],"[1, 2]","[0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",Yes,Yes
+342,two wine bottles and three beer cans,[6],"[6, 7]","[0, 1, 2, 3, 4, 5, 6]",Yes,Yes
+343,view of a giraffe and a zebra in the middle of a field,"[5, 7, 13]","[4, 5, 6, 7, 11, 12, 13]","[0, 1, 2, 3, 5, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20]",Yes,Yes
+344,view of the Great Wall from its base,[4],"[2, 3, 4]","[0, 1, 4, 5, 6, 7]",Yes,Yes
+345,weeds in the cracks of a sidewalk,"[5, 1, 2]","[5, 6, 0, 1, 2]","[1, 2, 3, 4, 5, 7, 8, 9, 10]",Yes,Yes
